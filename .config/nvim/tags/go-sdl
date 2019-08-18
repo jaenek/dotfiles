@@ -1,0 +1,2542 @@
+!_TAG_FILE_FORMAT	2
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted/
+!_TAG_PROGRAM_AUTHOR	Joel Stemmer	/stemmertech@gmail.com/
+!_TAG_PROGRAM_NAME	gotags
+!_TAG_PROGRAM_URL	https://github.com/jstemmer/gotags
+!_TAG_PROGRAM_VERSION	1.4.1	/go1.12.7/
+ADDEVENT	sdl/events.go	192;"	c	access:public	line:192
+ALPHA_OPAQUE	sdl/pixels.go	194;"	c	access:public	line:194
+ALPHA_TRANSPARENT	sdl/pixels.go	195;"	c	access:public	line:195
+ANDROID_EXTERNAL_STORAGE_READ	sdl/system_android.go	26;"	c	access:public	line:26
+ANDROID_EXTERNAL_STORAGE_WRITE	sdl/system_android.go	27;"	c	access:public	line:27
+APP_DIDENTERBACKGROUND	sdl/events.go	116;"	c	access:public	line:116
+APP_DIDENTERFOREGROUND	sdl/events.go	118;"	c	access:public	line:118
+APP_LOWMEMORY	sdl/events.go	114;"	c	access:public	line:114
+APP_TERMINATING	sdl/events.go	113;"	c	access:public	line:113
+APP_WILLENTERBACKGROUND	sdl/events.go	115;"	c	access:public	line:115
+APP_WILLENTERFOREGROUND	sdl/events.go	117;"	c	access:public	line:117
+ARRAYORDER_ABGR	sdl/pixels.go	128;"	c	access:public	line:128
+ARRAYORDER_ARGB	sdl/pixels.go	125;"	c	access:public	line:125
+ARRAYORDER_BGR	sdl/pixels.go	126;"	c	access:public	line:126
+ARRAYORDER_BGRA	sdl/pixels.go	127;"	c	access:public	line:127
+ARRAYORDER_NONE	sdl/pixels.go	122;"	c	access:public	line:122
+ARRAYORDER_RGB	sdl/pixels.go	123;"	c	access:public	line:123
+ARRAYORDER_RGBA	sdl/pixels.go	124;"	c	access:public	line:124
+AUDIODEVICEADDED	sdl/events.go	174;"	c	access:public	line:174
+AUDIODEVICEREMOVED	sdl/events.go	175;"	c	access:public	line:175
+AUDIO_ALLOW_ANY_CHANGE	sdl/audio.go	160;"	c	access:public	line:160
+AUDIO_ALLOW_CHANNELS_CHANGE	sdl/audio.go	159;"	c	access:public	line:159
+AUDIO_ALLOW_FORMAT_CHANGE	sdl/audio.go	158;"	c	access:public	line:158
+AUDIO_ALLOW_FREQUENCY_CHANGE	sdl/audio.go	157;"	c	access:public	line:157
+AUDIO_F32	sdl/audio.go	151;"	c	access:public	line:151
+AUDIO_F32LSB	sdl/audio.go	148;"	c	access:public	line:148
+AUDIO_F32MSB	sdl/audio.go	149;"	c	access:public	line:149
+AUDIO_F32SYS	sdl/audio.go	150;"	c	access:public	line:150
+AUDIO_MASK_BITSIZE	sdl/audio.go	122;"	c	access:public	line:122
+AUDIO_MASK_DATATYPE	sdl/audio.go	123;"	c	access:public	line:123
+AUDIO_MASK_ENDIAN	sdl/audio.go	124;"	c	access:public	line:124
+AUDIO_MASK_SIGNED	sdl/audio.go	125;"	c	access:public	line:125
+AUDIO_PAUSED	sdl/audio.go	168;"	c	access:public	line:168
+AUDIO_PLAYING	sdl/audio.go	167;"	c	access:public	line:167
+AUDIO_S16	sdl/audio.go	137;"	c	access:public	line:137
+AUDIO_S16LSB	sdl/audio.go	134;"	c	access:public	line:134
+AUDIO_S16MSB	sdl/audio.go	135;"	c	access:public	line:135
+AUDIO_S16SYS	sdl/audio.go	136;"	c	access:public	line:136
+AUDIO_S32	sdl/audio.go	146;"	c	access:public	line:146
+AUDIO_S32LSB	sdl/audio.go	143;"	c	access:public	line:143
+AUDIO_S32MSB	sdl/audio.go	144;"	c	access:public	line:144
+AUDIO_S32SYS	sdl/audio.go	145;"	c	access:public	line:145
+AUDIO_S8	sdl/audio.go	131;"	c	access:public	line:131
+AUDIO_STOPPED	sdl/audio.go	166;"	c	access:public	line:166	type:AudioStatus
+AUDIO_U16	sdl/audio.go	141;"	c	access:public	line:141
+AUDIO_U16LSB	sdl/audio.go	138;"	c	access:public	line:138
+AUDIO_U16MSB	sdl/audio.go	139;"	c	access:public	line:139
+AUDIO_U16SYS	sdl/audio.go	140;"	c	access:public	line:140
+AUDIO_U8	sdl/audio.go	132;"	c	access:public	line:132
+AddEventWatch	sdl/events.go	1194;"	f	access:public	line:1194	signature:(filter EventFilter, userdata interface{})	type:EventWatchHandle
+AddEventWatchFunc	sdl/events.go	1202;"	f	access:public	line:1202	signature:(filterFunc eventFilterFunc, userdata interface{})	type:EventWatchHandle
+AddHintCallback	sdl/hints.go	187;"	f	access:public	line:187	signature:(name string, fn HintCallback, data interface{})
+AllocBuf	sdl/audio.go	295;"	m	access:public	ctype:AudioCVT	line:295	signature:(size uintptr)
+AllocFormat	sdl/pixels.go	237;"	f	access:public	ctype:PixelFormat	line:237	signature:(format uint)	type:*PixelFormat, error
+AllocPalette	sdl/pixels.go	253;"	f	access:public	ctype:Palette	line:253	signature:(ncolors int)	type:*Palette, error
+AllocRW	sdl/rwops.go	102;"	f	access:public	line:102	signature:()	type:*RWops
+Amask	sdl/pixels.go	46;"	w	access:public	ctype:PixelFormat	line:46	type:uint32
+AndroidGetActivity	sdl/system_android.go	56;"	f	access:public	line:56	signature:()	type:unsafe.Pointer
+AndroidGetExternalStoragePath	sdl/system_android.go	38;"	f	access:public	line:38	signature:()	type:string
+AndroidGetExternalStorageState	sdl/system_android.go	44;"	f	access:public	line:44	signature:()	type:int
+AndroidGetInternalStoragePath	sdl/system_android.go	32;"	f	access:public	line:32	signature:()	type:string
+AndroidGetJNIEnv	sdl/system_android.go	50;"	f	access:public	line:50	signature:()	type:unsafe.Pointer
+At	sdl/surface.go	546;"	m	access:public	ctype:Surface	line:546	signature:(x, y int)	type:color.Color
+Attached	sdl/gamecontroller.go	221;"	m	access:public	ctype:GameController	line:221	signature:()	type:bool
+Attached	sdl/joystick.go	388;"	m	access:public	ctype:Joystick	line:388	signature:()	type:bool
+AttackLength	sdl/haptic.go	124;"	w	access:public	ctype:HapticRamp	line:124	type:uint16
+AttackLength	sdl/haptic.go	160;"	w	access:public	ctype:HapticCustom	line:160	type:uint16
+AttackLength	sdl/haptic.go	59;"	w	access:public	ctype:HapticConstant	line:59	type:uint16
+AttackLength	sdl/haptic.go	82;"	w	access:public	ctype:HapticPeriodic	line:82	type:uint16
+AttackLevel	sdl/haptic.go	125;"	w	access:public	ctype:HapticRamp	line:125	type:uint16
+AttackLevel	sdl/haptic.go	161;"	w	access:public	ctype:HapticCustom	line:161	type:uint16
+AttackLevel	sdl/haptic.go	60;"	w	access:public	ctype:HapticConstant	line:60	type:uint16
+AttackLevel	sdl/haptic.go	83;"	w	access:public	ctype:HapticPeriodic	line:83	type:uint16
+AudioCVT	sdl/audio.go	213;"	t	access:public	line:213	type:struct
+AudioCallback	sdl/audio.go	181;"	t	access:public	line:181	type:C.SDL_AudioCallback
+AudioDeviceEvent	sdl/events.go	634;"	t	access:public	line:634	type:struct
+AudioDeviceID	sdl/audio.go	189;"	t	access:public	line:189	type:uint32
+AudioFilter	sdl/audio.go	185;"	t	access:public	line:185	type:C.SDL_AudioFilter
+AudioFormat	sdl/audio.go	177;"	t	access:public	line:177	type:uint16
+AudioInit	sdl/audio.go	329;"	f	access:public	line:329	signature:(driverName string)	type:error
+AudioQuit	sdl/audio.go	340;"	f	access:public	line:340	signature:()
+AudioSpec	sdl/audio.go	198;"	t	access:public	line:198	type:struct
+AudioStatus	sdl/audio.go	193;"	t	access:public	line:193	type:uint32
+AudioStream	sdl/audio.go	230;"	t	access:public	line:230	type:C.SDL_AudioStream
+Available	sdl/audio.go	603;"	m	access:public	ctype:AudioStream	line:603	signature:()	type:error
+Axis	sdl/events.go	439;"	w	access:public	ctype:JoyAxisEvent	line:439	type:uint8
+Axis	sdl/events.go	571;"	w	access:public	ctype:ControllerAxisEvent	line:571	type:uint8
+Axis	sdl/gamecontroller.go	273;"	m	access:public	ctype:GameController	line:273	signature:(axis GameControllerAxis)	type:int16
+Axis	sdl/gamecontroller.go	321;"	m	access:public	ctype:GameControllerButtonBind	line:321	signature:()	type:int
+Axis	sdl/joystick.go	424;"	m	access:public	ctype:Joystick	line:424	signature:(axis int)	type:int16
+AxisInitialState	sdl/joystick.go	429;"	m	access:public	ctype:Joystick	line:429	signature:(axis int)	type:int16, bool
+B	sdl/video.go	323;"	w	access:public	ctype:MessageBoxColor	line:323	type:uint8
+BIG_ENDIAN	sdl/endian.go	11;"	c	access:public	line:11
+BITMAPORDER_1234	sdl/pixels.go	104;"	c	access:public	line:104
+BITMAPORDER_4321	sdl/pixels.go	103;"	c	access:public	line:103
+BITMAPORDER_NONE	sdl/pixels.go	102;"	c	access:public	line:102
+BLENDFACTOR_DST_ALPHA	sdl/blendmode.go	108;"	c	access:public	line:108
+BLENDFACTOR_DST_COLOR	sdl/blendmode.go	106;"	c	access:public	line:106
+BLENDFACTOR_ONE	sdl/blendmode.go	101;"	c	access:public	line:101
+BLENDFACTOR_ONE_MINUS_DST_ALPHA	sdl/blendmode.go	109;"	c	access:public	line:109
+BLENDFACTOR_ONE_MINUS_DST_COLOR	sdl/blendmode.go	107;"	c	access:public	line:107
+BLENDFACTOR_ONE_MINUS_SRC_ALPHA	sdl/blendmode.go	105;"	c	access:public	line:105
+BLENDFACTOR_ONE_MINUS_SRC_COLOR	sdl/blendmode.go	103;"	c	access:public	line:103
+BLENDFACTOR_SRC_ALPHA	sdl/blendmode.go	104;"	c	access:public	line:104
+BLENDFACTOR_SRC_COLOR	sdl/blendmode.go	102;"	c	access:public	line:102
+BLENDFACTOR_ZERO	sdl/blendmode.go	100;"	c	access:public	line:100
+BLENDMODE_ADD	sdl/blendmode.go	70;"	c	access:public	line:70
+BLENDMODE_BLEND	sdl/blendmode.go	69;"	c	access:public	line:69
+BLENDMODE_INVALID	sdl/blendmode.go	72;"	c	access:public	line:72
+BLENDMODE_MOD	sdl/blendmode.go	71;"	c	access:public	line:71
+BLENDMODE_NONE	sdl/blendmode.go	68;"	c	access:public	line:68
+BLENDOPERATION_ADD	sdl/blendmode.go	88;"	c	access:public	line:88
+BLENDOPERATION_MAXIMUM	sdl/blendmode.go	92;"	c	access:public	line:92
+BLENDOPERATION_MINIMUM	sdl/blendmode.go	91;"	c	access:public	line:91
+BLENDOPERATION_REV_SUBTRACT	sdl/blendmode.go	90;"	c	access:public	line:90
+BLENDOPERATION_SUBTRACT	sdl/blendmode.go	89;"	c	access:public	line:89
+BUTTON_LEFT	sdl/mouse.go	86;"	c	access:public	line:86
+BUTTON_MIDDLE	sdl/mouse.go	87;"	c	access:public	line:87
+BUTTON_RIGHT	sdl/mouse.go	88;"	c	access:public	line:88
+BUTTON_X1	sdl/mouse.go	89;"	c	access:public	line:89
+BUTTON_X2	sdl/mouse.go	90;"	c	access:public	line:90
+BYTEORDER	sdl/endian.go	9;"	c	access:public	line:9
+Ball	sdl/events.go	464;"	w	access:public	ctype:JoyBallEvent	line:464	type:uint8
+Ball	sdl/joystick.go	442;"	m	access:public	ctype:Joystick	line:442	signature:(ball int, dx, dy *int32)	type:int
+BindForAxis	sdl/gamecontroller.go	267;"	m	access:public	ctype:GameController	line:267	signature:(axis GameControllerAxis)	type:GameControllerButtonBind
+BindForButton	sdl/gamecontroller.go	293;"	m	access:public	ctype:GameController	line:293	signature:(btn GameControllerButton)	type:GameControllerButtonBind
+BitSize	sdl/audio.go	254;"	m	access:public	ctype:AudioFormat	line:254	signature:()	type:uint8
+BitsPerPixel	sdl/pixels.go	339;"	f	access:public	line:339	signature:(format uint32)	type:int
+BitsPerPixel	sdl/pixels.go	40;"	w	access:public	ctype:PixelFormat	line:40	type:uint8
+BlendFactor	sdl/blendmode.go	97;"	t	access:public	line:97	type:C.SDL_BlendFactor
+BlendMode	sdl/blendmode.go	65;"	t	access:public	line:65	type:uint32
+BlendOperation	sdl/blendmode.go	85;"	t	access:public	line:85	type:C.SDL_BlendOperation
+Blit	sdl/surface.go	428;"	m	access:public	ctype:Surface	line:428	signature:(srcRect *Rect, dst *Surface, dstRect *Rect)	type:error
+BlitScaled	sdl/surface.go	437;"	m	access:public	ctype:Surface	line:437	signature:(srcRect *Rect, dst *Surface, dstRect *Rect)	type:error
+Bmask	sdl/pixels.go	45;"	w	access:public	ctype:PixelFormat	line:45	type:uint32
+Bounds	sdl/surface.go	541;"	m	access:public	ctype:Surface	line:541	signature:()	type:image.Rectangle
+Broadcast	sdl/mutex.go	177;"	m	access:public	ctype:Cond	line:177	signature:()	type:error
+Btoi	sdl/helpers.go	4;"	f	access:public	line:4	signature:(b bool)	type:int
+Buf	sdl/audio.go	218;"	w	access:public	ctype:AudioCVT	line:218	type:unsafe.Pointer
+BufAsSlice	sdl/audio.go	306;"	m	access:public	ctype:AudioCVT	line:306	signature:()	type:[]byte
+BuildAudioCVT	sdl/audio.go	454;"	f	access:public	line:454	signature:(cvt *AudioCVT, srcFormat AudioFormat, srcChannels uint8, srcRate int, dstFormat AudioFormat, dstChannels uint8, dstRate int)	type:bool, error
+Button	sdl/events.go	391;"	w	access:public	ctype:MouseButtonEvent	line:391	type:uint8
+Button	sdl/events.go	512;"	w	access:public	ctype:JoyButtonEvent	line:512	type:uint8
+Button	sdl/events.go	596;"	w	access:public	ctype:ControllerButtonEvent	line:596	type:uint8
+Button	sdl/gamecontroller.go	299;"	m	access:public	ctype:GameController	line:299	signature:(btn GameControllerButton)	type:byte
+Button	sdl/gamecontroller.go	315;"	m	access:public	ctype:GameControllerButtonBind	line:315	signature:()	type:int
+Button	sdl/haptic.go	120;"	w	access:public	ctype:HapticRamp	line:120	type:uint16
+Button	sdl/haptic.go	154;"	w	access:public	ctype:HapticCustom	line:154	type:uint16
+Button	sdl/haptic.go	56;"	w	access:public	ctype:HapticConstant	line:56	type:uint16
+Button	sdl/haptic.go	76;"	w	access:public	ctype:HapticPeriodic	line:76	type:uint16
+Button	sdl/haptic.go	99;"	w	access:public	ctype:HapticCondition	line:99	type:uint16
+Button	sdl/joystick.go	450;"	m	access:public	ctype:Joystick	line:450	signature:(button int)	type:byte
+Button	sdl/mouse.go	222;"	f	access:public	line:222	signature:(flag uint32)	type:uint32
+ButtonID	sdl/video.go	338;"	w	access:public	ctype:MessageBoxButtonData	line:338	type:int32
+ButtonLMask	sdl/mouse.go	227;"	f	access:public	line:227	signature:()	type:uint32
+ButtonMMask	sdl/mouse.go	232;"	f	access:public	line:232	signature:()	type:uint32
+ButtonRMask	sdl/mouse.go	237;"	f	access:public	line:237	signature:()	type:uint32
+ButtonX1Mask	sdl/mouse.go	242;"	f	access:public	line:242	signature:()	type:uint32
+ButtonX2Mask	sdl/mouse.go	247;"	f	access:public	line:247	signature:()	type:uint32
+Buttons	sdl/video.go	349;"	w	access:public	ctype:MessageBoxData	line:349	type:[]MessageBoxButtonData
+BytesPerPixel	sdl/pixels.go	334;"	f	access:public	line:334	signature:(format uint32)	type:int
+BytesPerPixel	sdl/pixels.go	41;"	w	access:public	ctype:PixelFormat	line:41	type:uint8
+BytesPerPixel	sdl/surface.go	495;"	m	access:public	ctype:Surface	line:495	signature:()	type:int
+C	sdl/audio.go	113;"	i	line:113
+C	sdl/blendmode.go	60;"	i	line:60
+C	sdl/clipboard.go	4;"	i	line:4
+C	sdl/cpuinfo.go	55;"	i	line:55
+C	sdl/endian.go	4;"	i	line:4
+C	sdl/error.go	12;"	i	line:12
+C	sdl/events.go	91;"	i	line:91
+C	sdl/filesystem.go	29;"	i	line:29
+C	sdl/gamecontroller.go	70;"	i	line:70
+C	sdl/gesture.go	4;"	i	line:4
+C	sdl/haptic.go	4;"	i	line:4
+C	sdl/hints.go	62;"	i	line:62
+C	sdl/joystick.go	187;"	i	line:187
+C	sdl/keyboard.go	4;"	i	line:4
+C	sdl/keycode.go	4;"	i	line:4
+C	sdl/loadso.go	4;"	i	line:4
+C	sdl/log.go	47;"	i	line:47
+C	sdl/mouse.go	58;"	i	line:58
+C	sdl/mutex.go	4;"	i	line:4
+C	sdl/pixels.go	31;"	i	line:31
+C	sdl/power.go	4;"	i	line:4
+C	sdl/rect.go	4;"	i	line:4
+C	sdl/render.go	65;"	i	line:65
+C	sdl/rwops.go	42;"	i	line:42
+C	sdl/scancode.go	4;"	i	line:4
+C	sdl/sdl.go	16;"	i	line:16
+C	sdl/sdl_cgo.go	7;"	i	line:7
+C	sdl/sdl_cgo_static.go	14;"	i	line:14
+C	sdl/sensor.go	158;"	i	line:158
+C	sdl/surface.go	78;"	i	line:78
+C	sdl/sysrender.go	4;"	i	line:4
+C	sdl/system_android.go	20;"	i	line:20
+C	sdl/syswm.go	44;"	i	line:44
+C	sdl/syswm_cocoa.go	5;"	i	line:5
+C	sdl/syswm_dfb.go	5;"	i	line:5
+C	sdl/syswm_uikit.go	5;"	i	line:5
+C	sdl/syswm_vivante.go	5;"	i	line:5
+C	sdl/syswm_windows.go	8;"	i	line:8
+C	sdl/syswm_x11.go	8;"	i	line:8
+C	sdl/thread.go	4;"	i	line:4
+C	sdl/timer.go	4;"	i	line:4
+C	sdl/touch.go	4;"	i	line:4
+C	sdl/version.go	4;"	i	line:4
+C	sdl/video.go	174;"	i	line:174
+C	sdl/vulkan.go	85;"	i	line:85
+CACHELINE_SIZE	sdl/cpuinfo.go	58;"	c	access:public	line:58
+CEvent	sdl/events.go	214;"	t	access:public	line:214	type:struct
+CLIPBOARDUPDATE	sdl/events.go	165;"	c	access:public	line:165
+COMPILEDVERSION	sdl/version.go	43;"	f	access:public	line:43	signature:()	type:int
+CONTROLLERAXISMOTION	sdl/events.go	147;"	c	access:public	line:147
+CONTROLLERBUTTONDOWN	sdl/events.go	148;"	c	access:public	line:148
+CONTROLLERBUTTONUP	sdl/events.go	149;"	c	access:public	line:149
+CONTROLLERDEVICEADDED	sdl/events.go	150;"	c	access:public	line:150
+CONTROLLERDEVICEREMAPPED	sdl/events.go	152;"	c	access:public	line:152
+CONTROLLERDEVICEREMOVED	sdl/events.go	151;"	c	access:public	line:151
+CONTROLLER_AXIS_INVALID	sdl/gamecontroller.go	85;"	c	access:public	line:85
+CONTROLLER_AXIS_LEFTX	sdl/gamecontroller.go	86;"	c	access:public	line:86
+CONTROLLER_AXIS_LEFTY	sdl/gamecontroller.go	87;"	c	access:public	line:87
+CONTROLLER_AXIS_MAX	sdl/gamecontroller.go	92;"	c	access:public	line:92
+CONTROLLER_AXIS_RIGHTX	sdl/gamecontroller.go	88;"	c	access:public	line:88
+CONTROLLER_AXIS_RIGHTY	sdl/gamecontroller.go	89;"	c	access:public	line:89
+CONTROLLER_AXIS_TRIGGERLEFT	sdl/gamecontroller.go	90;"	c	access:public	line:90
+CONTROLLER_AXIS_TRIGGERRIGHT	sdl/gamecontroller.go	91;"	c	access:public	line:91
+CONTROLLER_BINDTYPE_AXIS	sdl/gamecontroller.go	78;"	c	access:public	line:78
+CONTROLLER_BINDTYPE_BUTTON	sdl/gamecontroller.go	77;"	c	access:public	line:77
+CONTROLLER_BINDTYPE_HAT	sdl/gamecontroller.go	79;"	c	access:public	line:79
+CONTROLLER_BINDTYPE_NONE	sdl/gamecontroller.go	76;"	c	access:public	line:76
+CONTROLLER_BUTTON_A	sdl/gamecontroller.go	99;"	c	access:public	line:99
+CONTROLLER_BUTTON_B	sdl/gamecontroller.go	100;"	c	access:public	line:100
+CONTROLLER_BUTTON_BACK	sdl/gamecontroller.go	103;"	c	access:public	line:103
+CONTROLLER_BUTTON_DPAD_DOWN	sdl/gamecontroller.go	111;"	c	access:public	line:111
+CONTROLLER_BUTTON_DPAD_LEFT	sdl/gamecontroller.go	112;"	c	access:public	line:112
+CONTROLLER_BUTTON_DPAD_RIGHT	sdl/gamecontroller.go	113;"	c	access:public	line:113
+CONTROLLER_BUTTON_DPAD_UP	sdl/gamecontroller.go	110;"	c	access:public	line:110
+CONTROLLER_BUTTON_GUIDE	sdl/gamecontroller.go	104;"	c	access:public	line:104
+CONTROLLER_BUTTON_INVALID	sdl/gamecontroller.go	98;"	c	access:public	line:98
+CONTROLLER_BUTTON_LEFTSHOULDER	sdl/gamecontroller.go	108;"	c	access:public	line:108
+CONTROLLER_BUTTON_LEFTSTICK	sdl/gamecontroller.go	106;"	c	access:public	line:106
+CONTROLLER_BUTTON_MAX	sdl/gamecontroller.go	114;"	c	access:public	line:114
+CONTROLLER_BUTTON_RIGHTSHOULDER	sdl/gamecontroller.go	109;"	c	access:public	line:109
+CONTROLLER_BUTTON_RIGHTSTICK	sdl/gamecontroller.go	107;"	c	access:public	line:107
+CONTROLLER_BUTTON_START	sdl/gamecontroller.go	105;"	c	access:public	line:105
+CONTROLLER_BUTTON_X	sdl/gamecontroller.go	101;"	c	access:public	line:101
+CONTROLLER_BUTTON_Y	sdl/gamecontroller.go	102;"	c	access:public	line:102
+CalculateGammaRamp	sdl/pixels.go	329;"	f	access:public	line:329	signature:(gamma float32, ramp *[256]uint16)
+Callback	sdl/audio.go	206;"	w	access:public	ctype:AudioSpec	line:206	type:AudioCallback
+CaptureMouse	sdl/mouse.go	208;"	f	access:public	line:208	signature:(toggle bool)	type:error
+Center	sdl/haptic.go	106;"	w	access:public	ctype:HapticCondition	line:106	type:[3]int16
+Channels	sdl/audio.go	201;"	w	access:public	ctype:AudioSpec	line:201	type:uint8
+Channels	sdl/haptic.go	156;"	w	access:public	ctype:HapticCustom	line:156	type:uint8
+Clear	sdl/audio.go	620;"	m	access:public	ctype:AudioStream	line:620	signature:()
+Clear	sdl/render.go	581;"	m	access:public	ctype:Renderer	line:581	signature:()	type:error
+ClearError	sdl/error.go	61;"	f	access:public	line:61	signature:()
+ClearHints	sdl/hints.go	181;"	f	access:public	line:181	signature:()
+ClearQueuedAudio	sdl/audio.go	506;"	f	access:public	line:506	signature:(dev AudioDeviceID)
+Clicks	sdl/events.go	393;"	w	access:public	ctype:MouseButtonEvent	line:393	type:uint8
+ClipRect	sdl/surface.go	114;"	w	access:public	ctype:Surface	line:114	type:Rect
+ClipboardEvent	sdl/events.go	828;"	t	access:public	line:828	type:struct
+Close	sdl/gamecontroller.go	305;"	m	access:public	ctype:GameController	line:305	signature:()
+Close	sdl/haptic.go	260;"	m	access:public	ctype:Haptic	line:260	signature:()
+Close	sdl/joystick.go	456;"	m	access:public	ctype:Joystick	line:456	signature:()
+Close	sdl/rwops.go	203;"	m	access:public	ctype:RWops	line:203	signature:()	type:error
+Close	sdl/sensor.go	308;"	m	access:public	ctype:Sensor	line:308	signature:()
+CloseAudio	sdl/audio.go	552;"	f	access:public	line:552	signature:()
+CloseAudioDevice	sdl/audio.go	558;"	f	access:public	line:558	signature:(dev AudioDeviceID)
+Cocoa	sdl/syswm_cocoa.go	14;"	m	access:public	ctype:SysWMmsg	line:14	signature:()	type:*CocoaMsg
+CocoaInfo	sdl/syswm.go	89;"	t	access:public	line:89	type:struct
+CocoaMsg	sdl/syswm_cocoa.go	9;"	t	access:public	line:9	type:struct
+Code	sdl/events.go	849;"	w	access:public	ctype:UserEvent	line:849	type:int32
+Color	sdl/pixels.go	72;"	t	access:public	line:72	type:color.RGBA
+ColorModel	sdl/surface.go	528;"	m	access:public	ctype:Surface	line:528	signature:()	type:color.Model
+ColorScheme	sdl/video.go	350;"	w	access:public	ctype:MessageBoxData	line:350	type:*MessageBoxColorScheme
+Colors	sdl/pixels.go	64;"	w	access:public	ctype:Palette	line:64	type:*Color
+Colors	sdl/video.go	330;"	w	access:public	ctype:MessageBoxColorScheme	line:330	type:[5]MessageBoxColor
+CommonEvent	sdl/events.go	221;"	t	access:public	line:221	type:struct
+ComposeCustomBlendMode	sdl/blendmode.go	118;"	f	access:public	line:118	signature:(srcColorFactor, dstColorFactor BlendFactor, colorOperation BlendOperation, srcAlphaFactor, dstAlphaFactor BlendFactor, alphaOperation BlendOperation)	type:BlendMode
+Cond	sdl/mutex.go	26;"	t	access:public	line:26	type:struct
+ControllerAxisEvent	sdl/events.go	567;"	t	access:public	line:567	type:struct
+ControllerButtonEvent	sdl/events.go	592;"	t	access:public	line:592	type:struct
+ControllerDeviceEvent	sdl/events.go	615;"	t	access:public	line:615	type:struct
+Convert	sdl/surface.go	380;"	m	access:public	ctype:Surface	line:380	signature:(fmt *PixelFormat, flags uint32)	type:*Surface, error
+ConvertAudio	sdl/audio.go	466;"	f	access:public	line:466	signature:(cvt *AudioCVT)	type:error
+ConvertFormat	sdl/surface.go	390;"	m	access:public	ctype:Surface	line:390	signature:(pixelFormat uint32, flags uint32)	type:*Surface, error
+ConvertPixels	sdl/surface.go	400;"	f	access:public	line:400	signature:(width, height int32, srcFormat uint32, src unsafe.Pointer, srcPitch int, dstFormat uint32, dst unsafe.Pointer, dstPitch int)	type:error
+Copy	sdl/render.go	661;"	m	access:public	ctype:Renderer	line:661	signature:(texture *Texture, src, dst *Rect)	type:error
+CopyEx	sdl/render.go	672;"	m	access:public	ctype:Renderer	line:672	signature:(texture *Texture, src, dst *Rect, angle float64, center *Point, flip RendererFlip)	type:error
+Count	sdl/mutex.go	19;"	w	access:public	ctype:Sem	line:19	type:uint32
+CountLock	sdl/mutex.go	21;"	w	access:public	ctype:Sem	line:21	type:*Mutex
+CountNonzero	sdl/mutex.go	22;"	w	access:public	ctype:Sem	line:22	type:*Cond
+CreateColorCursor	sdl/mouse.go	165;"	f	access:public	line:165	signature:(surface *Surface, hotX, hotY int32)	type:*Cursor
+CreateCond	sdl/mutex.go	155;"	f	access:public	ctype:Cond	line:155	signature:()	type:*Cond
+CreateCursor	sdl/mouse.go	157;"	f	access:public	line:157	signature:(data, mask *uint8, w, h, hotX, hotY int32)	type:*Cursor
+CreateMutex	sdl/mutex.go	48;"	f	access:public	ctype:Mutex	line:48	signature:()	type:*Mutex, error
+CreateRGBSurface	sdl/surface.go	132;"	f	access:public	ctype:Surface	line:132	signature:(flags uint32, width, height, depth int32, Rmask, Gmask, Bmask, Amask uint32)	type:*Surface, error
+CreateRGBSurfaceFrom	sdl/surface.go	150;"	f	access:public	ctype:Surface	line:150	signature:(pixels unsafe.Pointer, width, height int32, depth, pitch int, Rmask, Gmask, Bmask, Amask uint32)	type:*Surface, error
+CreateRGBSurfaceWithFormat	sdl/surface.go	169;"	f	access:public	ctype:Surface	line:169	signature:(flags uint32, width, height, depth int32, format uint32)	type:*Surface, error
+CreateRGBSurfaceWithFormatFrom	sdl/surface.go	184;"	f	access:public	ctype:Surface	line:184	signature:(pixels unsafe.Pointer, width, height, depth, pitch int32, format uint32)	type:*Surface, error
+CreateRenderer	sdl/render.go	183;"	f	access:public	line:183	signature:(window *Window, index int, flags uint32)	type:*Renderer, error
+CreateSemaphore	sdl/mutex.go	94;"	f	access:public	ctype:Sem	line:94	signature:(initialValue uint32)	type:*Sem, error
+CreateSoftwareRenderer	sdl/render.go	193;"	f	access:public	line:193	signature:(surface *Surface)	type:*Renderer, error
+CreateSystemCursor	sdl/mouse.go	171;"	f	access:public	line:171	signature:(id SystemCursor)	type:*Cursor
+CreateTexture	sdl/render.go	239;"	m	access:public	ctype:Renderer	line:239	signature:(format uint32, access int, w, h int32)	type:*Texture, error
+CreateTextureFromSurface	sdl/render.go	254;"	m	access:public	ctype:Renderer	line:254	signature:(surface *Surface)	type:*Texture, error
+CreateWindow	sdl/video.go	533;"	f	access:public	line:533	signature:(title string, x, y, w, h int32, flags uint32)	type:*Window, error
+CreateWindowAndRenderer	sdl/render.go	166;"	f	access:public	line:166	signature:(w, h int32, flags uint32)	type:*Window, *Renderer, error
+CreateWindowFrom	sdl/video.go	543;"	f	access:public	line:543	signature:(data unsafe.Pointer)	type:*Window, error
+CurrentPowerLevel	sdl/joystick.go	462;"	m	access:public	ctype:Joystick	line:462	signature:()	type:JoystickPowerLevel
+CurrentThreadID	sdl/thread.go	8;"	f	access:public	line:8	signature:()	type:uint
+Cursor	sdl/mouse.go	94;"	t	access:public	line:94	type:C.SDL_Cursor
+DDist	sdl/events.go	687;"	w	access:public	ctype:MultiGestureEvent	line:687	type:float32
+DFB	sdl/syswm_dfb.go	14;"	m	access:public	ctype:SysWMmsg	line:14	signature:()	type:*DFBMsg
+DFBInfo	sdl/syswm.go	82;"	t	access:public	line:82	type:struct
+DFBMsg	sdl/syswm_dfb.go	9;"	t	access:public	line:9	type:struct
+DISABLE	sdl/events.go	201;"	c	access:public	line:201
+DOLLARGESTURE	sdl/events.go	160;"	c	access:public	line:160
+DOLLARRECORD	sdl/events.go	161;"	c	access:public	line:161
+DONTFREE	sdl/surface.go	89;"	c	access:public	line:89
+DRIVER	sdl/hints_test.go	10;"	c	access:public	line:10
+DROPBEGIN	sdl/events.go	170;"	c	access:public	line:170
+DROPCOMPLETE	sdl/events.go	171;"	c	access:public	line:171
+DROPFILE	sdl/events.go	168;"	c	access:public	line:168
+DROPTEXT	sdl/events.go	169;"	c	access:public	line:169
+DTheta	sdl/events.go	686;"	w	access:public	ctype:MultiGestureEvent	line:686	type:float32
+DX	sdl/events.go	664;"	w	access:public	ctype:TouchFingerEvent	line:664	type:float32
+DY	sdl/events.go	665;"	w	access:public	ctype:TouchFingerEvent	line:665	type:float32
+Data	sdl/events.go	762;"	w	access:public	ctype:SensorEvent	line:762	type:[6]float32
+Data	sdl/haptic.go	159;"	w	access:public	ctype:HapticCustom	line:159	type:*uint16
+Data	sdl/surface.go	511;"	m	access:public	ctype:Surface	line:511	signature:()	type:unsafe.Pointer
+Data1	sdl/events.go	246;"	w	access:public	ctype:WindowEvent	line:246	type:int32
+Data1	sdl/events.go	850;"	w	access:public	ctype:UserEvent	line:850	type:unsafe.Pointer
+Data2	sdl/events.go	247;"	w	access:public	ctype:WindowEvent	line:247	type:int32
+Data2	sdl/events.go	851;"	w	access:public	ctype:UserEvent	line:851	type:unsafe.Pointer
+Deadband	sdl/haptic.go	105;"	w	access:public	ctype:HapticCondition	line:105	type:[3]uint16
+DelEventWatch	sdl/events.go	1208;"	f	access:public	line:1208	signature:(handle EventWatchHandle)
+DelHintCallback	sdl/hints.go	198;"	f	access:public	line:198	signature:(name string)
+Delay	sdl/haptic.go	119;"	w	access:public	ctype:HapticRamp	line:119	type:uint16
+Delay	sdl/haptic.go	153;"	w	access:public	ctype:HapticCustom	line:153	type:uint16
+Delay	sdl/haptic.go	55;"	w	access:public	ctype:HapticConstant	line:55	type:uint16
+Delay	sdl/haptic.go	75;"	w	access:public	ctype:HapticPeriodic	line:75	type:uint16
+Delay	sdl/haptic.go	98;"	w	access:public	ctype:HapticCondition	line:98	type:uint16
+Delay	sdl/timer.go	26;"	f	access:public	line:26	signature:(ms uint32)
+DequeueAudio	sdl/audio.go	488;"	f	access:public	line:488	signature:(dev AudioDeviceID, data []byte)	type:error
+Destroy	sdl/mutex.go	104;"	m	access:public	ctype:Sem	line:104	signature:()
+Destroy	sdl/mutex.go	161;"	m	access:public	ctype:Cond	line:161	signature:()
+Destroy	sdl/mutex.go	88;"	m	access:public	ctype:Mutex	line:88	signature:()
+Destroy	sdl/render.go	704;"	m	access:public	ctype:Texture	line:704	signature:()	type:error
+Destroy	sdl/render.go	718;"	m	access:public	ctype:Renderer	line:718	signature:()	type:error
+Destroy	sdl/video.go	553;"	m	access:public	ctype:Window	line:553	signature:()	type:error
+DestroyEffect	sdl/haptic.go	345;"	m	access:public	ctype:Haptic	line:345	signature:(effect int)
+Dfb	sdl/syswm.go	83;"	w	access:public	ctype:DFBInfo	line:83	type:unsafe.Pointer
+Dir	sdl/haptic.go	46;"	w	access:public	ctype:HapticDirection	line:46	type:[3]int32
+Direction	sdl/events.go	419;"	w	access:public	ctype:MouseWheelEvent	line:419	type:uint32
+Direction	sdl/haptic.go	117;"	w	access:public	ctype:HapticRamp	line:117	type:HapticDirection
+Direction	sdl/haptic.go	151;"	w	access:public	ctype:HapticCustom	line:151	type:HapticDirection
+Direction	sdl/haptic.go	53;"	w	access:public	ctype:HapticConstant	line:53	type:HapticDirection
+Direction	sdl/haptic.go	73;"	w	access:public	ctype:HapticPeriodic	line:73	type:HapticDirection
+Direction	sdl/haptic.go	96;"	w	access:public	ctype:HapticCondition	line:96	type:HapticDirection
+DisableScreenSaver	sdl/video.go	888;"	f	access:public	line:888	signature:()
+Display	sdl/syswm.go	77;"	w	access:public	ctype:X11Info	line:77	type:unsafe.Pointer
+DisplayMode	sdl/video.go	299;"	t	access:public	line:299	type:struct
+Do	sdl/sdl.go	107;"	f	access:public	line:107	signature:(f func())
+DollarGestureEvent	sdl/events.go	707;"	t	access:public	line:707	type:struct
+DrawLine	sdl/render.go	605;"	m	access:public	ctype:Renderer	line:605	signature:(x1, y1, x2, y2 int32)	type:error
+DrawLines	sdl/render.go	617;"	m	access:public	ctype:Renderer	line:617	signature:(points []Point)	type:error
+DrawPoint	sdl/render.go	588;"	m	access:public	ctype:Renderer	line:588	signature:(x, y int32)	type:error
+DrawPoints	sdl/render.go	595;"	m	access:public	ctype:Renderer	line:595	signature:(points []Point)	type:error
+DrawRect	sdl/render.go	627;"	m	access:public	ctype:Renderer	line:627	signature:(rect *Rect)	type:error
+DrawRects	sdl/render.go	634;"	m	access:public	ctype:Renderer	line:634	signature:(rects []Rect)	type:error
+DriverData	sdl/video.go	304;"	w	access:public	ctype:DisplayMode	line:304	type:unsafe.Pointer
+DropEvent	sdl/events.go	731;"	t	access:public	line:731	type:struct
+DstFormat	sdl/audio.go	216;"	w	access:public	ctype:AudioCVT	line:216	type:AudioFormat
+Duplicate	sdl/surface.go	516;"	m	access:public	ctype:Surface	line:516	signature:()	type:*Surface, error
+EFREAD	sdl/error.go	21;"	c	access:public	line:21
+EFSEEK	sdl/error.go	23;"	c	access:public	line:23
+EFWRITE	sdl/error.go	22;"	c	access:public	line:22
+ENABLE	sdl/events.go	202;"	c	access:public	line:202
+ENOMEM	sdl/error.go	20;"	c	access:public	line:20	type:ErrorCode
+EdgeCaseFunc	sdl/struct_test.go	10;"	t	access:public	line:10	type:func(t *testing.T, a, b interface{})
+EffectSupported	sdl/haptic.go	298;"	m	access:public	ctype:Haptic	line:298	signature:(he HapticEffect)	type:bool, error
+Empty	sdl/rect.go	43;"	m	access:public	ctype:Rect	line:43	signature:()	type:bool
+EnableScreenSaver	sdl/video.go	882;"	f	access:public	line:882	signature:()
+EnclosePoints	sdl/rect.go	171;"	f	access:public	ctype:Rect	line:171	signature:(points []Point, clip *Rect)	type:Rect, bool
+End	sdl/haptic.go	123;"	w	access:public	ctype:HapticRamp	line:123	type:int16
+Equals	sdl/rect.go	49;"	m	access:public	ctype:Rect	line:49	signature:(b *Rect)	type:bool
+ErrInvalidParameters	sdl/error.go	16;"	v	access:public	line:16
+Error	sdl/error.go	66;"	f	access:public	line:66	signature:(code ErrorCode)
+Error	sdl/events.go	713;"	w	access:public	ctype:DollarGestureEvent	line:713	type:float32
+ErrorCode	sdl/error.go	29;"	t	access:public	line:29	type:uint32
+Event	sdl/events.go	207;"	n	access:public	line:207	type:interface
+Event	sdl/events.go	242;"	w	access:public	ctype:WindowEvent	line:242	type:uint8
+Event	sdl/syswm_dfb.go	10;"	w	access:public	ctype:DFBMsg	line:10	type:C.DFBEvent
+Event	sdl/syswm_x11.go	13;"	w	access:public	ctype:X11Msg	line:13	type:C.XEvent
+EventAction	sdl/events.go	886;"	t	access:public	line:886	type:C.SDL_eventaction
+EventFilter	sdl/events.go	890;"	n	access:public	line:890	type:interface
+EventState	sdl/events.go	1219;"	f	access:public	line:1219	signature:(type_ uint32, state int)	type:uint8
+EventWatchHandle	sdl/events.go	903;"	t	access:public	line:903	type:uintptr
+FINGERDOWN	sdl/events.go	155;"	c	access:public	line:155
+FINGERMOTION	sdl/events.go	157;"	c	access:public	line:157
+FINGERUP	sdl/events.go	156;"	c	access:public	line:156
+FIRSTEVENT	sdl/events.go	107;"	c	access:public	line:107
+FLIP_HORIZONTAL	sdl/render.go	100;"	c	access:public	line:100
+FLIP_NONE	sdl/render.go	99;"	c	access:public	line:99	type:RendererFlip
+FLIP_VERTICAL	sdl/render.go	101;"	c	access:public	line:101
+FadeLength	sdl/haptic.go	126;"	w	access:public	ctype:HapticRamp	line:126	type:uint16
+FadeLength	sdl/haptic.go	162;"	w	access:public	ctype:HapticCustom	line:162	type:uint16
+FadeLength	sdl/haptic.go	61;"	w	access:public	ctype:HapticConstant	line:61	type:uint16
+FadeLength	sdl/haptic.go	84;"	w	access:public	ctype:HapticPeriodic	line:84	type:uint16
+FadeLevel	sdl/haptic.go	127;"	w	access:public	ctype:HapticRamp	line:127	type:uint16
+FadeLevel	sdl/haptic.go	163;"	w	access:public	ctype:HapticCustom	line:163	type:uint16
+FadeLevel	sdl/haptic.go	62;"	w	access:public	ctype:HapticConstant	line:62	type:uint16
+FadeLevel	sdl/haptic.go	85;"	w	access:public	ctype:HapticPeriodic	line:85	type:uint16
+File	sdl/events.go	734;"	w	access:public	ctype:DropEvent	line:734	type:string
+File	sdl/events.go	741;"	w	access:public	ctype:tDropEvent	line:741	type:unsafe.Pointer
+FillRect	sdl/render.go	644;"	m	access:public	ctype:Renderer	line:644	signature:(rect *Rect)	type:error
+FillRect	sdl/surface.go	410;"	m	access:public	ctype:Surface	line:410	signature:(rect *Rect, color uint32)	type:error
+FillRects	sdl/render.go	651;"	m	access:public	ctype:Renderer	line:651	signature:(rects []Rect)	type:error
+FillRects	sdl/surface.go	419;"	m	access:public	ctype:Surface	line:419	signature:(rects []Rect, color uint32)	type:error
+FilterEvent	sdl/events.go	1086;"	m	access:public	ctype:eventFilterFunc	line:1086	signature:(e Event, userdata interface{})	type:bool
+FilterEvent	sdl/events.go	891;"	m	access:public	line:891	ntype:EventFilter	signature:(e Event, userdata interface{})	type:bool
+FilterEvent	sdl/events_test.go	34;"	m	access:public	ctype:simpleTestFilter	line:34	signature:(e Event, userdata interface{})	type:bool
+FilterEvents	sdl/events.go	1181;"	f	access:public	line:1181	signature:(filter EventFilter, userdata interface{})
+FilterEventsFunc	sdl/events.go	1188;"	f	access:public	line:1188	signature:(filter eventFilterFunc, userdata interface{})
+Finger	sdl/touch.go	17;"	t	access:public	line:17	type:struct
+FingerID	sdl/events.go	661;"	w	access:public	ctype:TouchFingerEvent	line:661	type:FingerID
+FingerID	sdl/touch.go	14;"	t	access:public	line:14	type:C.SDL_FingerID
+Flags	sdl/render.go	119;"	w	access:public	ctype:RendererInfoData	line:119	type:uint32
+Flags	sdl/video.go	337;"	w	access:public	ctype:MessageBoxButtonData	line:337	type:uint32
+Flags	sdl/video.go	345;"	w	access:public	ctype:MessageBoxData	line:345	type:uint32
+Flush	sdl/audio.go	612;"	m	access:public	ctype:AudioStream	line:612	signature:()	type:error
+FlushEvent	sdl/events.go	960;"	f	access:public	line:960	signature:(type_ uint32)
+FlushEvents	sdl/events.go	966;"	f	access:public	line:966	signature:(minType, maxType uint32)
+Format	sdl/audio.go	200;"	w	access:public	ctype:AudioSpec	line:200	type:AudioFormat
+Format	sdl/pixels.go	38;"	w	access:public	ctype:PixelFormat	line:38	type:uint32
+Format	sdl/surface.go	106;"	w	access:public	ctype:Surface	line:106	type:*PixelFormat
+Format	sdl/video.go	300;"	w	access:public	ctype:DisplayMode	line:300	type:uint32
+Free	sdl/audio.go	626;"	m	access:public	ctype:AudioStream	line:626	signature:()
+Free	sdl/pixels.go	247;"	m	access:public	ctype:PixelFormat	line:247	signature:()
+Free	sdl/pixels.go	293;"	m	access:public	ctype:Palette	line:293	signature:()
+Free	sdl/rwops.go	108;"	m	access:public	ctype:RWops	line:108	signature:()	type:error
+Free	sdl/surface.go	221;"	m	access:public	ctype:Surface	line:221	signature:()
+FreeBuf	sdl/audio.go	300;"	m	access:public	ctype:AudioCVT	line:300	signature:()
+FreeCursor	sdl/mouse.go	195;"	f	access:public	line:195	signature:(cursor *Cursor)
+FreeWAV	sdl/audio.go	446;"	f	access:public	line:446	signature:(audioBuf []uint8)
+Freq	sdl/audio.go	199;"	w	access:public	ctype:AudioSpec	line:199	type:int32
+G	sdl/video.go	322;"	w	access:public	ctype:MessageBoxColor	line:322	type:uint8
+GETEVENT	sdl/events.go	194;"	c	access:public	line:194
+GLBind	sdl/render.go	732;"	m	access:public	ctype:Texture	line:732	signature:(texw, texh *float32)	type:error
+GLContext	sdl/video.go	312;"	t	access:public	line:312	type:C.SDL_GLContext
+GLCreateContext	sdl/video.go	936;"	m	access:public	ctype:Window	line:936	signature:()	type:GLContext, error
+GLDeleteContext	sdl/video.go	981;"	f	access:public	line:981	signature:(context GLContext)
+GLExtensionSupported	sdl/video.go	913;"	f	access:public	line:913	signature:(extension string)	type:bool
+GLGetAttribute	sdl/video.go	926;"	f	access:public	line:926	signature:(attr GLattr)	type:int, error
+GLGetDrawableSize	sdl/video.go	967;"	m	access:public	ctype:Window	line:967	signature:()	type:int32, int32
+GLGetProcAddress	sdl/video.go	901;"	f	access:public	line:901	signature:(proc string)	type:unsafe.Pointer
+GLGetSwapInterval	sdl/video.go	960;"	f	access:public	line:960	signature:()	type:int, error
+GLLoadLibrary	sdl/video.go	894;"	f	access:public	line:894	signature:(path string)	type:error
+GLMakeCurrent	sdl/video.go	946;"	m	access:public	ctype:Window	line:946	signature:(glcontext GLContext)	type:error
+GLSetAttribute	sdl/video.go	919;"	f	access:public	line:919	signature:(attr GLattr, value int)	type:error
+GLSetSwapInterval	sdl/video.go	953;"	f	access:public	line:953	signature:(interval int)	type:error
+GLSwap	sdl/video.go	975;"	m	access:public	ctype:Window	line:975	signature:()
+GLUnbind	sdl/render.go	742;"	m	access:public	ctype:Texture	line:742	signature:()	type:error
+GLUnloadLibrary	sdl/video.go	907;"	f	access:public	line:907	signature:()
+GL_ACCELERATED_VISUAL	sdl/video.go	266;"	c	access:public	line:266
+GL_ACCUM_ALPHA_SIZE	sdl/video.go	262;"	c	access:public	line:262
+GL_ACCUM_BLUE_SIZE	sdl/video.go	261;"	c	access:public	line:261
+GL_ACCUM_GREEN_SIZE	sdl/video.go	260;"	c	access:public	line:260
+GL_ACCUM_RED_SIZE	sdl/video.go	259;"	c	access:public	line:259
+GL_ALPHA_SIZE	sdl/video.go	254;"	c	access:public	line:254
+GL_BLUE_SIZE	sdl/video.go	253;"	c	access:public	line:253
+GL_BUFFER_SIZE	sdl/video.go	255;"	c	access:public	line:255
+GL_CONTEXT_DEBUG_FLAG	sdl/video.go	291;"	c	access:public	line:291
+GL_CONTEXT_EGL	sdl/video.go	270;"	c	access:public	line:270
+GL_CONTEXT_FLAGS	sdl/video.go	271;"	c	access:public	line:271
+GL_CONTEXT_FORWARD_COMPATIBLE_FLAG	sdl/video.go	292;"	c	access:public	line:292
+GL_CONTEXT_MAJOR_VERSION	sdl/video.go	268;"	c	access:public	line:268
+GL_CONTEXT_MINOR_VERSION	sdl/video.go	269;"	c	access:public	line:269
+GL_CONTEXT_NO_ERROR	sdl/video.go	277;"	c	access:public	line:277
+GL_CONTEXT_PROFILE_COMPATIBILITY	sdl/video.go	284;"	c	access:public	line:284
+GL_CONTEXT_PROFILE_CORE	sdl/video.go	283;"	c	access:public	line:283
+GL_CONTEXT_PROFILE_ES	sdl/video.go	285;"	c	access:public	line:285
+GL_CONTEXT_PROFILE_MASK	sdl/video.go	272;"	c	access:public	line:272
+GL_CONTEXT_RELEASE_BEHAVIOR	sdl/video.go	275;"	c	access:public	line:275
+GL_CONTEXT_RESET_ISOLATION_FLAG	sdl/video.go	294;"	c	access:public	line:294
+GL_CONTEXT_RESET_NOTIFICATION	sdl/video.go	276;"	c	access:public	line:276
+GL_CONTEXT_ROBUST_ACCESS_FLAG	sdl/video.go	293;"	c	access:public	line:293
+GL_DEPTH_SIZE	sdl/video.go	257;"	c	access:public	line:257
+GL_DOUBLEBUFFER	sdl/video.go	256;"	c	access:public	line:256
+GL_FRAMEBUFFER_SRGB_CAPABLE	sdl/video.go	274;"	c	access:public	line:274
+GL_GREEN_SIZE	sdl/video.go	252;"	c	access:public	line:252
+GL_MULTISAMPLEBUFFERS	sdl/video.go	264;"	c	access:public	line:264
+GL_MULTISAMPLESAMPLES	sdl/video.go	265;"	c	access:public	line:265
+GL_RED_SIZE	sdl/video.go	251;"	c	access:public	line:251
+GL_RETAINED_BACKING	sdl/video.go	267;"	c	access:public	line:267
+GL_SHARE_WITH_CURRENT_CONTEXT	sdl/video.go	273;"	c	access:public	line:273
+GL_STENCIL_SIZE	sdl/video.go	258;"	c	access:public	line:258
+GL_STEREO	sdl/video.go	263;"	c	access:public	line:263
+GLattr	sdl/video.go	316;"	t	access:public	line:316	type:C.SDL_GLattr
+GUID	sdl/joystick.go	362;"	m	access:public	ctype:Joystick	line:362	signature:()	type:JoystickGUID
+GameController	sdl/gamecontroller.go	129;"	t	access:public	line:129	type:C.SDL_GameController
+GameControllerAddMapping	sdl/gamecontroller.go	148;"	f	access:public	line:148	signature:(mappingString string)	type:int
+GameControllerAxis	sdl/gamecontroller.go	122;"	t	access:public	line:122	type:C.SDL_GameControllerAxis
+GameControllerBindType	sdl/gamecontroller.go	118;"	t	access:public	line:118	type:C.SDL_GameControllerBindType
+GameControllerButton	sdl/gamecontroller.go	126;"	t	access:public	line:126	type:C.SDL_GameControllerButton
+GameControllerButtonBind	sdl/gamecontroller.go	132;"	t	access:public	line:132	type:C.SDL_GameControllerButtonBind
+GameControllerEventState	sdl/gamecontroller.go	241;"	f	access:public	line:241	signature:(state int)	type:int
+GameControllerFromInstanceID	sdl/gamecontroller.go	194;"	f	access:public	line:194	signature:(joyid JoystickID)	type:*GameController
+GameControllerGetAxisFromString	sdl/gamecontroller.go	253;"	f	access:public	line:253	signature:(pchString string)	type:GameControllerAxis
+GameControllerGetButtonFromString	sdl/gamecontroller.go	279;"	f	access:public	line:279	signature:(pchString string)	type:GameControllerButton
+GameControllerGetStringForAxis	sdl/gamecontroller.go	261;"	f	access:public	line:261	signature:(axis GameControllerAxis)	type:string
+GameControllerGetStringForButton	sdl/gamecontroller.go	287;"	f	access:public	line:287	signature:(btn GameControllerButton)	type:string
+GameControllerMappingForGUID	sdl/gamecontroller.go	168;"	f	access:public	line:168	signature:(guid JoystickGUID)	type:string
+GameControllerMappingForIndex	sdl/gamecontroller.go	160;"	f	access:public	line:160	signature:(index int)	type:string
+GameControllerNameForIndex	sdl/gamecontroller.go	182;"	f	access:public	line:182	signature:(index int)	type:string
+GameControllerNumMappings	sdl/gamecontroller.go	155;"	f	access:public	line:155	signature:()	type:int
+GameControllerOpen	sdl/gamecontroller.go	188;"	f	access:public	line:188	signature:(index int)	type:*GameController
+GameControllerUpdate	sdl/gamecontroller.go	247;"	f	access:public	line:247	signature:()
+GestureID	sdl/events.go	711;"	w	access:public	ctype:DollarGestureEvent	line:711	type:GestureID
+GestureID	sdl/gesture.go	7;"	t	access:public	line:7	type:C.SDL_GestureID
+Get	sdl/audio.go	592;"	m	access:public	ctype:AudioStream	line:592	signature:(buf []byte)	type:error
+GetAlphaMod	sdl/render.go	301;"	m	access:public	ctype:Texture	line:301	signature:()	type:uint8, error
+GetAlphaMod	sdl/surface.go	340;"	m	access:public	ctype:Surface	line:340	signature:()	type:uint8, error
+GetAudioDeviceName	sdl/audio.go	367;"	f	access:public	line:367	signature:(index int, isCapture bool)	type:string
+GetAudioDeviceStatus	sdl/audio.go	393;"	f	access:public	line:393	signature:(dev AudioDeviceID)	type:AudioStatus
+GetAudioDriver	sdl/audio.go	323;"	f	access:public	line:323	signature:(index int)	type:string
+GetAudioStatus	sdl/audio.go	387;"	f	access:public	line:387	signature:()	type:AudioStatus
+GetBasePath	sdl/filesystem.go	34;"	f	access:public	line:34	signature:()	type:string
+GetBlendMode	sdl/render.go	315;"	m	access:public	ctype:Texture	line:315	signature:()	type:BlendMode, error
+GetBlendMode	sdl/surface.go	359;"	m	access:public	ctype:Surface	line:359	signature:()	type:BlendMode, error
+GetBrightness	sdl/video.go	777;"	m	access:public	ctype:Window	line:777	signature:()	type:float32
+GetCPUCacheLineSize	sdl/cpuinfo.go	68;"	f	access:public	line:68	signature:()	type:int
+GetCPUCount	sdl/cpuinfo.go	62;"	f	access:public	line:62	signature:()	type:int
+GetClipRect	sdl/render.go	472;"	m	access:public	ctype:Renderer	line:472	signature:()	type:Rect
+GetClipRect	sdl/surface.go	374;"	m	access:public	ctype:Surface	line:374	signature:(rect *Rect)
+GetClipboardText	sdl/clipboard.go	20;"	f	access:public	line:20	signature:()	type:string, error
+GetClosestDisplayMode	sdl/video.go	483;"	f	access:public	ctype:DisplayMode	line:483	signature:(displayIndex int, mode *DisplayMode, closest *DisplayMode)	type:*DisplayMode, error
+GetCocoaInfo	sdl/syswm.go	137;"	m	access:public	ctype:SysWMInfo	line:137	signature:()	type:*CocoaInfo
+GetColorKey	sdl/surface.go	300;"	m	access:public	ctype:Surface	line:300	signature:()	type:uint32, error
+GetColorMod	sdl/surface.go	319;"	m	access:public	ctype:Surface	line:319	signature:()	type:uint8, uint8, uint8, error
+GetCurrentAudioDriver	sdl/audio.go	346;"	f	access:public	line:346	signature:()	type:string
+GetCurrentDisplayMode	sdl/video.go	475;"	f	access:public	ctype:DisplayMode	line:475	signature:(displayIndex int)	type:DisplayMode, error
+GetCurrentVideoDriver	sdl/video.go	426;"	f	access:public	line:426	signature:()	type:string, error
+GetCursor	sdl/mouse.go	183;"	f	access:public	line:183	signature:()	type:*Cursor
+GetDFBInfo	sdl/syswm.go	132;"	m	access:public	ctype:SysWMInfo	line:132	signature:()	type:*DFBInfo
+GetData	sdl/sensor.go	296;"	m	access:public	ctype:Sensor	line:296	signature:(data []float32)	type:error
+GetData	sdl/video.go	617;"	m	access:public	ctype:Window	line:617	signature:(name string)	type:unsafe.Pointer
+GetDefaultCursor	sdl/mouse.go	189;"	f	access:public	line:189	signature:()	type:*Cursor
+GetDesktopDisplayMode	sdl/video.go	467;"	f	access:public	ctype:DisplayMode	line:467	signature:(displayIndex int)	type:DisplayMode, error
+GetDisplayBounds	sdl/video.go	443;"	f	access:public	line:443	signature:(displayIndex int)	type:Rect, error
+GetDisplayDPI	sdl/video.go	493;"	f	access:public	line:493	signature:(displayIndex int)	type:float32, float32, float32, error
+GetDisplayIndex	sdl/video.go	501;"	m	access:public	ctype:Window	line:501	signature:()	type:int, error
+GetDisplayMode	sdl/video.go	459;"	f	access:public	ctype:DisplayMode	line:459	signature:(displayIndex int, modeIndex int)	type:DisplayMode, error
+GetDisplayMode	sdl/video.go	515;"	m	access:public	ctype:Window	line:515	signature:()	type:DisplayMode, error
+GetDisplayName	sdl/video.go	383;"	f	access:public	line:383	signature:(displayIndex int)	type:string, error
+GetDisplayUsableBounds	sdl/video.go	451;"	f	access:public	line:451	signature:(displayIndex int)	type:Rect, error
+GetDrawBlendMode	sdl/render.go	574;"	m	access:public	ctype:Renderer	line:574	signature:(bm *BlendMode)	type:error
+GetDrawColor	sdl/render.go	555;"	m	access:public	ctype:Renderer	line:555	signature:()	type:uint8, uint8, uint8, uint8, error
+GetEffectStatus	sdl/haptic.go	351;"	m	access:public	ctype:Haptic	line:351	signature:(effect int)	type:int, error
+GetError	sdl/error.go	38;"	f	access:public	line:38	signature:()	type:error
+GetEventFilter	sdl/events.go	1171;"	f	access:public	line:1171	signature:()	type:EventFilter
+GetEventState	sdl/events.go	1225;"	f	access:public	line:1225	signature:(type_ uint32)	type:uint8
+GetFlags	sdl/video.go	587;"	m	access:public	ctype:Window	line:587	signature:()	type:uint32
+GetGammaRamp	sdl/video.go	794;"	m	access:public	ctype:Window	line:794	signature:()	type:*[256]uint16, *[256]uint16, *[256]uint16, error
+GetGlobalMouseState	sdl/mouse.go	115;"	f	access:public	line:115	signature:()	type:int32, int32, uint32
+GetGrab	sdl/video.go	764;"	m	access:public	ctype:Window	line:764	signature:()	type:bool
+GetHint	sdl/hints.go	173;"	f	access:public	line:173	signature:(name string)	type:string
+GetID	sdl/video.go	567;"	m	access:public	ctype:Window	line:567	signature:()	type:uint32, error
+GetInfo	sdl/render.go	213;"	m	access:public	ctype:Renderer	line:213	signature:()	type:RendererInfo, error
+GetInstanceID	sdl/sensor.go	287;"	m	access:public	ctype:Sensor	line:287	signature:()	type:SensorID
+GetIntegerScale	sdl/render.go	518;"	m	access:public	ctype:Renderer	line:518	signature:()	type:bool, error
+GetKeyFromName	sdl/keyboard.go	81;"	f	access:public	line:81	signature:(name string)	type:Keycode
+GetKeyFromScancode	sdl/keyboard.go	49;"	f	access:public	line:49	signature:(code Scancode)	type:Keycode
+GetKeyName	sdl/keyboard.go	75;"	f	access:public	line:75	signature:(code Keycode)	type:string
+GetKeyboardFocus	sdl/keyboard.go	19;"	f	access:public	line:19	signature:()	type:*Window
+GetKeyboardState	sdl/keyboard.go	25;"	f	access:public	line:25	signature:()	type:[]uint8
+GetLogicalSize	sdl/render.go	441;"	m	access:public	ctype:Renderer	line:441	signature:()	type:int32, int32
+GetMaximumSize	sdl/video.go	677;"	m	access:public	ctype:Window	line:677	signature:()	type:int32, int32
+GetMetalCommandEncoder	sdl/render.go	759;"	m	access:public	ctype:Renderer	line:759	signature:()	type:unsafe.Pointer, error
+GetMetalLayer	sdl/render.go	749;"	m	access:public	ctype:Renderer	line:749	signature:()	type:unsafe.Pointer, error
+GetMinimumSize	sdl/video.go	663;"	m	access:public	ctype:Window	line:663	signature:()	type:int32, int32
+GetModState	sdl/keyboard.go	37;"	f	access:public	line:37	signature:()	type:Keymod
+GetMouseFocus	sdl/mouse.go	109;"	f	access:public	line:109	signature:()	type:*Window
+GetMouseState	sdl/mouse.go	123;"	f	access:public	line:123	signature:()	type:int32, int32, uint32
+GetName	sdl/sensor.go	254;"	m	access:public	ctype:Sensor	line:254	signature:()	type:string
+GetNonPortableType	sdl/sensor.go	276;"	m	access:public	ctype:Sensor	line:276	signature:()	type:int
+GetNumAudioDevices	sdl/audio.go	361;"	f	access:public	line:361	signature:(isCapture bool)	type:int
+GetNumAudioDrivers	sdl/audio.go	317;"	f	access:public	line:317	signature:()	type:int
+GetNumDisplayModes	sdl/video.go	436;"	f	access:public	line:436	signature:(displayIndex int)	type:int, error
+GetNumRenderDrivers	sdl/render.go	145;"	f	access:public	line:145	signature:()	type:int, error
+GetNumTouchDevices	sdl/touch.go	30;"	f	access:public	line:30	signature:()	type:int
+GetNumTouchFingers	sdl/touch.go	42;"	f	access:public	line:42	signature:(t TouchID)	type:int
+GetNumVideoDisplays	sdl/video.go	393;"	f	access:public	line:393	signature:()	type:int, error
+GetNumVideoDrivers	sdl/video.go	400;"	f	access:public	line:400	signature:()	type:int, error
+GetOutputSize	sdl/render.go	228;"	m	access:public	ctype:Renderer	line:228	signature:()	type:int32, int32, error
+GetPerformanceCounter	sdl/timer.go	14;"	f	access:public	line:14	signature:()	type:uint64
+GetPerformanceFrequency	sdl/timer.go	20;"	f	access:public	line:20	signature:()	type:uint64
+GetPixelFormat	sdl/video.go	523;"	m	access:public	ctype:Window	line:523	signature:()	type:uint32, error
+GetPixelFormatName	sdl/pixels.go	212;"	f	access:public	line:212	signature:(format uint)	type:string
+GetPlatform	sdl/sdl.go	154;"	f	access:public	line:154	signature:()	type:string
+GetPosition	sdl/video.go	629;"	m	access:public	ctype:Window	line:629	signature:()	type:int32, int32
+GetPowerInfo	sdl/power.go	22;"	f	access:public	line:22	signature:()	type:int, int, int
+GetPrefPath	sdl/filesystem.go	42;"	f	access:public	line:42	signature:(org, app string)	type:string
+GetQueuedAudioSize	sdl/audio.go	500;"	f	access:public	line:500	signature:(dev AudioDeviceID)	type:uint32
+GetRGB	sdl/pixels.go	313;"	f	access:public	line:313	signature:(pixel uint32, format *PixelFormat)	type:uint8, uint8, uint8
+GetRGBA	sdl/pixels.go	321;"	f	access:public	line:321	signature:(pixel uint32, format *PixelFormat)	type:uint8, uint8, uint8, uint8
+GetRelativeMouseMode	sdl/mouse.go	151;"	f	access:public	line:151	signature:()	type:bool
+GetRelativeMouseState	sdl/mouse.go	131;"	f	access:public	line:131	signature:()	type:int32, int32, uint32
+GetRenderDriverInfo	sdl/render.go	152;"	f	access:public	line:152	signature:(index int, info *RendererInfo)	type:int, error
+GetRenderTarget	sdl/render.go	428;"	m	access:public	ctype:Renderer	line:428	signature:()	type:*Texture
+GetRenderer	sdl/render.go	203;"	m	access:public	ctype:Window	line:203	signature:()	type:*Renderer, error
+GetRevision	sdl/version.go	61;"	f	access:public	line:61	signature:()	type:string
+GetRevisionNumber	sdl/version.go	67;"	f	access:public	line:67	signature:()	type:int
+GetScale	sdl/render.go	489;"	m	access:public	ctype:Renderer	line:489	signature:()	type:float32, float32
+GetScancodeFromKey	sdl/keyboard.go	55;"	f	access:public	line:55	signature:(code Keycode)	type:Scancode
+GetScancodeFromName	sdl/keyboard.go	67;"	f	access:public	line:67	signature:(name string)	type:Scancode
+GetScancodeName	sdl/keyboard.go	61;"	f	access:public	line:61	signature:(code Scancode)	type:string
+GetSize	sdl/video.go	649;"	m	access:public	ctype:Window	line:649	signature:()	type:int32, int32
+GetSurface	sdl/video.go	734;"	m	access:public	ctype:Window	line:734	signature:()	type:*Surface, error
+GetSystemRAM	sdl/cpuinfo.go	128;"	f	access:public	line:128	signature:()	type:int
+GetText	sdl/events.go	303;"	m	access:public	ctype:TextEditingEvent	line:303	signature:()	type:string
+GetText	sdl/events.go	344;"	m	access:public	ctype:TextInputEvent	line:344	signature:()	type:string
+GetTicks	sdl/timer.go	8;"	f	access:public	line:8	signature:()	type:uint32
+GetTimestamp	sdl/events.go	209;"	m	access:public	line:209	ntype:Event	signature:()	type:uint32
+GetTimestamp	sdl/events.go	232;"	m	access:public	ctype:CommonEvent	line:232	signature:()	type:uint32
+GetTimestamp	sdl/events.go	257;"	m	access:public	ctype:WindowEvent	line:257	signature:()	type:uint32
+GetTimestamp	sdl/events.go	281;"	m	access:public	ctype:KeyboardEvent	line:281	signature:()	type:uint32
+GetTimestamp	sdl/events.go	319;"	m	access:public	ctype:TextEditingEvent	line:319	signature:()	type:uint32
+GetTimestamp	sdl/events.go	339;"	m	access:public	ctype:TextInputEvent	line:339	signature:()	type:uint32
+GetTimestamp	sdl/events.go	380;"	m	access:public	ctype:MouseMotionEvent	line:380	signature:()	type:uint32
+GetTimestamp	sdl/events.go	406;"	m	access:public	ctype:MouseButtonEvent	line:406	signature:()	type:uint32
+GetTimestamp	sdl/events.go	429;"	m	access:public	ctype:MouseWheelEvent	line:429	signature:()	type:uint32
+GetTimestamp	sdl/events.go	454;"	m	access:public	ctype:JoyAxisEvent	line:454	signature:()	type:uint32
+GetTimestamp	sdl/events.go	479;"	m	access:public	ctype:JoyBallEvent	line:479	signature:()	type:uint32
+GetTimestamp	sdl/events.go	502;"	m	access:public	ctype:JoyHatEvent	line:502	signature:()	type:uint32
+GetTimestamp	sdl/events.go	525;"	m	access:public	ctype:JoyButtonEvent	line:525	signature:()	type:uint32
+GetTimestamp	sdl/events.go	543;"	m	access:public	ctype:JoyDeviceAddedEvent	line:543	signature:()	type:uint32
+GetTimestamp	sdl/events.go	561;"	m	access:public	ctype:JoyDeviceRemovedEvent	line:561	signature:()	type:uint32
+GetTimestamp	sdl/events.go	586;"	m	access:public	ctype:ControllerAxisEvent	line:586	signature:()	type:uint32
+GetTimestamp	sdl/events.go	609;"	m	access:public	ctype:ControllerButtonEvent	line:609	signature:()	type:uint32
+GetTimestamp	sdl/events.go	628;"	m	access:public	ctype:ControllerDeviceEvent	line:628	signature:()	type:uint32
+GetTimestamp	sdl/events.go	651;"	m	access:public	ctype:AudioDeviceEvent	line:651	signature:()	type:uint32
+GetTimestamp	sdl/events.go	676;"	m	access:public	ctype:TouchFingerEvent	line:676	signature:()	type:uint32
+GetTimestamp	sdl/events.go	701;"	m	access:public	ctype:MultiGestureEvent	line:701	signature:()	type:uint32
+GetTimestamp	sdl/events.go	725;"	m	access:public	ctype:DollarGestureEvent	line:725	signature:()	type:uint32
+GetTimestamp	sdl/events.go	752;"	m	access:public	ctype:DropEvent	line:752	signature:()	type:uint32
+GetTimestamp	sdl/events.go	772;"	m	access:public	ctype:SensorEvent	line:772	signature:()	type:uint32
+GetTimestamp	sdl/events.go	789;"	m	access:public	ctype:RenderEvent	line:789	signature:()	type:uint32
+GetTimestamp	sdl/events.go	806;"	m	access:public	ctype:QuitEvent	line:806	signature:()	type:uint32
+GetTimestamp	sdl/events.go	822;"	m	access:public	ctype:OSEvent	line:822	signature:()	type:uint32
+GetTimestamp	sdl/events.go	839;"	m	access:public	ctype:ClipboardEvent	line:839	signature:()	type:uint32
+GetTimestamp	sdl/events.go	861;"	m	access:public	ctype:UserEvent	line:861	signature:()	type:uint32
+GetTimestamp	sdl/events.go	880;"	m	access:public	ctype:SysWMEvent	line:880	signature:()	type:uint32
+GetTitle	sdl/video.go	599;"	m	access:public	ctype:Window	line:599	signature:()	type:string
+GetTouchDevice	sdl/touch.go	36;"	f	access:public	line:36	signature:(index int)	type:TouchID
+GetTouchFinger	sdl/touch.go	48;"	f	access:public	ctype:Finger	line:48	signature:(t TouchID, index int)	type:*Finger
+GetType	sdl/events.go	208;"	m	access:public	line:208	ntype:Event	signature:()	type:uint32
+GetType	sdl/events.go	227;"	m	access:public	ctype:CommonEvent	line:227	signature:()	type:uint32
+GetType	sdl/events.go	252;"	m	access:public	ctype:WindowEvent	line:252	signature:()	type:uint32
+GetType	sdl/events.go	276;"	m	access:public	ctype:KeyboardEvent	line:276	signature:()	type:uint32
+GetType	sdl/events.go	298;"	m	access:public	ctype:TextEditingEvent	line:298	signature:()	type:uint32
+GetType	sdl/events.go	334;"	m	access:public	ctype:TextInputEvent	line:334	signature:()	type:uint32
+GetType	sdl/events.go	375;"	m	access:public	ctype:MouseMotionEvent	line:375	signature:()	type:uint32
+GetType	sdl/events.go	401;"	m	access:public	ctype:MouseButtonEvent	line:401	signature:()	type:uint32
+GetType	sdl/events.go	424;"	m	access:public	ctype:MouseWheelEvent	line:424	signature:()	type:uint32
+GetType	sdl/events.go	449;"	m	access:public	ctype:JoyAxisEvent	line:449	signature:()	type:uint32
+GetType	sdl/events.go	474;"	m	access:public	ctype:JoyBallEvent	line:474	signature:()	type:uint32
+GetType	sdl/events.go	497;"	m	access:public	ctype:JoyHatEvent	line:497	signature:()	type:uint32
+GetType	sdl/events.go	520;"	m	access:public	ctype:JoyButtonEvent	line:520	signature:()	type:uint32
+GetType	sdl/events.go	538;"	m	access:public	ctype:JoyDeviceAddedEvent	line:538	signature:()	type:uint32
+GetType	sdl/events.go	556;"	m	access:public	ctype:JoyDeviceRemovedEvent	line:556	signature:()	type:uint32
+GetType	sdl/events.go	581;"	m	access:public	ctype:ControllerAxisEvent	line:581	signature:()	type:uint32
+GetType	sdl/events.go	604;"	m	access:public	ctype:ControllerButtonEvent	line:604	signature:()	type:uint32
+GetType	sdl/events.go	623;"	m	access:public	ctype:ControllerDeviceEvent	line:623	signature:()	type:uint32
+GetType	sdl/events.go	646;"	m	access:public	ctype:AudioDeviceEvent	line:646	signature:()	type:uint32
+GetType	sdl/events.go	671;"	m	access:public	ctype:TouchFingerEvent	line:671	signature:()	type:uint32
+GetType	sdl/events.go	696;"	m	access:public	ctype:MultiGestureEvent	line:696	signature:()	type:uint32
+GetType	sdl/events.go	720;"	m	access:public	ctype:DollarGestureEvent	line:720	signature:()	type:uint32
+GetType	sdl/events.go	747;"	m	access:public	ctype:DropEvent	line:747	signature:()	type:uint32
+GetType	sdl/events.go	767;"	m	access:public	ctype:SensorEvent	line:767	signature:()	type:uint32
+GetType	sdl/events.go	784;"	m	access:public	ctype:RenderEvent	line:784	signature:()	type:uint32
+GetType	sdl/events.go	801;"	m	access:public	ctype:QuitEvent	line:801	signature:()	type:uint32
+GetType	sdl/events.go	817;"	m	access:public	ctype:OSEvent	line:817	signature:()	type:uint32
+GetType	sdl/events.go	834;"	m	access:public	ctype:ClipboardEvent	line:834	signature:()	type:uint32
+GetType	sdl/events.go	856;"	m	access:public	ctype:UserEvent	line:856	signature:()	type:uint32
+GetType	sdl/events.go	875;"	m	access:public	ctype:SysWMEvent	line:875	signature:()	type:uint32
+GetType	sdl/sensor.go	265;"	m	access:public	ctype:Sensor	line:265	signature:()	type:SensorType
+GetUIKitInfo	sdl/syswm.go	142;"	m	access:public	ctype:SysWMInfo	line:142	signature:()	type:*UIKitInfo
+GetVersion	sdl/version.go	55;"	f	access:public	line:55	signature:(v *Version)
+GetVideoDriver	sdl/video.go	407;"	f	access:public	line:407	signature:(index int)	type:string
+GetViewport	sdl/render.go	458;"	m	access:public	ctype:Renderer	line:458	signature:()	type:Rect
+GetWMInfo	sdl/syswm.go	112;"	m	access:public	ctype:Window	line:112	signature:()	type:*SysWMInfo, error
+GetWindowFromID	sdl/video.go	577;"	f	access:public	line:577	signature:(id uint32)	type:*Window, error
+GetWindowOpacity	sdl/video.go	812;"	m	access:public	ctype:Window	line:812	signature:()	type:float32, error
+GetWindowsInfo	sdl/syswm.go	122;"	m	access:public	ctype:SysWMInfo	line:122	signature:()	type:*WindowsInfo
+GetX11Info	sdl/syswm.go	127;"	m	access:public	ctype:SysWMInfo	line:127	signature:()	type:*X11Info
+GetYUVConversionMode	sdl/surface.go	207;"	f	access:public	line:207	signature:()	type:YUV_CONVERSION_MODE
+GetYUVConversionModeForResolution	sdl/surface.go	213;"	f	access:public	line:213	signature:(width, height int)	type:YUV_CONVERSION_MODE
+Gmask	sdl/pixels.go	44;"	w	access:public	ctype:PixelFormat	line:44	type:uint32
+H	sdl/rect.go	20;"	w	access:public	ctype:Rect	line:20	type:int32
+H	sdl/surface.go	108;"	w	access:public	ctype:Surface	line:108	type:int32
+H	sdl/video.go	302;"	w	access:public	ctype:DisplayMode	line:302	type:int32
+HAPTIC_AUTOCENTER	sdl/haptic.go	23;"	c	access:public	line:23
+HAPTIC_CARTESIAN	sdl/haptic.go	33;"	c	access:public	line:33
+HAPTIC_CONSTANT	sdl/haptic.go	10;"	c	access:public	line:10
+HAPTIC_CUSTOM	sdl/haptic.go	21;"	c	access:public	line:21
+HAPTIC_DAMPER	sdl/haptic.go	18;"	c	access:public	line:18
+HAPTIC_FRICTION	sdl/haptic.go	20;"	c	access:public	line:20
+HAPTIC_GAIN	sdl/haptic.go	22;"	c	access:public	line:22
+HAPTIC_INERTIA	sdl/haptic.go	19;"	c	access:public	line:19
+HAPTIC_INFINITY	sdl/haptic.go	35;"	c	access:public	line:35
+HAPTIC_LEFTRIGHT	sdl/haptic.go	12;"	c	access:public	line:12
+HAPTIC_PAUSE	sdl/haptic.go	25;"	c	access:public	line:25
+HAPTIC_POLAR	sdl/haptic.go	32;"	c	access:public	line:32
+HAPTIC_RAMP	sdl/haptic.go	16;"	c	access:public	line:16
+HAPTIC_SAWTOOTHDOWN	sdl/haptic.go	15;"	c	access:public	line:15
+HAPTIC_SAWTOOTHUP	sdl/haptic.go	14;"	c	access:public	line:14
+HAPTIC_SINE	sdl/haptic.go	11;"	c	access:public	line:11
+HAPTIC_SPHERICAL	sdl/haptic.go	34;"	c	access:public	line:34
+HAPTIC_SPRING	sdl/haptic.go	17;"	c	access:public	line:17
+HAPTIC_STATUS	sdl/haptic.go	24;"	c	access:public	line:24
+HAPTIC_TRIANGLE	sdl/haptic.go	13;"	c	access:public	line:13
+HAT_CENTERED	sdl/joystick.go	193;"	c	access:public	line:193
+HAT_DOWN	sdl/joystick.go	196;"	c	access:public	line:196
+HAT_LEFT	sdl/joystick.go	197;"	c	access:public	line:197
+HAT_LEFTDOWN	sdl/joystick.go	201;"	c	access:public	line:201
+HAT_LEFTUP	sdl/joystick.go	200;"	c	access:public	line:200
+HAT_RIGHT	sdl/joystick.go	195;"	c	access:public	line:195
+HAT_RIGHTDOWN	sdl/joystick.go	199;"	c	access:public	line:199
+HAT_RIGHTUP	sdl/joystick.go	198;"	c	access:public	line:198
+HAT_UP	sdl/joystick.go	194;"	c	access:public	line:194
+HINT_ACCELEROMETER_AS_JOYSTICK	sdl/hints.go	86;"	c	access:public	line:86
+HINT_ALLOW_TOPMOST	sdl/hints.go	91;"	c	access:public	line:91
+HINT_ANDROID_APK_EXPANSION_MAIN_FILE_VERSION	sdl/hints.go	108;"	c	access:public	line:108
+HINT_ANDROID_APK_EXPANSION_PATCH_FILE_VERSION	sdl/hints.go	109;"	c	access:public	line:109
+HINT_ANDROID_SEPARATE_MOUSE_AND_TOUCH	sdl/hints.go	107;"	c	access:public	line:107
+HINT_AUDIO_RESAMPLING_MODE	sdl/hints.go	110;"	c	access:public	line:110
+HINT_DEFAULT	sdl/hints.go	127;"	c	access:public	line:127
+HINT_FRAMEBUFFER_ACCELERATION	sdl/hints.go	68;"	c	access:public	line:68
+HINT_GAMECONTROLLERCONFIG	sdl/hints.go	89;"	c	access:public	line:89
+HINT_GRAB_KEYBOARD	sdl/hints.go	80;"	c	access:public	line:80
+HINT_IDLE_TIMER_DISABLED	sdl/hints.go	83;"	c	access:public	line:83
+HINT_IME_INTERNAL_EDITING	sdl/hints.go	84;"	c	access:public	line:84
+HINT_IOS_HIDE_HOME_INDICATOR	sdl/hints.go	117;"	c	access:public	line:117
+HINT_JOYSTICK_ALLOW_BACKGROUND_EVENTS	sdl/hints.go	90;"	c	access:public	line:90
+HINT_MAC_BACKGROUND_APP	sdl/hints.go	95;"	c	access:public	line:95
+HINT_MAC_CTRL_CLICK_EMULATE_RIGHT_CLICK	sdl/hints.go	96;"	c	access:public	line:96
+HINT_MOUSE_NORMAL_SPEED_SCALE	sdl/hints.go	112;"	c	access:public	line:112
+HINT_MOUSE_RELATIVE_MODE_WARP	sdl/hints.go	81;"	c	access:public	line:81
+HINT_MOUSE_RELATIVE_SPEED_SCALE	sdl/hints.go	113;"	c	access:public	line:113
+HINT_NORMAL	sdl/hints.go	128;"	c	access:public	line:128
+HINT_NO_SIGNAL_HANDLERS	sdl/hints.go	103;"	c	access:public	line:103
+HINT_ORIENTATIONS	sdl/hints.go	85;"	c	access:public	line:85
+HINT_OVERRIDE	sdl/hints.go	129;"	c	access:public	line:129
+HINT_RENDER_DIRECT3D11_DEBUG	sdl/hints.go	72;"	c	access:public	line:72
+HINT_RENDER_DIRECT3D_THREADSAFE	sdl/hints.go	71;"	c	access:public	line:71
+HINT_RENDER_DRIVER	sdl/hints.go	69;"	c	access:public	line:69
+HINT_RENDER_LOGICAL_SIZE_MODE	sdl/hints.go	111;"	c	access:public	line:111
+HINT_RENDER_OPENGL_SHADERS	sdl/hints.go	70;"	c	access:public	line:70
+HINT_RENDER_SCALE_QUALITY	sdl/hints.go	73;"	c	access:public	line:73
+HINT_RENDER_VSYNC	sdl/hints.go	74;"	c	access:public	line:74
+HINT_RETURN_KEY_HIDES_IME	sdl/hints.go	118;"	c	access:public	line:118
+HINT_THREAD_STACK_SIZE	sdl/hints.go	92;"	c	access:public	line:92
+HINT_TIMER_RESOLUTION	sdl/hints.go	93;"	c	access:public	line:93
+HINT_TOUCH_MOUSE_EVENTS	sdl/hints.go	114;"	c	access:public	line:114
+HINT_TV_REMOTE_AS_JOYSTICK	sdl/hints.go	119;"	c	access:public	line:119
+HINT_VIDEO_ALLOW_SCREENSAVER	sdl/hints.go	75;"	c	access:public	line:75
+HINT_VIDEO_DOUBLE_BUFFER	sdl/hints.go	121;"	c	access:public	line:121
+HINT_VIDEO_HIGHDPI_DISABLED	sdl/hints.go	94;"	c	access:public	line:94
+HINT_VIDEO_MAC_FULLSCREEN_SPACES	sdl/hints.go	102;"	c	access:public	line:102
+HINT_VIDEO_MINIMIZE_ON_FOCUS_LOSS	sdl/hints.go	82;"	c	access:public	line:82
+HINT_VIDEO_WINDOW_SHARE_PIXEL_FORMAT	sdl/hints.go	98;"	c	access:public	line:98
+HINT_VIDEO_WIN_D3DCOMPILER	sdl/hints.go	97;"	c	access:public	line:97
+HINT_VIDEO_X11_NET_WM_BYPASS_COMPOSITOR	sdl/hints.go	120;"	c	access:public	line:120
+HINT_VIDEO_X11_NET_WM_PING	sdl/hints.go	76;"	c	access:public	line:76
+HINT_VIDEO_X11_XINERAMA	sdl/hints.go	78;"	c	access:public	line:78
+HINT_VIDEO_X11_XRANDR	sdl/hints.go	79;"	c	access:public	line:79
+HINT_VIDEO_X11_XVIDMODE	sdl/hints.go	77;"	c	access:public	line:77
+HINT_WINDOWS_ENABLE_MESSAGELOOP	sdl/hints.go	105;"	c	access:public	line:105
+HINT_WINDOWS_INTRESOURCE_ICON	sdl/hints.go	115;"	c	access:public	line:115
+HINT_WINDOWS_INTRESOURCE_ICON_SMALL	sdl/hints.go	116;"	c	access:public	line:116
+HINT_WINDOWS_NO_CLOSE_ON_ALT_F4	sdl/hints.go	106;"	c	access:public	line:106
+HINT_WINDOW_FRAME_USABLE_WHILE_CURSOR_HIDDEN	sdl/hints.go	104;"	c	access:public	line:104
+HINT_WINRT_HANDLE_BACK_BUTTON	sdl/hints.go	101;"	c	access:public	line:101
+HINT_WINRT_PRIVACY_POLICY_LABEL	sdl/hints.go	100;"	c	access:public	line:100
+HINT_WINRT_PRIVACY_POLICY_URL	sdl/hints.go	99;"	c	access:public	line:99
+HINT_XINPUT_ENABLED	sdl/hints.go	87;"	c	access:public	line:87
+HINT_XINPUT_USE_OLD_JOYSTICK_MAPPING	sdl/hints.go	88;"	c	access:public	line:88
+Haptic	sdl/haptic.go	40;"	t	access:public	line:40	type:C.SDL_Haptic
+HapticCondition	sdl/haptic.go	94;"	t	access:public	line:94	type:struct
+HapticConstant	sdl/haptic.go	51;"	t	access:public	line:51	type:struct
+HapticCustom	sdl/haptic.go	149;"	t	access:public	line:149	type:struct
+HapticDirection	sdl/haptic.go	44;"	t	access:public	line:44	type:struct
+HapticEffect	sdl/haptic.go	172;"	n	access:public	line:172	type:interface
+HapticIndex	sdl/haptic.go	219;"	f	access:public	line:219	signature:(h *Haptic)	type:int, error
+HapticLeftRight	sdl/haptic.go	136;"	t	access:public	line:136	type:struct
+HapticName	sdl/haptic.go	189;"	f	access:public	line:189	signature:(index int)	type:string, error
+HapticOpen	sdl/haptic.go	199;"	f	access:public	line:199	signature:(index int)	type:*Haptic, error
+HapticOpenFromJoystick	sdl/haptic.go	250;"	f	access:public	line:250	signature:(joy *Joystick)	type:*Haptic, error
+HapticOpenFromMouse	sdl/haptic.go	233;"	f	access:public	line:233	signature:()	type:*Haptic, error
+HapticOpened	sdl/haptic.go	209;"	f	access:public	line:209	signature:(index int)	type:bool, error
+HapticPeriodic	sdl/haptic.go	71;"	t	access:public	line:71	type:struct
+HapticRamp	sdl/haptic.go	115;"	t	access:public	line:115	type:struct
+Has3DNow	sdl/cpuinfo.go	92;"	f	access:public	line:92	signature:()	type:bool
+HasAVX	sdl/cpuinfo.go	134;"	f	access:public	line:134	signature:()	type:bool
+HasAVX2	sdl/cpuinfo.go	140;"	f	access:public	line:140	signature:()	type:bool
+HasAltiVec	sdl/cpuinfo.go	80;"	f	access:public	line:80	signature:()	type:bool
+HasClipboardText	sdl/clipboard.go	32;"	f	access:public	line:32	signature:()	type:bool
+HasEvent	sdl/events.go	948;"	f	access:public	line:948	signature:(type_ uint32)	type:bool
+HasEvents	sdl/events.go	954;"	f	access:public	line:954	signature:(minType, maxType uint32)	type:bool
+HasIntersection	sdl/rect.go	60;"	m	access:public	ctype:Rect	line:60	signature:(b *Rect)	type:bool
+HasMMX	sdl/cpuinfo.go	86;"	f	access:public	line:86	signature:()	type:bool
+HasNEON	sdl/cpuinfo.go	146;"	f	access:public	line:146	signature:()	type:bool
+HasRDTSC	sdl/cpuinfo.go	74;"	f	access:public	line:74	signature:()	type:bool
+HasSSE	sdl/cpuinfo.go	98;"	f	access:public	line:98	signature:()	type:bool
+HasSSE2	sdl/cpuinfo.go	104;"	f	access:public	line:104	signature:()	type:bool
+HasSSE3	sdl/cpuinfo.go	110;"	f	access:public	line:110	signature:()	type:bool
+HasSSE41	sdl/cpuinfo.go	116;"	f	access:public	line:116	signature:()	type:bool
+HasSSE42	sdl/cpuinfo.go	122;"	f	access:public	line:122	signature:()	type:bool
+HasScreenKeyboardSupport	sdl/keyboard.go	113;"	f	access:public	line:113	signature:()	type:bool
+Hat	sdl/events.go	489;"	w	access:public	ctype:JoyHatEvent	line:489	type:uint8
+Hat	sdl/gamecontroller.go	327;"	m	access:public	ctype:GameControllerButtonBind	line:327	signature:()	type:int
+Hat	sdl/joystick.go	436;"	m	access:public	ctype:Joystick	line:436	signature:(hat int)	type:byte
+HatMask	sdl/gamecontroller.go	333;"	m	access:public	ctype:GameControllerButtonBind	line:333	signature:()	type:int
+Hide	sdl/video.go	697;"	m	access:public	ctype:Window	line:697	signature:()
+HintCallback	sdl/hints.go	133;"	t	access:public	line:133	type:func(data interface{}, name, oldValue, newValue string)
+HintCallbackAndData	sdl/hints.go	136;"	t	access:public	line:136	type:struct
+HintPriority	sdl/hints.go	145;"	t	access:public	line:145	type:C.SDL_HintPriority
+Hwnd	sdl/syswm_windows.go	13;"	w	access:public	ctype:WindowsMsg	line:13	type:C.HWND
+ID	sdl/touch.go	18;"	w	access:public	ctype:Finger	line:18	type:FingerID
+IGNORE	sdl/events.go	200;"	c	access:public	line:200
+INIT_AUDIO	sdl/sdl.go	26;"	c	access:public	line:26
+INIT_EVENTS	sdl/sdl.go	31;"	c	access:public	line:31
+INIT_EVERYTHING	sdl/sdl.go	34;"	c	access:public	line:34
+INIT_GAMECONTROLLER	sdl/sdl.go	30;"	c	access:public	line:30
+INIT_HAPTIC	sdl/sdl.go	29;"	c	access:public	line:29
+INIT_JOYSTICK	sdl/sdl.go	28;"	c	access:public	line:28
+INIT_NOPARACHUTE	sdl/sdl.go	32;"	c	access:public	line:32
+INIT_SENSOR	sdl/sdl.go	33;"	c	access:public	line:33
+INIT_TIMER	sdl/sdl.go	25;"	c	access:public	line:25
+INIT_VIDEO	sdl/sdl.go	27;"	c	access:public	line:27
+InRect	sdl/rect.go	33;"	m	access:public	ctype:Point	line:33	signature:(r *Rect)	type:bool
+Init	sdl/sdl.go	113;"	f	access:public	line:113	signature:(flags uint32)	type:error
+InitSubSystem	sdl/sdl.go	133;"	f	access:public	line:133	signature:(flags uint32)	type:error
+InstanceID	sdl/joystick.go	394;"	m	access:public	ctype:Joystick	line:394	signature:()	type:JoystickID
+Intersect	sdl/rect.go	79;"	m	access:public	ctype:Rect	line:79	signature:(b *Rect)	type:Rect, bool
+IntersectLine	sdl/rect.go	276;"	m	access:public	ctype:Rect	line:276	signature:(X1, Y1, X2, Y2 *int32)	type:bool
+Interval	sdl/haptic.go	100;"	w	access:public	ctype:HapticCondition	line:100	type:uint16
+Interval	sdl/haptic.go	121;"	w	access:public	ctype:HapticRamp	line:121	type:uint16
+Interval	sdl/haptic.go	155;"	w	access:public	ctype:HapticCustom	line:155	type:uint16
+Interval	sdl/haptic.go	57;"	w	access:public	ctype:HapticConstant	line:57	type:uint16
+Interval	sdl/haptic.go	77;"	w	access:public	ctype:HapticPeriodic	line:77	type:uint16
+IsAndroidTV	sdl/system_android.go	62;"	f	access:public	line:62	signature:()	type:bool
+IsBigEndian	sdl/audio.go	266;"	m	access:public	ctype:AudioFormat	line:266	signature:()	type:bool
+IsCapture	sdl/events.go	638;"	w	access:public	ctype:AudioDeviceEvent	line:638	type:uint8
+IsFloat	sdl/audio.go	260;"	m	access:public	ctype:AudioFormat	line:260	signature:()	type:bool
+IsGameController	sdl/gamecontroller.go	176;"	f	access:public	line:176	signature:(index int)	type:bool
+IsInt	sdl/audio.go	278;"	m	access:public	ctype:AudioFormat	line:278	signature:()	type:bool
+IsLittleEndian	sdl/audio.go	284;"	m	access:public	ctype:AudioFormat	line:284	signature:()	type:bool
+IsScreenKeyboardShown	sdl/keyboard.go	119;"	f	access:public	line:119	signature:(window *Window)	type:bool
+IsScreenSaverEnabled	sdl/video.go	876;"	f	access:public	line:876	signature:()	type:bool
+IsSigned	sdl/audio.go	272;"	m	access:public	ctype:AudioFormat	line:272	signature:()	type:bool
+IsTextInputActive	sdl/keyboard.go	95;"	f	access:public	line:95	signature:()	type:bool
+IsUnsigned	sdl/audio.go	290;"	m	access:public	ctype:AudioFormat	line:290	signature:()	type:bool
+JOYAXISMOTION	sdl/events.go	138;"	c	access:public	line:138
+JOYBALLMOTION	sdl/events.go	139;"	c	access:public	line:139
+JOYBUTTONDOWN	sdl/events.go	141;"	c	access:public	line:141
+JOYBUTTONUP	sdl/events.go	142;"	c	access:public	line:142
+JOYDEVICEADDED	sdl/events.go	143;"	c	access:public	line:143
+JOYDEVICEREMOVED	sdl/events.go	144;"	c	access:public	line:144
+JOYHATMOTION	sdl/events.go	140;"	c	access:public	line:140
+JOYSTICK_POWER_EMPTY	sdl/joystick.go	222;"	c	access:public	line:222
+JOYSTICK_POWER_FULL	sdl/joystick.go	225;"	c	access:public	line:225
+JOYSTICK_POWER_LOW	sdl/joystick.go	223;"	c	access:public	line:223
+JOYSTICK_POWER_MAX	sdl/joystick.go	227;"	c	access:public	line:227
+JOYSTICK_POWER_MEDIUM	sdl/joystick.go	224;"	c	access:public	line:224
+JOYSTICK_POWER_UNKNOWN	sdl/joystick.go	221;"	c	access:public	line:221
+JOYSTICK_POWER_WIRED	sdl/joystick.go	226;"	c	access:public	line:226
+JOYSTICK_TYPE_ARCADE_PAD	sdl/joystick.go	214;"	c	access:public	line:214
+JOYSTICK_TYPE_ARCADE_STICK	sdl/joystick.go	209;"	c	access:public	line:209
+JOYSTICK_TYPE_DANCE_PAD	sdl/joystick.go	211;"	c	access:public	line:211
+JOYSTICK_TYPE_DRUM_KIT	sdl/joystick.go	213;"	c	access:public	line:213
+JOYSTICK_TYPE_FLIGHT_STICK	sdl/joystick.go	210;"	c	access:public	line:210
+JOYSTICK_TYPE_GAMECONTROLLER	sdl/joystick.go	207;"	c	access:public	line:207
+JOYSTICK_TYPE_GUITAR	sdl/joystick.go	212;"	c	access:public	line:212
+JOYSTICK_TYPE_THROTTLE	sdl/joystick.go	215;"	c	access:public	line:215
+JOYSTICK_TYPE_UNKNOWN	sdl/joystick.go	206;"	c	access:public	line:206
+JOYSTICK_TYPE_WHEEL	sdl/joystick.go	208;"	c	access:public	line:208
+JoyAxisEvent	sdl/events.go	435;"	t	access:public	line:435	type:struct
+JoyBallEvent	sdl/events.go	460;"	t	access:public	line:460	type:struct
+JoyButtonEvent	sdl/events.go	508;"	t	access:public	line:508	type:struct
+JoyDeviceAddedEvent	sdl/events.go	531;"	t	access:public	line:531	type:struct
+JoyDeviceRemovedEvent	sdl/events.go	549;"	t	access:public	line:549	type:struct
+JoyHatEvent	sdl/events.go	485;"	t	access:public	line:485	type:struct
+Joystick	sdl/gamecontroller.go	235;"	m	access:public	ctype:GameController	line:235	signature:()	type:*Joystick
+Joystick	sdl/joystick.go	231;"	t	access:public	line:231	type:C.SDL_Joystick
+JoystickEventState	sdl/joystick.go	326;"	f	access:public	line:326	signature:(state int)	type:int
+JoystickFromInstanceID	sdl/joystick.go	338;"	f	access:public	line:338	signature:(joyid JoystickID)	type:*Joystick
+JoystickGUID	sdl/joystick.go	234;"	t	access:public	line:234	type:C.SDL_JoystickGUID
+JoystickGetDeviceGUID	sdl/joystick.go	271;"	f	access:public	line:271	signature:(index int)	type:JoystickGUID
+JoystickGetDeviceInstanceID	sdl/joystick.go	296;"	f	access:public	line:296	signature:(index int)	type:JoystickID
+JoystickGetDeviceProduct	sdl/joystick.go	281;"	f	access:public	line:281	signature:(index int)	type:int
+JoystickGetDeviceProductVersion	sdl/joystick.go	286;"	f	access:public	line:286	signature:(index int)	type:int
+JoystickGetDeviceType	sdl/joystick.go	291;"	f	access:public	line:291	signature:(index int)	type:JoystickType
+JoystickGetDeviceVendor	sdl/joystick.go	276;"	f	access:public	line:276	signature:(index int)	type:int
+JoystickGetGUIDFromString	sdl/joystick.go	312;"	f	access:public	line:312	signature:(pchGUID string)	type:JoystickGUID
+JoystickGetGUIDString	sdl/joystick.go	302;"	f	access:public	line:302	signature:(guid JoystickGUID)	type:string
+JoystickID	sdl/joystick.go	237;"	t	access:public	line:237	type:C.SDL_JoystickID
+JoystickIsHaptic	sdl/haptic.go	243;"	f	access:public	line:243	signature:(joy *Joystick)	type:bool, error
+JoystickNameForIndex	sdl/joystick.go	265;"	f	access:public	line:265	signature:(index int)	type:string
+JoystickOpen	sdl/joystick.go	332;"	f	access:public	line:332	signature:(index int)	type:*Joystick
+JoystickPowerLevel	sdl/joystick.go	243;"	t	access:public	line:243	type:C.SDL_JoystickPowerLevel
+JoystickType	sdl/joystick.go	240;"	t	access:public	line:240	type:C.SDL_JoystickType
+JoystickUpdate	sdl/joystick.go	320;"	f	access:public	line:320	signature:()
+KEYDOWN	sdl/events.go	125;"	c	access:public	line:125
+KEYMAPCHANGED	sdl/events.go	129;"	c	access:public	line:129
+KEYUP	sdl/events.go	126;"	c	access:public	line:126
+KMOD_ALT	sdl/keycode.go	282;"	c	access:public	line:282
+KMOD_CAPS	sdl/keycode.go	278;"	c	access:public	line:278
+KMOD_CTRL	sdl/keycode.go	280;"	c	access:public	line:280
+KMOD_GUI	sdl/keycode.go	283;"	c	access:public	line:283
+KMOD_LALT	sdl/keycode.go	273;"	c	access:public	line:273
+KMOD_LCTRL	sdl/keycode.go	271;"	c	access:public	line:271
+KMOD_LGUI	sdl/keycode.go	275;"	c	access:public	line:275
+KMOD_LSHIFT	sdl/keycode.go	269;"	c	access:public	line:269
+KMOD_MODE	sdl/keycode.go	279;"	c	access:public	line:279
+KMOD_NONE	sdl/keycode.go	268;"	c	access:public	line:268
+KMOD_NUM	sdl/keycode.go	277;"	c	access:public	line:277
+KMOD_RALT	sdl/keycode.go	274;"	c	access:public	line:274
+KMOD_RCTRL	sdl/keycode.go	272;"	c	access:public	line:272
+KMOD_RESERVED	sdl/keycode.go	284;"	c	access:public	line:284
+KMOD_RGUI	sdl/keycode.go	276;"	c	access:public	line:276
+KMOD_RSHIFT	sdl/keycode.go	270;"	c	access:public	line:270
+KMOD_SHIFT	sdl/keycode.go	281;"	c	access:public	line:281
+K_0	sdl/keycode.go	34;"	c	access:public	line:34
+K_1	sdl/keycode.go	35;"	c	access:public	line:35
+K_2	sdl/keycode.go	36;"	c	access:public	line:36
+K_3	sdl/keycode.go	37;"	c	access:public	line:37
+K_4	sdl/keycode.go	38;"	c	access:public	line:38
+K_5	sdl/keycode.go	39;"	c	access:public	line:39
+K_6	sdl/keycode.go	40;"	c	access:public	line:40
+K_7	sdl/keycode.go	41;"	c	access:public	line:41
+K_8	sdl/keycode.go	42;"	c	access:public	line:42
+K_9	sdl/keycode.go	43;"	c	access:public	line:43
+K_AC_BACK	sdl/keycode.go	249;"	c	access:public	line:249
+K_AC_BOOKMARKS	sdl/keycode.go	253;"	c	access:public	line:253
+K_AC_FORWARD	sdl/keycode.go	250;"	c	access:public	line:250
+K_AC_HOME	sdl/keycode.go	248;"	c	access:public	line:248
+K_AC_REFRESH	sdl/keycode.go	252;"	c	access:public	line:252
+K_AC_SEARCH	sdl/keycode.go	247;"	c	access:public	line:247
+K_AC_STOP	sdl/keycode.go	251;"	c	access:public	line:251
+K_AGAIN	sdl/keycode.go	154;"	c	access:public	line:154
+K_ALTERASE	sdl/keycode.go	166;"	c	access:public	line:166
+K_AMPERSAND	sdl/keycode.go	24;"	c	access:public	line:24
+K_APPLICATION	sdl/keycode.go	134;"	c	access:public	line:134
+K_ASTERISK	sdl/keycode.go	28;"	c	access:public	line:28
+K_AT	sdl/keycode.go	50;"	c	access:public	line:50
+K_AUDIOMUTE	sdl/keycode.go	241;"	c	access:public	line:241
+K_AUDIONEXT	sdl/keycode.go	237;"	c	access:public	line:237
+K_AUDIOPLAY	sdl/keycode.go	240;"	c	access:public	line:240
+K_AUDIOPREV	sdl/keycode.go	238;"	c	access:public	line:238
+K_AUDIOSTOP	sdl/keycode.go	239;"	c	access:public	line:239
+K_BACKQUOTE	sdl/keycode.go	59;"	c	access:public	line:59
+K_BACKSLASH	sdl/keycode.go	55;"	c	access:public	line:55
+K_BACKSPACE	sdl/keycode.go	16;"	c	access:public	line:16
+K_BRIGHTNESSDOWN	sdl/keycode.go	255;"	c	access:public	line:255
+K_BRIGHTNESSUP	sdl/keycode.go	256;"	c	access:public	line:256
+K_CALCULATOR	sdl/keycode.go	245;"	c	access:public	line:245
+K_CANCEL	sdl/keycode.go	168;"	c	access:public	line:168
+K_CAPSLOCK	sdl/keycode.go	87;"	c	access:public	line:87
+K_CARET	sdl/keycode.go	57;"	c	access:public	line:57
+K_CLEAR	sdl/keycode.go	169;"	c	access:public	line:169
+K_CLEARAGAIN	sdl/keycode.go	175;"	c	access:public	line:175
+K_COLON	sdl/keycode.go	44;"	c	access:public	line:44
+K_COMMA	sdl/keycode.go	30;"	c	access:public	line:30
+K_COMPUTER	sdl/keycode.go	246;"	c	access:public	line:246
+K_COPY	sdl/keycode.go	157;"	c	access:public	line:157
+K_CRSEL	sdl/keycode.go	176;"	c	access:public	line:176
+K_CURRENCYSUBUNIT	sdl/keycode.go	184;"	c	access:public	line:184
+K_CURRENCYUNIT	sdl/keycode.go	183;"	c	access:public	line:183
+K_CUT	sdl/keycode.go	156;"	c	access:public	line:156
+K_DECIMALSEPARATOR	sdl/keycode.go	182;"	c	access:public	line:182
+K_DELETE	sdl/keycode.go	108;"	c	access:public	line:108
+K_DISPLAYSWITCH	sdl/keycode.go	257;"	c	access:public	line:257
+K_DOLLAR	sdl/keycode.go	23;"	c	access:public	line:23
+K_DOWN	sdl/keycode.go	113;"	c	access:public	line:113
+K_EJECT	sdl/keycode.go	261;"	c	access:public	line:261
+K_END	sdl/keycode.go	109;"	c	access:public	line:109
+K_EQUALS	sdl/keycode.go	47;"	c	access:public	line:47
+K_ESCAPE	sdl/keycode.go	15;"	c	access:public	line:15
+K_EXCLAIM	sdl/keycode.go	19;"	c	access:public	line:19
+K_EXECUTE	sdl/keycode.go	149;"	c	access:public	line:149
+K_EXSEL	sdl/keycode.go	177;"	c	access:public	line:177
+K_F1	sdl/keycode.go	89;"	c	access:public	line:89
+K_F10	sdl/keycode.go	98;"	c	access:public	line:98
+K_F11	sdl/keycode.go	99;"	c	access:public	line:99
+K_F12	sdl/keycode.go	100;"	c	access:public	line:100
+K_F13	sdl/keycode.go	137;"	c	access:public	line:137
+K_F14	sdl/keycode.go	138;"	c	access:public	line:138
+K_F15	sdl/keycode.go	139;"	c	access:public	line:139
+K_F16	sdl/keycode.go	140;"	c	access:public	line:140
+K_F17	sdl/keycode.go	141;"	c	access:public	line:141
+K_F18	sdl/keycode.go	142;"	c	access:public	line:142
+K_F19	sdl/keycode.go	143;"	c	access:public	line:143
+K_F2	sdl/keycode.go	90;"	c	access:public	line:90
+K_F20	sdl/keycode.go	144;"	c	access:public	line:144
+K_F21	sdl/keycode.go	145;"	c	access:public	line:145
+K_F22	sdl/keycode.go	146;"	c	access:public	line:146
+K_F23	sdl/keycode.go	147;"	c	access:public	line:147
+K_F24	sdl/keycode.go	148;"	c	access:public	line:148
+K_F3	sdl/keycode.go	91;"	c	access:public	line:91
+K_F4	sdl/keycode.go	92;"	c	access:public	line:92
+K_F5	sdl/keycode.go	93;"	c	access:public	line:93
+K_F6	sdl/keycode.go	94;"	c	access:public	line:94
+K_F7	sdl/keycode.go	95;"	c	access:public	line:95
+K_F8	sdl/keycode.go	96;"	c	access:public	line:96
+K_F9	sdl/keycode.go	97;"	c	access:public	line:97
+K_FIND	sdl/keycode.go	159;"	c	access:public	line:159
+K_GREATER	sdl/keycode.go	48;"	c	access:public	line:48
+K_HASH	sdl/keycode.go	21;"	c	access:public	line:21
+K_HELP	sdl/keycode.go	150;"	c	access:public	line:150
+K_HOME	sdl/keycode.go	106;"	c	access:public	line:106
+K_INSERT	sdl/keycode.go	105;"	c	access:public	line:105
+K_KBDILLUMDOWN	sdl/keycode.go	259;"	c	access:public	line:259
+K_KBDILLUMTOGGLE	sdl/keycode.go	258;"	c	access:public	line:258
+K_KBDILLUMUP	sdl/keycode.go	260;"	c	access:public	line:260
+K_KP_0	sdl/keycode.go	131;"	c	access:public	line:131
+K_KP_00	sdl/keycode.go	179;"	c	access:public	line:179
+K_KP_000	sdl/keycode.go	180;"	c	access:public	line:180
+K_KP_1	sdl/keycode.go	122;"	c	access:public	line:122
+K_KP_2	sdl/keycode.go	123;"	c	access:public	line:123
+K_KP_3	sdl/keycode.go	124;"	c	access:public	line:124
+K_KP_4	sdl/keycode.go	125;"	c	access:public	line:125
+K_KP_5	sdl/keycode.go	126;"	c	access:public	line:126
+K_KP_6	sdl/keycode.go	127;"	c	access:public	line:127
+K_KP_7	sdl/keycode.go	128;"	c	access:public	line:128
+K_KP_8	sdl/keycode.go	129;"	c	access:public	line:129
+K_KP_9	sdl/keycode.go	130;"	c	access:public	line:130
+K_KP_A	sdl/keycode.go	191;"	c	access:public	line:191
+K_KP_AMPERSAND	sdl/keycode.go	202;"	c	access:public	line:202
+K_KP_AT	sdl/keycode.go	209;"	c	access:public	line:209
+K_KP_B	sdl/keycode.go	192;"	c	access:public	line:192
+K_KP_BACKSPACE	sdl/keycode.go	190;"	c	access:public	line:190
+K_KP_BINARY	sdl/keycode.go	221;"	c	access:public	line:221
+K_KP_C	sdl/keycode.go	193;"	c	access:public	line:193
+K_KP_CLEAR	sdl/keycode.go	219;"	c	access:public	line:219
+K_KP_CLEARENTRY	sdl/keycode.go	220;"	c	access:public	line:220
+K_KP_COLON	sdl/keycode.go	206;"	c	access:public	line:206
+K_KP_COMMA	sdl/keycode.go	163;"	c	access:public	line:163
+K_KP_D	sdl/keycode.go	194;"	c	access:public	line:194
+K_KP_DBLAMPERSAND	sdl/keycode.go	203;"	c	access:public	line:203
+K_KP_DBLVERTICALBAR	sdl/keycode.go	205;"	c	access:public	line:205
+K_KP_DECIMAL	sdl/keycode.go	223;"	c	access:public	line:223
+K_KP_DIVIDE	sdl/keycode.go	117;"	c	access:public	line:117
+K_KP_E	sdl/keycode.go	195;"	c	access:public	line:195
+K_KP_ENTER	sdl/keycode.go	121;"	c	access:public	line:121
+K_KP_EQUALS	sdl/keycode.go	136;"	c	access:public	line:136
+K_KP_EQUALSAS400	sdl/keycode.go	164;"	c	access:public	line:164
+K_KP_EXCLAM	sdl/keycode.go	210;"	c	access:public	line:210
+K_KP_F	sdl/keycode.go	196;"	c	access:public	line:196
+K_KP_GREATER	sdl/keycode.go	201;"	c	access:public	line:201
+K_KP_HASH	sdl/keycode.go	207;"	c	access:public	line:207
+K_KP_HEXADECIMAL	sdl/keycode.go	224;"	c	access:public	line:224
+K_KP_LEFTBRACE	sdl/keycode.go	187;"	c	access:public	line:187
+K_KP_LEFTPAREN	sdl/keycode.go	185;"	c	access:public	line:185
+K_KP_LESS	sdl/keycode.go	200;"	c	access:public	line:200
+K_KP_MEMADD	sdl/keycode.go	214;"	c	access:public	line:214
+K_KP_MEMCLEAR	sdl/keycode.go	213;"	c	access:public	line:213
+K_KP_MEMDIVIDE	sdl/keycode.go	217;"	c	access:public	line:217
+K_KP_MEMMULTIPLY	sdl/keycode.go	216;"	c	access:public	line:216
+K_KP_MEMRECALL	sdl/keycode.go	212;"	c	access:public	line:212
+K_KP_MEMSTORE	sdl/keycode.go	211;"	c	access:public	line:211
+K_KP_MEMSUBTRACT	sdl/keycode.go	215;"	c	access:public	line:215
+K_KP_MINUS	sdl/keycode.go	119;"	c	access:public	line:119
+K_KP_MULTIPLY	sdl/keycode.go	118;"	c	access:public	line:118
+K_KP_OCTAL	sdl/keycode.go	222;"	c	access:public	line:222
+K_KP_PERCENT	sdl/keycode.go	199;"	c	access:public	line:199
+K_KP_PERIOD	sdl/keycode.go	132;"	c	access:public	line:132
+K_KP_PLUS	sdl/keycode.go	120;"	c	access:public	line:120
+K_KP_PLUSMINUS	sdl/keycode.go	218;"	c	access:public	line:218
+K_KP_POWER	sdl/keycode.go	198;"	c	access:public	line:198
+K_KP_RIGHTBRACE	sdl/keycode.go	188;"	c	access:public	line:188
+K_KP_RIGHTPAREN	sdl/keycode.go	186;"	c	access:public	line:186
+K_KP_SPACE	sdl/keycode.go	208;"	c	access:public	line:208
+K_KP_TAB	sdl/keycode.go	189;"	c	access:public	line:189
+K_KP_VERTICALBAR	sdl/keycode.go	204;"	c	access:public	line:204
+K_KP_XOR	sdl/keycode.go	197;"	c	access:public	line:197
+K_LALT	sdl/keycode.go	228;"	c	access:public	line:228
+K_LCTRL	sdl/keycode.go	226;"	c	access:public	line:226
+K_LEFT	sdl/keycode.go	112;"	c	access:public	line:112
+K_LEFTBRACKET	sdl/keycode.go	54;"	c	access:public	line:54
+K_LEFTPAREN	sdl/keycode.go	26;"	c	access:public	line:26
+K_LESS	sdl/keycode.go	46;"	c	access:public	line:46
+K_LGUI	sdl/keycode.go	229;"	c	access:public	line:229
+K_LSHIFT	sdl/keycode.go	227;"	c	access:public	line:227
+K_MAIL	sdl/keycode.go	244;"	c	access:public	line:244
+K_MEDIASELECT	sdl/keycode.go	242;"	c	access:public	line:242
+K_MENU	sdl/keycode.go	151;"	c	access:public	line:151
+K_MINUS	sdl/keycode.go	31;"	c	access:public	line:31
+K_MODE	sdl/keycode.go	235;"	c	access:public	line:235
+K_MUTE	sdl/keycode.go	160;"	c	access:public	line:160
+K_NUMLOCKCLEAR	sdl/keycode.go	116;"	c	access:public	line:116
+K_OPER	sdl/keycode.go	174;"	c	access:public	line:174
+K_OUT	sdl/keycode.go	173;"	c	access:public	line:173
+K_PAGEDOWN	sdl/keycode.go	110;"	c	access:public	line:110
+K_PAGEUP	sdl/keycode.go	107;"	c	access:public	line:107
+K_PASTE	sdl/keycode.go	158;"	c	access:public	line:158
+K_PAUSE	sdl/keycode.go	104;"	c	access:public	line:104
+K_PERCENT	sdl/keycode.go	22;"	c	access:public	line:22
+K_PERIOD	sdl/keycode.go	32;"	c	access:public	line:32
+K_PLUS	sdl/keycode.go	29;"	c	access:public	line:29
+K_POWER	sdl/keycode.go	135;"	c	access:public	line:135
+K_PRINTSCREEN	sdl/keycode.go	102;"	c	access:public	line:102
+K_PRIOR	sdl/keycode.go	170;"	c	access:public	line:170
+K_QUESTION	sdl/keycode.go	49;"	c	access:public	line:49
+K_QUOTE	sdl/keycode.go	25;"	c	access:public	line:25
+K_QUOTEDBL	sdl/keycode.go	20;"	c	access:public	line:20
+K_RALT	sdl/keycode.go	232;"	c	access:public	line:232
+K_RCTRL	sdl/keycode.go	230;"	c	access:public	line:230
+K_RETURN	sdl/keycode.go	14;"	c	access:public	line:14
+K_RETURN2	sdl/keycode.go	171;"	c	access:public	line:171
+K_RGUI	sdl/keycode.go	233;"	c	access:public	line:233
+K_RIGHT	sdl/keycode.go	111;"	c	access:public	line:111
+K_RIGHTBRACKET	sdl/keycode.go	56;"	c	access:public	line:56
+K_RIGHTPAREN	sdl/keycode.go	27;"	c	access:public	line:27
+K_RSHIFT	sdl/keycode.go	231;"	c	access:public	line:231
+K_SCANCODE_MASK	sdl/keycode.go	6;"	c	access:public	line:6
+K_SCROLLLOCK	sdl/keycode.go	103;"	c	access:public	line:103
+K_SELECT	sdl/keycode.go	152;"	c	access:public	line:152
+K_SEMICOLON	sdl/keycode.go	45;"	c	access:public	line:45
+K_SEPARATOR	sdl/keycode.go	172;"	c	access:public	line:172
+K_SLASH	sdl/keycode.go	33;"	c	access:public	line:33
+K_SLEEP	sdl/keycode.go	262;"	c	access:public	line:262
+K_SPACE	sdl/keycode.go	18;"	c	access:public	line:18
+K_STOP	sdl/keycode.go	153;"	c	access:public	line:153
+K_SYSREQ	sdl/keycode.go	167;"	c	access:public	line:167
+K_TAB	sdl/keycode.go	17;"	c	access:public	line:17
+K_THOUSANDSSEPARATOR	sdl/keycode.go	181;"	c	access:public	line:181
+K_UNDERSCORE	sdl/keycode.go	58;"	c	access:public	line:58
+K_UNDO	sdl/keycode.go	155;"	c	access:public	line:155
+K_UNKNOWN	sdl/keycode.go	12;"	c	access:public	line:12
+K_UP	sdl/keycode.go	114;"	c	access:public	line:114
+K_VOLUMEDOWN	sdl/keycode.go	162;"	c	access:public	line:162
+K_VOLUMEUP	sdl/keycode.go	161;"	c	access:public	line:161
+K_WWW	sdl/keycode.go	243;"	c	access:public	line:243
+K_a	sdl/keycode.go	60;"	c	access:public	line:60
+K_b	sdl/keycode.go	61;"	c	access:public	line:61
+K_c	sdl/keycode.go	62;"	c	access:public	line:62
+K_d	sdl/keycode.go	63;"	c	access:public	line:63
+K_e	sdl/keycode.go	64;"	c	access:public	line:64
+K_f	sdl/keycode.go	65;"	c	access:public	line:65
+K_g	sdl/keycode.go	66;"	c	access:public	line:66
+K_h	sdl/keycode.go	67;"	c	access:public	line:67
+K_i	sdl/keycode.go	68;"	c	access:public	line:68
+K_j	sdl/keycode.go	69;"	c	access:public	line:69
+K_k	sdl/keycode.go	70;"	c	access:public	line:70
+K_l	sdl/keycode.go	71;"	c	access:public	line:71
+K_m	sdl/keycode.go	72;"	c	access:public	line:72
+K_n	sdl/keycode.go	73;"	c	access:public	line:73
+K_o	sdl/keycode.go	74;"	c	access:public	line:74
+K_p	sdl/keycode.go	75;"	c	access:public	line:75
+K_q	sdl/keycode.go	76;"	c	access:public	line:76
+K_r	sdl/keycode.go	77;"	c	access:public	line:77
+K_s	sdl/keycode.go	78;"	c	access:public	line:78
+K_t	sdl/keycode.go	79;"	c	access:public	line:79
+K_u	sdl/keycode.go	80;"	c	access:public	line:80
+K_v	sdl/keycode.go	81;"	c	access:public	line:81
+K_w	sdl/keycode.go	82;"	c	access:public	line:82
+K_x	sdl/keycode.go	83;"	c	access:public	line:83
+K_y	sdl/keycode.go	84;"	c	access:public	line:84
+K_z	sdl/keycode.go	85;"	c	access:public	line:85
+KeyboardEvent	sdl/events.go	263;"	t	access:public	line:263	type:struct
+Keycode	sdl/keycode.go	289;"	t	access:public	line:289	type:C.SDL_Keycode
+Keymod	sdl/keycode.go	293;"	t	access:public	line:293	type:C.SDL_Keymod
+Keysym	sdl/events.go	271;"	w	access:public	ctype:KeyboardEvent	line:271	type:Keysym
+Keysym	sdl/keyboard.go	10;"	t	access:public	line:10	type:struct
+LASTERROR	sdl/error.go	25;"	c	access:public	line:25
+LASTEVENT	sdl/events.go	186;"	c	access:public	line:186
+LIL_ENDIAN	sdl/endian.go	10;"	c	access:public	line:10
+LOG_CATEGORY_APPLICATION	sdl/log.go	54;"	c	access:public	line:54
+LOG_CATEGORY_ASSERT	sdl/log.go	56;"	c	access:public	line:56
+LOG_CATEGORY_AUDIO	sdl/log.go	58;"	c	access:public	line:58
+LOG_CATEGORY_CUSTOM	sdl/log.go	73;"	c	access:public	line:73
+LOG_CATEGORY_ERROR	sdl/log.go	55;"	c	access:public	line:55
+LOG_CATEGORY_INPUT	sdl/log.go	61;"	c	access:public	line:61
+LOG_CATEGORY_RENDER	sdl/log.go	60;"	c	access:public	line:60
+LOG_CATEGORY_RESERVED1	sdl/log.go	63;"	c	access:public	line:63
+LOG_CATEGORY_RESERVED10	sdl/log.go	72;"	c	access:public	line:72
+LOG_CATEGORY_RESERVED2	sdl/log.go	64;"	c	access:public	line:64
+LOG_CATEGORY_RESERVED3	sdl/log.go	65;"	c	access:public	line:65
+LOG_CATEGORY_RESERVED4	sdl/log.go	66;"	c	access:public	line:66
+LOG_CATEGORY_RESERVED5	sdl/log.go	67;"	c	access:public	line:67
+LOG_CATEGORY_RESERVED6	sdl/log.go	68;"	c	access:public	line:68
+LOG_CATEGORY_RESERVED7	sdl/log.go	69;"	c	access:public	line:69
+LOG_CATEGORY_RESERVED8	sdl/log.go	70;"	c	access:public	line:70
+LOG_CATEGORY_RESERVED9	sdl/log.go	71;"	c	access:public	line:71
+LOG_CATEGORY_SYSTEM	sdl/log.go	57;"	c	access:public	line:57
+LOG_CATEGORY_TEST	sdl/log.go	62;"	c	access:public	line:62
+LOG_CATEGORY_VIDEO	sdl/log.go	59;"	c	access:public	line:59
+LOG_PRIORITY_CRITICAL	sdl/log.go	84;"	c	access:public	line:84
+LOG_PRIORITY_DEBUG	sdl/log.go	80;"	c	access:public	line:80
+LOG_PRIORITY_ERROR	sdl/log.go	83;"	c	access:public	line:83
+LOG_PRIORITY_INFO	sdl/log.go	81;"	c	access:public	line:81
+LOG_PRIORITY_VERBOSE	sdl/log.go	79;"	c	access:public	line:79
+LOG_PRIORITY_WARN	sdl/log.go	82;"	c	access:public	line:82
+LParam	sdl/syswm_windows.go	16;"	w	access:public	ctype:WindowsMsg	line:16	type:C.LPARAM
+LargeMagnitude	sdl/haptic.go	139;"	w	access:public	ctype:HapticLeftRight	line:139	type:uint16
+LeftCoeff	sdl/haptic.go	104;"	w	access:public	ctype:HapticCondition	line:104	type:[3]int16
+LeftSat	sdl/haptic.go	102;"	w	access:public	ctype:HapticCondition	line:102	type:[3]uint16
+Len	sdl/audio.go	219;"	w	access:public	ctype:AudioCVT	line:219	type:int32
+LenCVT	sdl/audio.go	220;"	w	access:public	ctype:AudioCVT	line:220	type:int32
+LenMult	sdl/audio.go	221;"	w	access:public	ctype:AudioCVT	line:221	type:int32
+LenRatio	sdl/audio.go	222;"	w	access:public	ctype:AudioCVT	line:222	type:float64
+Length	sdl/events.go	293;"	w	access:public	ctype:TextEditingEvent	line:293	type:int32
+Length	sdl/haptic.go	118;"	w	access:public	ctype:HapticRamp	line:118	type:uint32
+Length	sdl/haptic.go	138;"	w	access:public	ctype:HapticLeftRight	line:138	type:uint32
+Length	sdl/haptic.go	152;"	w	access:public	ctype:HapticCustom	line:152	type:uint32
+Length	sdl/haptic.go	54;"	w	access:public	ctype:HapticConstant	line:54	type:uint32
+Length	sdl/haptic.go	74;"	w	access:public	ctype:HapticPeriodic	line:74	type:uint32
+Length	sdl/haptic.go	97;"	w	access:public	ctype:HapticCondition	line:97	type:uint32
+Level	sdl/haptic.go	58;"	w	access:public	ctype:HapticConstant	line:58	type:int16
+LoadBMP	sdl/surface.go	261;"	f	access:public	ctype:Surface	line:261	signature:(file string)	type:*Surface, error
+LoadBMPRW	sdl/surface.go	251;"	f	access:public	ctype:Surface	line:251	signature:(src *RWops, freeSrc bool)	type:*Surface, error
+LoadDollarTemplates	sdl/gesture.go	33;"	f	access:public	line:33	signature:(t TouchID, src *RWops)	type:int
+LoadFile	sdl/rwops.go	294;"	f	access:public	line:294	signature:(file string)	type:[]byte, int
+LoadFileRW	sdl/rwops.go	275;"	m	access:public	ctype:RWops	line:275	signature:(freesrc bool)	type:[]byte, int
+LoadFunction	sdl/loadso.go	20;"	m	access:public	ctype:SharedObject	line:20	signature:(name string)	type:unsafe.Pointer
+LoadObject	sdl/loadso.go	12;"	f	access:public	line:12	signature:(sofile string)	type:SharedObject
+LoadWAV	sdl/audio.go	426;"	f	access:public	line:426	signature:(file string)	type:[]byte, *AudioSpec
+LoadWAVRW	sdl/audio.go	411;"	f	access:public	line:411	signature:(src *RWops, freeSrc bool)	type:[]byte, *AudioSpec
+Lock	sdl/mutex.go	27;"	w	access:public	ctype:Cond	line:27	type:*Mutex
+Lock	sdl/mutex.go	58;"	m	access:public	ctype:Mutex	line:58	signature:()	type:error
+Lock	sdl/render.go	375;"	m	access:public	ctype:Texture	line:375	signature:(rect *Rect)	type:[]byte, int, error
+Lock	sdl/surface.go	236;"	m	access:public	ctype:Surface	line:236	signature:()	type:error
+LockAudio	sdl/audio.go	528;"	f	access:public	line:528	signature:()
+LockAudioDevice	sdl/audio.go	534;"	f	access:public	line:534	signature:(dev AudioDeviceID)
+LockJoysticks	sdl/joystick.go	344;"	f	access:public	line:344	signature:()
+Log	sdl/log.go	122;"	f	access:public	line:122	signature:(str string, args ...interface{})
+LogCritical	sdl/log.go	188;"	f	access:public	line:188	signature:(category int, str string, args ...interface{})
+LogDebug	sdl/log.go	144;"	f	access:public	line:144	signature:(category int, str string, args ...interface{})
+LogError	sdl/log.go	177;"	f	access:public	line:177	signature:(category int, str string, args ...interface{})
+LogGetOutputFunction	sdl/log.go	232;"	f	access:public	line:232	signature:()	type:LogOutputFunction, interface{}
+LogGetPriority	sdl/log.go	110;"	f	access:public	line:110	signature:(category int)	type:LogPriority
+LogInfo	sdl/log.go	155;"	f	access:public	line:155	signature:(category int, str string, args ...interface{})
+LogMessage	sdl/log.go	199;"	f	access:public	line:199	signature:(category int, pri LogPriority, str string, args ...interface{})
+LogOutputFunction	sdl/log.go	209;"	t	access:public	line:209	type:func(data interface{}, category int, pri LogPriority, message string)
+LogPriority	sdl/log.go	90;"	t	access:public	line:90	type:C.SDL_LogPriority
+LogResetPriorities	sdl/log.go	116;"	f	access:public	line:116	signature:()
+LogSetAllPriority	sdl/log.go	98;"	f	access:public	line:98	signature:(p LogPriority)
+LogSetOutputFunction	sdl/log.go	238;"	f	access:public	line:238	signature:(f LogOutputFunction, data interface{})
+LogSetPriority	sdl/log.go	104;"	f	access:public	line:104	signature:(category int, p LogPriority)
+LogVerbose	sdl/log.go	133;"	f	access:public	line:133	signature:(category int, str string, args ...interface{})
+LogWarn	sdl/log.go	166;"	f	access:public	line:166	signature:(category int, str string, args ...interface{})
+LowerBlit	sdl/surface.go	455;"	m	access:public	ctype:Surface	line:455	signature:(srcRect *Rect, dst *Surface, dstRect *Rect)	type:error
+LowerBlitScaled	sdl/surface.go	482;"	m	access:public	ctype:Surface	line:482	signature:(srcRect *Rect, dst *Surface, dstRect *Rect)	type:error
+MAJOR_VERSION	sdl/version.go	9;"	c	access:public	line:9
+MESSAGEBOX_BUTTON_ESCAPEKEY_DEFAULT	sdl/video.go	245;"	c	access:public	line:245
+MESSAGEBOX_BUTTON_RETURNKEY_DEFAULT	sdl/video.go	244;"	c	access:public	line:244
+MESSAGEBOX_ERROR	sdl/video.go	237;"	c	access:public	line:237
+MESSAGEBOX_INFORMATION	sdl/video.go	239;"	c	access:public	line:239
+MESSAGEBOX_WARNING	sdl/video.go	238;"	c	access:public	line:238
+MINOR_VERSION	sdl/version.go	10;"	c	access:public	line:10
+MIX_MAXVOLUME	sdl/audio.go	173;"	c	access:public	line:173
+MOUSEBUTTONDOWN	sdl/events.go	133;"	c	access:public	line:133
+MOUSEBUTTONUP	sdl/events.go	134;"	c	access:public	line:134
+MOUSEMOTION	sdl/events.go	132;"	c	access:public	line:132
+MOUSEWHEEL	sdl/events.go	135;"	c	access:public	line:135
+MOUSEWHEEL_FLIPPED	sdl/mouse.go	81;"	c	access:public	line:81
+MOUSEWHEEL_NORMAL	sdl/mouse.go	80;"	c	access:public	line:80
+MULTIGESTURE	sdl/events.go	162;"	c	access:public	line:162
+Magnitude	sdl/haptic.go	79;"	w	access:public	ctype:HapticPeriodic	line:79	type:int16
+Main	sdl/sdl.go	78;"	f	access:public	line:78	signature:(main func())
+Major	sdl/version.go	17;"	w	access:public	ctype:Version	line:17	type:uint8
+MapRGB	sdl/pixels.go	299;"	f	access:public	line:299	signature:(format *PixelFormat, r, g, b uint8)	type:uint32
+MapRGBA	sdl/pixels.go	306;"	f	access:public	line:306	signature:(format *PixelFormat, r, g, b, a uint8)	type:uint32
+Mapping	sdl/gamecontroller.go	227;"	m	access:public	ctype:GameController	line:227	signature:()	type:string
+MasksToPixelFormatEnum	sdl/pixels.go	230;"	f	access:public	line:230	signature:(bpp int, rmask, gmask, bmask, amask uint32)	type:uint
+MaxTextureHeight	sdl/render.go	123;"	w	access:public	ctype:RendererInfoData	line:123	type:int32
+MaxTextureWidth	sdl/render.go	122;"	w	access:public	ctype:RendererInfoData	line:122	type:int32
+Maximize	sdl/video.go	709;"	m	access:public	ctype:Window	line:709	signature:()
+Message	sdl/video.go	348;"	w	access:public	ctype:MessageBoxData	line:348	type:string
+MessageBoxButtonData	sdl/video.go	336;"	t	access:public	line:336	type:struct
+MessageBoxColor	sdl/video.go	320;"	t	access:public	line:320	type:struct
+MessageBoxColorScheme	sdl/video.go	329;"	t	access:public	line:329	type:struct
+MessageBoxData	sdl/video.go	344;"	t	access:public	line:344	type:struct
+Minimize	sdl/video.go	715;"	m	access:public	ctype:Window	line:715	signature:()
+Minor	sdl/version.go	18;"	w	access:public	ctype:Version	line:18	type:uint8
+MixAudio	sdl/audio.go	512;"	f	access:public	line:512	signature:(dst, src *uint8, len uint32, volume int)
+MixAudioFormat	sdl/audio.go	520;"	f	access:public	line:520	signature:(dst, src *uint8, format AudioFormat, len uint32, volume int)
+Mod	sdl/keyboard.go	13;"	w	access:public	ctype:Keysym	line:13	type:uint16
+MouseButtonEvent	sdl/events.go	386;"	t	access:public	line:386	type:struct
+MouseIsHaptic	sdl/haptic.go	226;"	f	access:public	line:226	signature:()	type:bool, error
+MouseMotionEvent	sdl/events.go	361;"	t	access:public	line:361	type:struct
+MouseWheelEvent	sdl/events.go	412;"	t	access:public	line:412	type:struct
+Msg	sdl/events.go	870;"	w	access:public	ctype:SysWMEvent	line:870	type:*SysWMmsg
+Msg	sdl/syswm_windows.go	14;"	w	access:public	ctype:WindowsMsg	line:14	type:C.UINT
+MultiGestureEvent	sdl/events.go	682;"	t	access:public	line:682	type:struct
+MustLock	sdl/surface.go	126;"	m	access:public	ctype:Surface	line:126	signature:()	type:bool
+Mutex	sdl/mutex.go	11;"	t	access:public	line:11	type:struct
+NUM_LOG_PRIORITIES	sdl/log.go	85;"	c	access:public	line:85
+NUM_SCANCODES	sdl/scancode.go	261;"	c	access:public	line:261
+NUM_SYSTEM_CURSORS	sdl/mouse.go	75;"	c	access:public	line:75
+Name	sdl/gamecontroller.go	200;"	m	access:public	ctype:GameController	line:200	signature:()	type:string
+Name	sdl/joystick.go	356;"	m	access:public	ctype:Joystick	line:356	signature:()	type:string
+Name	sdl/render.go	107;"	w	access:public	ctype:RendererInfo	line:107	type:string
+Name	sdl/render.go	112;"	w	access:public	ctype:cRendererInfo	line:112	type:*C.char
+Ncolors	sdl/pixels.go	63;"	w	access:public	ctype:Palette	line:63	type:int32
+Needed	sdl/audio.go	214;"	w	access:public	ctype:AudioCVT	line:214	type:int32
+NewAudioStream	sdl/audio.go	564;"	f	access:public	line:564	signature:(srcFormat AudioFormat, srcChannels uint8, srcRate int, dstFormat AudioFormat, dstChannels uint8, dstRate int)	type:*AudioStream, error
+NewEffect	sdl/haptic.go	308;"	m	access:public	ctype:Haptic	line:308	signature:(he HapticEffect)	type:int, error
+NumAxes	sdl/haptic.go	266;"	m	access:public	ctype:Haptic	line:266	signature:()	type:int, error
+NumAxes	sdl/joystick.go	400;"	m	access:public	ctype:Joystick	line:400	signature:()	type:int
+NumBalls	sdl/joystick.go	406;"	m	access:public	ctype:Joystick	line:406	signature:()	type:int
+NumButtons	sdl/joystick.go	418;"	m	access:public	ctype:Joystick	line:418	signature:()	type:int
+NumEffects	sdl/haptic.go	273;"	m	access:public	ctype:Haptic	line:273	signature:()	type:int, error
+NumEffectsPlaying	sdl/haptic.go	280;"	m	access:public	ctype:Haptic	line:280	signature:()	type:int, error
+NumFingers	sdl/events.go	690;"	w	access:public	ctype:MultiGestureEvent	line:690	type:uint16
+NumFingers	sdl/events.go	712;"	w	access:public	ctype:DollarGestureEvent	line:712	type:uint32
+NumHaptics	sdl/haptic.go	182;"	f	access:public	line:182	signature:()	type:int, error
+NumHats	sdl/joystick.go	412;"	m	access:public	ctype:Joystick	line:412	signature:()	type:int
+NumJoysticks	sdl/joystick.go	259;"	f	access:public	line:259	signature:()	type:int
+NumSensors	sdl/sensor.go	184;"	f	access:public	line:184	signature:()	type:int
+NumTextureFormats	sdl/render.go	120;"	w	access:public	ctype:RendererInfoData	line:120	type:uint32
+OSEvent	sdl/events.go	811;"	t	access:public	line:811	type:struct
+Offset	sdl/haptic.go	80;"	w	access:public	ctype:HapticPeriodic	line:80	type:int16
+OpenAudio	sdl/audio.go	352;"	f	access:public	line:352	signature:(desired, obtained *AudioSpec)	type:error
+OpenAudioDevice	sdl/audio.go	373;"	f	access:public	line:373	signature:(device string, isCapture bool, desired, obtained *AudioSpec, allowedChanges int)	type:AudioDeviceID, error
+OutOfMemory	sdl/error.go	71;"	f	access:public	line:71	signature:()
+Owner	sdl/mutex.go	13;"	w	access:public	ctype:Mutex	line:13	type:ThreadID
+PACKEDLAYOUT_1010102	sdl/pixels.go	141;"	c	access:public	line:141
+PACKEDLAYOUT_1555	sdl/pixels.go	136;"	c	access:public	line:136
+PACKEDLAYOUT_2101010	sdl/pixels.go	140;"	c	access:public	line:140
+PACKEDLAYOUT_332	sdl/pixels.go	134;"	c	access:public	line:134
+PACKEDLAYOUT_4444	sdl/pixels.go	135;"	c	access:public	line:135
+PACKEDLAYOUT_5551	sdl/pixels.go	137;"	c	access:public	line:137
+PACKEDLAYOUT_565	sdl/pixels.go	138;"	c	access:public	line:138
+PACKEDLAYOUT_8888	sdl/pixels.go	139;"	c	access:public	line:139
+PACKEDLAYOUT_NONE	sdl/pixels.go	133;"	c	access:public	line:133
+PACKEDORDER_ABGR	sdl/pixels.go	116;"	c	access:public	line:116
+PACKEDORDER_ARGB	sdl/pixels.go	112;"	c	access:public	line:112
+PACKEDORDER_BGRA	sdl/pixels.go	117;"	c	access:public	line:117
+PACKEDORDER_BGRX	sdl/pixels.go	115;"	c	access:public	line:115
+PACKEDORDER_NONE	sdl/pixels.go	109;"	c	access:public	line:109
+PACKEDORDER_RGBA	sdl/pixels.go	113;"	c	access:public	line:113
+PACKEDORDER_RGBX	sdl/pixels.go	111;"	c	access:public	line:111
+PACKEDORDER_XBGR	sdl/pixels.go	114;"	c	access:public	line:114
+PACKEDORDER_XRGB	sdl/pixels.go	110;"	c	access:public	line:110
+PATCHLEVEL	sdl/version.go	11;"	c	access:public	line:11
+PEEKEVENT	sdl/events.go	193;"	c	access:public	line:193
+PIXELFORMAT_ABGR1555	sdl/pixels.go	162;"	c	access:public	line:162
+PIXELFORMAT_ABGR32	sdl/pixels.go	189;"	v	access:public	line:189
+PIXELFORMAT_ABGR4444	sdl/pixels.go	158;"	c	access:public	line:158
+PIXELFORMAT_ABGR8888	sdl/pixels.go	174;"	c	access:public	line:174
+PIXELFORMAT_ARGB1555	sdl/pixels.go	160;"	c	access:public	line:160
+PIXELFORMAT_ARGB2101010	sdl/pixels.go	176;"	c	access:public	line:176
+PIXELFORMAT_ARGB32	sdl/pixels.go	187;"	v	access:public	line:187
+PIXELFORMAT_ARGB4444	sdl/pixels.go	156;"	c	access:public	line:156
+PIXELFORMAT_ARGB8888	sdl/pixels.go	172;"	c	access:public	line:172
+PIXELFORMAT_BGR24	sdl/pixels.go	167;"	c	access:public	line:167
+PIXELFORMAT_BGR555	sdl/pixels.go	155;"	c	access:public	line:155
+PIXELFORMAT_BGR565	sdl/pixels.go	165;"	c	access:public	line:165
+PIXELFORMAT_BGR888	sdl/pixels.go	170;"	c	access:public	line:170
+PIXELFORMAT_BGRA32	sdl/pixels.go	188;"	v	access:public	line:188
+PIXELFORMAT_BGRA4444	sdl/pixels.go	159;"	c	access:public	line:159
+PIXELFORMAT_BGRA5551	sdl/pixels.go	163;"	c	access:public	line:163
+PIXELFORMAT_BGRA8888	sdl/pixels.go	175;"	c	access:public	line:175
+PIXELFORMAT_BGRX8888	sdl/pixels.go	171;"	c	access:public	line:171
+PIXELFORMAT_INDEX1LSB	sdl/pixels.go	147;"	c	access:public	line:147
+PIXELFORMAT_INDEX1MSB	sdl/pixels.go	148;"	c	access:public	line:148
+PIXELFORMAT_INDEX4LSB	sdl/pixels.go	149;"	c	access:public	line:149
+PIXELFORMAT_INDEX4MSB	sdl/pixels.go	150;"	c	access:public	line:150
+PIXELFORMAT_INDEX8	sdl/pixels.go	151;"	c	access:public	line:151
+PIXELFORMAT_IYUV	sdl/pixels.go	178;"	c	access:public	line:178
+PIXELFORMAT_RGB24	sdl/pixels.go	166;"	c	access:public	line:166
+PIXELFORMAT_RGB332	sdl/pixels.go	152;"	c	access:public	line:152
+PIXELFORMAT_RGB444	sdl/pixels.go	153;"	c	access:public	line:153
+PIXELFORMAT_RGB555	sdl/pixels.go	154;"	c	access:public	line:154
+PIXELFORMAT_RGB565	sdl/pixels.go	164;"	c	access:public	line:164
+PIXELFORMAT_RGB888	sdl/pixels.go	168;"	c	access:public	line:168
+PIXELFORMAT_RGBA32	sdl/pixels.go	186;"	v	access:public	line:186
+PIXELFORMAT_RGBA4444	sdl/pixels.go	157;"	c	access:public	line:157
+PIXELFORMAT_RGBA5551	sdl/pixels.go	161;"	c	access:public	line:161
+PIXELFORMAT_RGBA8888	sdl/pixels.go	173;"	c	access:public	line:173
+PIXELFORMAT_RGBX8888	sdl/pixels.go	169;"	c	access:public	line:169
+PIXELFORMAT_UNKNOWN	sdl/pixels.go	146;"	c	access:public	line:146
+PIXELFORMAT_UYVY	sdl/pixels.go	180;"	c	access:public	line:180
+PIXELFORMAT_YUY2	sdl/pixels.go	179;"	c	access:public	line:179
+PIXELFORMAT_YV12	sdl/pixels.go	177;"	c	access:public	line:177
+PIXELFORMAT_YVYU	sdl/pixels.go	181;"	c	access:public	line:181
+PIXELTYPE_ARRAYF16	sdl/pixels.go	96;"	c	access:public	line:96
+PIXELTYPE_ARRAYF32	sdl/pixels.go	97;"	c	access:public	line:97
+PIXELTYPE_ARRAYU16	sdl/pixels.go	94;"	c	access:public	line:94
+PIXELTYPE_ARRAYU32	sdl/pixels.go	95;"	c	access:public	line:95
+PIXELTYPE_ARRAYU8	sdl/pixels.go	93;"	c	access:public	line:93
+PIXELTYPE_INDEX1	sdl/pixels.go	87;"	c	access:public	line:87
+PIXELTYPE_INDEX4	sdl/pixels.go	88;"	c	access:public	line:88
+PIXELTYPE_INDEX8	sdl/pixels.go	89;"	c	access:public	line:89
+PIXELTYPE_PACKED16	sdl/pixels.go	91;"	c	access:public	line:91
+PIXELTYPE_PACKED32	sdl/pixels.go	92;"	c	access:public	line:92
+PIXELTYPE_PACKED8	sdl/pixels.go	90;"	c	access:public	line:90
+PIXELTYPE_UNKNOWN	sdl/pixels.go	86;"	c	access:public	line:86
+POWERSTATE_CHARGED	sdl/power.go	13;"	c	access:public	line:13
+POWERSTATE_CHARGING	sdl/power.go	12;"	c	access:public	line:12
+POWERSTATE_NO_BATTERY	sdl/power.go	11;"	c	access:public	line:11
+POWERSTATE_ON_BATTERY	sdl/power.go	10;"	c	access:public	line:10
+POWERSTATE_UNKNOWN	sdl/power.go	9;"	c	access:public	line:9
+PREALLOC	sdl/surface.go	87;"	c	access:public	line:87
+PRESSED	sdl/sdl.go	39;"	c	access:public	line:39
+Palette	sdl/pixels.go	39;"	w	access:public	ctype:PixelFormat	line:39	type:*Palette
+Palette	sdl/pixels.go	62;"	t	access:public	line:62	type:struct
+Patch	sdl/version.go	19;"	w	access:public	ctype:Version	line:19	type:uint8
+Pause	sdl/haptic.go	373;"	m	access:public	ctype:Haptic	line:373	signature:()	type:error
+PauseAudio	sdl/audio.go	399;"	f	access:public	line:399	signature:(pauseOn bool)
+PauseAudioDevice	sdl/audio.go	405;"	f	access:public	line:405	signature:(dev AudioDeviceID, pauseOn bool)
+PeepEvents	sdl/events.go	917;"	f	access:public	line:917	signature:(events []Event, action EventAction, minType, maxType uint32)	type:int, error
+Period	sdl/haptic.go	157;"	w	access:public	ctype:HapticCustom	line:157	type:uint16
+Period	sdl/haptic.go	78;"	w	access:public	ctype:HapticPeriodic	line:78	type:uint16
+Phase	sdl/haptic.go	81;"	w	access:public	ctype:HapticPeriodic	line:81	type:uint16
+Pitch	sdl/surface.go	109;"	w	access:public	ctype:Surface	line:109	type:int32
+PixelFormat	sdl/pixels.go	37;"	t	access:public	line:37	type:struct
+PixelFormatEnumToMasks	sdl/pixels.go	218;"	f	access:public	line:218	signature:(format uint)	type:int, uint32, uint32, uint32, uint32, error
+PixelNum	sdl/surface.go	490;"	m	access:public	ctype:Surface	line:490	signature:()	type:int
+Pixels	sdl/surface.go	500;"	m	access:public	ctype:Surface	line:500	signature:()	type:[]byte
+Point	sdl/rect.go	9;"	t	access:public	line:9	type:struct
+PollEvent	sdl/events.go	972;"	f	access:public	line:972	signature:()	type:Event
+Post	sdl/mutex.go	140;"	m	access:public	ctype:Sem	line:140	signature:()	type:error
+PowerState	sdl/power.go	18;"	t	access:public	line:18	type:C.SDL_PowerState
+Present	sdl/render.go	698;"	m	access:public	ctype:Renderer	line:698	signature:()
+Pressure	sdl/events.go	666;"	w	access:public	ctype:TouchFingerEvent	line:666	type:float32
+Pressure	sdl/touch.go	21;"	w	access:public	ctype:Finger	line:21	type:float32
+Product	sdl/gamecontroller.go	210;"	m	access:public	ctype:GameController	line:210	signature:()	type:int
+Product	sdl/joystick.go	372;"	m	access:public	ctype:Joystick	line:372	signature:()	type:int
+ProductVersion	sdl/gamecontroller.go	215;"	m	access:public	ctype:GameController	line:215	signature:()	type:int
+ProductVersion	sdl/joystick.go	377;"	m	access:public	ctype:Joystick	line:377	signature:()	type:int
+PumpEvents	sdl/events.go	911;"	f	access:public	line:911	signature:()
+PushEvent	sdl/events.go	1076;"	f	access:public	line:1076	signature:(event Event)	type:bool, error
+Put	sdl/audio.go	581;"	m	access:public	ctype:AudioStream	line:581	signature:(buf []byte)	type:error
+QUERY	sdl/events.go	199;"	c	access:public	line:199
+QUIT	sdl/events.go	110;"	c	access:public	line:110
+Query	sdl/haptic.go	287;"	m	access:public	ctype:Haptic	line:287	signature:()	type:uint32, error
+Query	sdl/render.go	264;"	m	access:public	ctype:Texture	line:264	signature:()	type:uint32, int, int32, int32, error
+QueueAudio	sdl/audio.go	476;"	f	access:public	line:476	signature:(dev AudioDeviceID, data []byte)	type:error
+Quit	sdl/sdl.go	122;"	f	access:public	line:122	signature:()
+QuitEvent	sdl/events.go	795;"	t	access:public	line:795	type:struct
+QuitSubSystem	sdl/sdl.go	142;"	f	access:public	line:142	signature:(flags uint32)
+R	sdl/video.go	321;"	w	access:public	ctype:MessageBoxColor	line:321	type:uint8
+RELEASED	sdl/sdl.go	38;"	c	access:public	line:38
+RENDERER_ACCELERATED	sdl/render.go	75;"	c	access:public	line:75
+RENDERER_PRESENTVSYNC	sdl/render.go	76;"	c	access:public	line:76
+RENDERER_SOFTWARE	sdl/render.go	74;"	c	access:public	line:74
+RENDERER_TARGETTEXTURE	sdl/render.go	77;"	c	access:public	line:77
+RENDER_DEVICE_RESET	sdl/events.go	182;"	c	access:public	line:182
+RENDER_TARGETS_RESET	sdl/events.go	181;"	c	access:public	line:181
+RLEACCEL	sdl/surface.go	88;"	c	access:public	line:88
+RWFromFile	sdl/rwops.go	75;"	f	access:public	line:75	signature:(file, mode string)	type:*RWops
+RWFromMem	sdl/rwops.go	85;"	f	access:public	line:85	signature:(mem []byte)	type:*RWops, error
+RWOPS_JNIFILE	sdl/rwops.go	53;"	c	access:public	line:53
+RWOPS_MEMORY	sdl/rwops.go	54;"	c	access:public	line:54
+RWOPS_MEMORY_RO	sdl/rwops.go	55;"	c	access:public	line:55
+RWOPS_STDFILE	sdl/rwops.go	52;"	c	access:public	line:52
+RWOPS_UNKNOWN	sdl/rwops.go	50;"	c	access:public	line:50
+RWOPS_WINFILE	sdl/rwops.go	51;"	c	access:public	line:51
+RW_SEEK_CUR	sdl/rwops.go	61;"	c	access:public	line:61
+RW_SEEK_END	sdl/rwops.go	62;"	c	access:public	line:62
+RW_SEEK_SET	sdl/rwops.go	60;"	c	access:public	line:60
+RWops	sdl/rwops.go	67;"	t	access:public	line:67	type:C.SDL_RWops
+Raise	sdl/video.go	703;"	m	access:public	ctype:Window	line:703	signature:()
+RateIncr	sdl/audio.go	217;"	w	access:public	ctype:AudioCVT	line:217	type:float64
+Read	sdl/rwops.go	143;"	m	access:public	ctype:RWops	line:143	signature:(buf []byte)	type:int, error
+Read2	sdl/rwops.go	149;"	m	access:public	ctype:RWops	line:149	signature:(buf []byte, size, maxnum uint)	type:int, error
+ReadBE16	sdl/rwops.go	230;"	m	access:public	ctype:RWops	line:230	signature:()	type:uint16
+ReadBE32	sdl/rwops.go	248;"	m	access:public	ctype:RWops	line:248	signature:()	type:uint32
+ReadBE64	sdl/rwops.go	266;"	m	access:public	ctype:RWops	line:266	signature:()	type:uint64
+ReadLE16	sdl/rwops.go	221;"	m	access:public	ctype:RWops	line:221	signature:()	type:uint16
+ReadLE32	sdl/rwops.go	239;"	m	access:public	ctype:RWops	line:239	signature:()	type:uint32
+ReadLE64	sdl/rwops.go	257;"	m	access:public	ctype:RWops	line:257	signature:()	type:uint64
+ReadPixels	sdl/render.go	686;"	m	access:public	ctype:Renderer	line:686	signature:(rect *Rect, format uint32, pixels unsafe.Pointer, pitch int)	type:error
+ReadU8	sdl/rwops.go	212;"	m	access:public	ctype:RWops	line:212	signature:()	type:uint8
+RecordGesture	sdl/gesture.go	15;"	f	access:public	line:15	signature:(t TouchID)	type:int
+Rect	sdl/rect.go	16;"	t	access:public	line:16	type:struct
+Recursive	sdl/mutex.go	12;"	w	access:public	ctype:Mutex	line:12	type:int
+RefCount	sdl/surface.go	116;"	w	access:public	ctype:Surface	line:116	type:int32
+RefreshRate	sdl/video.go	303;"	w	access:public	ctype:DisplayMode	line:303	type:int32
+RegisterEvents	sdl/events.go	1231;"	f	access:public	line:1231	signature:(numEvents int)	type:uint32
+RenderEvent	sdl/events.go	778;"	t	access:public	line:778	type:struct
+RenderTargetSupported	sdl/render.go	414;"	m	access:public	ctype:Renderer	line:414	signature:()	type:bool
+Renderer	sdl/sysrender.go	13;"	t	access:public	line:13	type:C.SDL_Renderer
+RendererFlip	sdl/render.go	136;"	t	access:public	line:136	type:uint32
+RendererInfo	sdl/render.go	106;"	t	access:public	line:106	type:struct
+RendererInfoData	sdl/render.go	108;"	e	access:public	ctype:RendererInfo	line:108	type:RendererInfoData
+RendererInfoData	sdl/render.go	113;"	e	access:public	ctype:cRendererInfo	line:113	type:RendererInfoData
+RendererInfoData	sdl/render.go	118;"	t	access:public	line:118	type:struct
+Repeat	sdl/events.go	268;"	w	access:public	ctype:KeyboardEvent	line:268	type:uint8
+Restore	sdl/video.go	721;"	m	access:public	ctype:Window	line:721	signature:()
+RightCoeff	sdl/haptic.go	103;"	w	access:public	ctype:HapticCondition	line:103	type:[3]int16
+RightSat	sdl/haptic.go	101;"	w	access:public	ctype:HapticCondition	line:101	type:[3]uint16
+Rmask	sdl/pixels.go	43;"	w	access:public	ctype:PixelFormat	line:43	type:uint32
+RumbleInit	sdl/haptic.go	401;"	m	access:public	ctype:Haptic	line:401	signature:()	type:error
+RumblePlay	sdl/haptic.go	408;"	m	access:public	ctype:Haptic	line:408	signature:(strength float32, length uint32)	type:error
+RumbleStop	sdl/haptic.go	415;"	m	access:public	ctype:Haptic	line:415	signature:()	type:error
+RumbleSupported	sdl/haptic.go	394;"	m	access:public	ctype:Haptic	line:394	signature:()	type:bool, error
+RunEffect	sdl/haptic.go	328;"	m	access:public	ctype:Haptic	line:328	signature:(effect int, iterations uint32)	type:error
+SCANCODE_0	sdl/scancode.go	48;"	c	access:public	line:48
+SCANCODE_1	sdl/scancode.go	39;"	c	access:public	line:39
+SCANCODE_2	sdl/scancode.go	40;"	c	access:public	line:40
+SCANCODE_3	sdl/scancode.go	41;"	c	access:public	line:41
+SCANCODE_4	sdl/scancode.go	42;"	c	access:public	line:42
+SCANCODE_5	sdl/scancode.go	43;"	c	access:public	line:43
+SCANCODE_6	sdl/scancode.go	44;"	c	access:public	line:44
+SCANCODE_7	sdl/scancode.go	45;"	c	access:public	line:45
+SCANCODE_8	sdl/scancode.go	46;"	c	access:public	line:46
+SCANCODE_9	sdl/scancode.go	47;"	c	access:public	line:47
+SCANCODE_A	sdl/scancode.go	12;"	c	access:public	line:12
+SCANCODE_AC_BACK	sdl/scancode.go	246;"	c	access:public	line:246
+SCANCODE_AC_BOOKMARKS	sdl/scancode.go	250;"	c	access:public	line:250
+SCANCODE_AC_FORWARD	sdl/scancode.go	247;"	c	access:public	line:247
+SCANCODE_AC_HOME	sdl/scancode.go	245;"	c	access:public	line:245
+SCANCODE_AC_REFRESH	sdl/scancode.go	249;"	c	access:public	line:249
+SCANCODE_AC_SEARCH	sdl/scancode.go	244;"	c	access:public	line:244
+SCANCODE_AC_STOP	sdl/scancode.go	248;"	c	access:public	line:248
+SCANCODE_AGAIN	sdl/scancode.go	134;"	c	access:public	line:134
+SCANCODE_ALTERASE	sdl/scancode.go	165;"	c	access:public	line:165
+SCANCODE_APOSTROPHE	sdl/scancode.go	63;"	c	access:public	line:63
+SCANCODE_APP1	sdl/scancode.go	259;"	c	access:public	line:259
+SCANCODE_APP2	sdl/scancode.go	260;"	c	access:public	line:260
+SCANCODE_APPLICATION	sdl/scancode.go	114;"	c	access:public	line:114
+SCANCODE_AUDIOMUTE	sdl/scancode.go	238;"	c	access:public	line:238
+SCANCODE_AUDIONEXT	sdl/scancode.go	234;"	c	access:public	line:234
+SCANCODE_AUDIOPLAY	sdl/scancode.go	237;"	c	access:public	line:237
+SCANCODE_AUDIOPREV	sdl/scancode.go	235;"	c	access:public	line:235
+SCANCODE_AUDIOSTOP	sdl/scancode.go	236;"	c	access:public	line:236
+SCANCODE_B	sdl/scancode.go	13;"	c	access:public	line:13
+SCANCODE_BACKSLASH	sdl/scancode.go	60;"	c	access:public	line:60
+SCANCODE_BACKSPACE	sdl/scancode.go	52;"	c	access:public	line:52
+SCANCODE_BRIGHTNESSDOWN	sdl/scancode.go	251;"	c	access:public	line:251
+SCANCODE_BRIGHTNESSUP	sdl/scancode.go	252;"	c	access:public	line:252
+SCANCODE_C	sdl/scancode.go	14;"	c	access:public	line:14
+SCANCODE_CALCULATOR	sdl/scancode.go	242;"	c	access:public	line:242
+SCANCODE_CANCEL	sdl/scancode.go	167;"	c	access:public	line:167
+SCANCODE_CAPSLOCK	sdl/scancode.go	68;"	c	access:public	line:68
+SCANCODE_CLEAR	sdl/scancode.go	168;"	c	access:public	line:168
+SCANCODE_CLEARAGAIN	sdl/scancode.go	174;"	c	access:public	line:174
+SCANCODE_COMMA	sdl/scancode.go	65;"	c	access:public	line:65
+SCANCODE_COMPUTER	sdl/scancode.go	243;"	c	access:public	line:243
+SCANCODE_COPY	sdl/scancode.go	137;"	c	access:public	line:137
+SCANCODE_CRSEL	sdl/scancode.go	175;"	c	access:public	line:175
+SCANCODE_CURRENCYSUBUNIT	sdl/scancode.go	183;"	c	access:public	line:183
+SCANCODE_CURRENCYUNIT	sdl/scancode.go	182;"	c	access:public	line:182
+SCANCODE_CUT	sdl/scancode.go	136;"	c	access:public	line:136
+SCANCODE_D	sdl/scancode.go	15;"	c	access:public	line:15
+SCANCODE_DECIMALSEPARATOR	sdl/scancode.go	181;"	c	access:public	line:181
+SCANCODE_DELETE	sdl/scancode.go	87;"	c	access:public	line:87
+SCANCODE_DISPLAYSWITCH	sdl/scancode.go	253;"	c	access:public	line:253
+SCANCODE_DOWN	sdl/scancode.go	92;"	c	access:public	line:92
+SCANCODE_E	sdl/scancode.go	16;"	c	access:public	line:16
+SCANCODE_EJECT	sdl/scancode.go	257;"	c	access:public	line:257
+SCANCODE_END	sdl/scancode.go	88;"	c	access:public	line:88
+SCANCODE_EQUALS	sdl/scancode.go	57;"	c	access:public	line:57
+SCANCODE_ESCAPE	sdl/scancode.go	51;"	c	access:public	line:51
+SCANCODE_EXECUTE	sdl/scancode.go	129;"	c	access:public	line:129
+SCANCODE_EXSEL	sdl/scancode.go	176;"	c	access:public	line:176
+SCANCODE_F	sdl/scancode.go	17;"	c	access:public	line:17
+SCANCODE_F1	sdl/scancode.go	69;"	c	access:public	line:69
+SCANCODE_F10	sdl/scancode.go	78;"	c	access:public	line:78
+SCANCODE_F11	sdl/scancode.go	79;"	c	access:public	line:79
+SCANCODE_F12	sdl/scancode.go	80;"	c	access:public	line:80
+SCANCODE_F13	sdl/scancode.go	117;"	c	access:public	line:117
+SCANCODE_F14	sdl/scancode.go	118;"	c	access:public	line:118
+SCANCODE_F15	sdl/scancode.go	119;"	c	access:public	line:119
+SCANCODE_F16	sdl/scancode.go	120;"	c	access:public	line:120
+SCANCODE_F17	sdl/scancode.go	121;"	c	access:public	line:121
+SCANCODE_F18	sdl/scancode.go	122;"	c	access:public	line:122
+SCANCODE_F19	sdl/scancode.go	123;"	c	access:public	line:123
+SCANCODE_F2	sdl/scancode.go	70;"	c	access:public	line:70
+SCANCODE_F20	sdl/scancode.go	124;"	c	access:public	line:124
+SCANCODE_F21	sdl/scancode.go	125;"	c	access:public	line:125
+SCANCODE_F22	sdl/scancode.go	126;"	c	access:public	line:126
+SCANCODE_F23	sdl/scancode.go	127;"	c	access:public	line:127
+SCANCODE_F24	sdl/scancode.go	128;"	c	access:public	line:128
+SCANCODE_F3	sdl/scancode.go	71;"	c	access:public	line:71
+SCANCODE_F4	sdl/scancode.go	72;"	c	access:public	line:72
+SCANCODE_F5	sdl/scancode.go	73;"	c	access:public	line:73
+SCANCODE_F6	sdl/scancode.go	74;"	c	access:public	line:74
+SCANCODE_F7	sdl/scancode.go	75;"	c	access:public	line:75
+SCANCODE_F8	sdl/scancode.go	76;"	c	access:public	line:76
+SCANCODE_F9	sdl/scancode.go	77;"	c	access:public	line:77
+SCANCODE_FIND	sdl/scancode.go	139;"	c	access:public	line:139
+SCANCODE_G	sdl/scancode.go	18;"	c	access:public	line:18
+SCANCODE_GRAVE	sdl/scancode.go	64;"	c	access:public	line:64
+SCANCODE_H	sdl/scancode.go	19;"	c	access:public	line:19
+SCANCODE_HELP	sdl/scancode.go	130;"	c	access:public	line:130
+SCANCODE_HOME	sdl/scancode.go	85;"	c	access:public	line:85
+SCANCODE_I	sdl/scancode.go	20;"	c	access:public	line:20
+SCANCODE_INSERT	sdl/scancode.go	84;"	c	access:public	line:84
+SCANCODE_INTERNATIONAL1	sdl/scancode.go	146;"	c	access:public	line:146
+SCANCODE_INTERNATIONAL2	sdl/scancode.go	147;"	c	access:public	line:147
+SCANCODE_INTERNATIONAL3	sdl/scancode.go	148;"	c	access:public	line:148
+SCANCODE_INTERNATIONAL4	sdl/scancode.go	149;"	c	access:public	line:149
+SCANCODE_INTERNATIONAL5	sdl/scancode.go	150;"	c	access:public	line:150
+SCANCODE_INTERNATIONAL6	sdl/scancode.go	151;"	c	access:public	line:151
+SCANCODE_INTERNATIONAL7	sdl/scancode.go	152;"	c	access:public	line:152
+SCANCODE_INTERNATIONAL8	sdl/scancode.go	153;"	c	access:public	line:153
+SCANCODE_INTERNATIONAL9	sdl/scancode.go	154;"	c	access:public	line:154
+SCANCODE_J	sdl/scancode.go	21;"	c	access:public	line:21
+SCANCODE_K	sdl/scancode.go	22;"	c	access:public	line:22
+SCANCODE_KBDILLUMDOWN	sdl/scancode.go	255;"	c	access:public	line:255
+SCANCODE_KBDILLUMTOGGLE	sdl/scancode.go	254;"	c	access:public	line:254
+SCANCODE_KBDILLUMUP	sdl/scancode.go	256;"	c	access:public	line:256
+SCANCODE_KP_0	sdl/scancode.go	110;"	c	access:public	line:110
+SCANCODE_KP_00	sdl/scancode.go	178;"	c	access:public	line:178
+SCANCODE_KP_000	sdl/scancode.go	179;"	c	access:public	line:179
+SCANCODE_KP_1	sdl/scancode.go	101;"	c	access:public	line:101
+SCANCODE_KP_2	sdl/scancode.go	102;"	c	access:public	line:102
+SCANCODE_KP_3	sdl/scancode.go	103;"	c	access:public	line:103
+SCANCODE_KP_4	sdl/scancode.go	104;"	c	access:public	line:104
+SCANCODE_KP_5	sdl/scancode.go	105;"	c	access:public	line:105
+SCANCODE_KP_6	sdl/scancode.go	106;"	c	access:public	line:106
+SCANCODE_KP_7	sdl/scancode.go	107;"	c	access:public	line:107
+SCANCODE_KP_8	sdl/scancode.go	108;"	c	access:public	line:108
+SCANCODE_KP_9	sdl/scancode.go	109;"	c	access:public	line:109
+SCANCODE_KP_A	sdl/scancode.go	190;"	c	access:public	line:190
+SCANCODE_KP_AMPERSAND	sdl/scancode.go	201;"	c	access:public	line:201
+SCANCODE_KP_AT	sdl/scancode.go	208;"	c	access:public	line:208
+SCANCODE_KP_B	sdl/scancode.go	191;"	c	access:public	line:191
+SCANCODE_KP_BACKSPACE	sdl/scancode.go	189;"	c	access:public	line:189
+SCANCODE_KP_BINARY	sdl/scancode.go	220;"	c	access:public	line:220
+SCANCODE_KP_C	sdl/scancode.go	192;"	c	access:public	line:192
+SCANCODE_KP_CLEAR	sdl/scancode.go	218;"	c	access:public	line:218
+SCANCODE_KP_CLEARENTRY	sdl/scancode.go	219;"	c	access:public	line:219
+SCANCODE_KP_COLON	sdl/scancode.go	205;"	c	access:public	line:205
+SCANCODE_KP_COMMA	sdl/scancode.go	143;"	c	access:public	line:143
+SCANCODE_KP_D	sdl/scancode.go	193;"	c	access:public	line:193
+SCANCODE_KP_DBLAMPERSAND	sdl/scancode.go	202;"	c	access:public	line:202
+SCANCODE_KP_DBLVERTICALBAR	sdl/scancode.go	204;"	c	access:public	line:204
+SCANCODE_KP_DECIMAL	sdl/scancode.go	222;"	c	access:public	line:222
+SCANCODE_KP_DIVIDE	sdl/scancode.go	96;"	c	access:public	line:96
+SCANCODE_KP_E	sdl/scancode.go	194;"	c	access:public	line:194
+SCANCODE_KP_ENTER	sdl/scancode.go	100;"	c	access:public	line:100
+SCANCODE_KP_EQUALS	sdl/scancode.go	116;"	c	access:public	line:116
+SCANCODE_KP_EQUALSAS400	sdl/scancode.go	144;"	c	access:public	line:144
+SCANCODE_KP_EXCLAM	sdl/scancode.go	209;"	c	access:public	line:209
+SCANCODE_KP_F	sdl/scancode.go	195;"	c	access:public	line:195
+SCANCODE_KP_GREATER	sdl/scancode.go	200;"	c	access:public	line:200
+SCANCODE_KP_HASH	sdl/scancode.go	206;"	c	access:public	line:206
+SCANCODE_KP_HEXADECIMAL	sdl/scancode.go	223;"	c	access:public	line:223
+SCANCODE_KP_LEFTBRACE	sdl/scancode.go	186;"	c	access:public	line:186
+SCANCODE_KP_LEFTPAREN	sdl/scancode.go	184;"	c	access:public	line:184
+SCANCODE_KP_LESS	sdl/scancode.go	199;"	c	access:public	line:199
+SCANCODE_KP_MEMADD	sdl/scancode.go	213;"	c	access:public	line:213
+SCANCODE_KP_MEMCLEAR	sdl/scancode.go	212;"	c	access:public	line:212
+SCANCODE_KP_MEMDIVIDE	sdl/scancode.go	216;"	c	access:public	line:216
+SCANCODE_KP_MEMMULTIPLY	sdl/scancode.go	215;"	c	access:public	line:215
+SCANCODE_KP_MEMRECALL	sdl/scancode.go	211;"	c	access:public	line:211
+SCANCODE_KP_MEMSTORE	sdl/scancode.go	210;"	c	access:public	line:210
+SCANCODE_KP_MEMSUBTRACT	sdl/scancode.go	214;"	c	access:public	line:214
+SCANCODE_KP_MINUS	sdl/scancode.go	98;"	c	access:public	line:98
+SCANCODE_KP_MULTIPLY	sdl/scancode.go	97;"	c	access:public	line:97
+SCANCODE_KP_OCTAL	sdl/scancode.go	221;"	c	access:public	line:221
+SCANCODE_KP_PERCENT	sdl/scancode.go	198;"	c	access:public	line:198
+SCANCODE_KP_PERIOD	sdl/scancode.go	111;"	c	access:public	line:111
+SCANCODE_KP_PLUS	sdl/scancode.go	99;"	c	access:public	line:99
+SCANCODE_KP_PLUSMINUS	sdl/scancode.go	217;"	c	access:public	line:217
+SCANCODE_KP_POWER	sdl/scancode.go	197;"	c	access:public	line:197
+SCANCODE_KP_RIGHTBRACE	sdl/scancode.go	187;"	c	access:public	line:187
+SCANCODE_KP_RIGHTPAREN	sdl/scancode.go	185;"	c	access:public	line:185
+SCANCODE_KP_SPACE	sdl/scancode.go	207;"	c	access:public	line:207
+SCANCODE_KP_TAB	sdl/scancode.go	188;"	c	access:public	line:188
+SCANCODE_KP_VERTICALBAR	sdl/scancode.go	203;"	c	access:public	line:203
+SCANCODE_KP_XOR	sdl/scancode.go	196;"	c	access:public	line:196
+SCANCODE_L	sdl/scancode.go	23;"	c	access:public	line:23
+SCANCODE_LALT	sdl/scancode.go	227;"	c	access:public	line:227
+SCANCODE_LANG1	sdl/scancode.go	155;"	c	access:public	line:155
+SCANCODE_LANG2	sdl/scancode.go	156;"	c	access:public	line:156
+SCANCODE_LANG3	sdl/scancode.go	157;"	c	access:public	line:157
+SCANCODE_LANG4	sdl/scancode.go	158;"	c	access:public	line:158
+SCANCODE_LANG5	sdl/scancode.go	159;"	c	access:public	line:159
+SCANCODE_LANG6	sdl/scancode.go	160;"	c	access:public	line:160
+SCANCODE_LANG7	sdl/scancode.go	161;"	c	access:public	line:161
+SCANCODE_LANG8	sdl/scancode.go	162;"	c	access:public	line:162
+SCANCODE_LANG9	sdl/scancode.go	163;"	c	access:public	line:163
+SCANCODE_LCTRL	sdl/scancode.go	225;"	c	access:public	line:225
+SCANCODE_LEFT	sdl/scancode.go	91;"	c	access:public	line:91
+SCANCODE_LEFTBRACKET	sdl/scancode.go	58;"	c	access:public	line:58
+SCANCODE_LGUI	sdl/scancode.go	228;"	c	access:public	line:228
+SCANCODE_LSHIFT	sdl/scancode.go	226;"	c	access:public	line:226
+SCANCODE_M	sdl/scancode.go	24;"	c	access:public	line:24
+SCANCODE_MAIL	sdl/scancode.go	241;"	c	access:public	line:241
+SCANCODE_MEDIASELECT	sdl/scancode.go	239;"	c	access:public	line:239
+SCANCODE_MENU	sdl/scancode.go	131;"	c	access:public	line:131
+SCANCODE_MINUS	sdl/scancode.go	56;"	c	access:public	line:56
+SCANCODE_MODE	sdl/scancode.go	233;"	c	access:public	line:233
+SCANCODE_MUTE	sdl/scancode.go	140;"	c	access:public	line:140
+SCANCODE_N	sdl/scancode.go	25;"	c	access:public	line:25
+SCANCODE_NONUSBACKSLASH	sdl/scancode.go	113;"	c	access:public	line:113
+SCANCODE_NONUSHASH	sdl/scancode.go	61;"	c	access:public	line:61
+SCANCODE_NUMLOCKCLEAR	sdl/scancode.go	95;"	c	access:public	line:95
+SCANCODE_O	sdl/scancode.go	26;"	c	access:public	line:26
+SCANCODE_OPER	sdl/scancode.go	173;"	c	access:public	line:173
+SCANCODE_OUT	sdl/scancode.go	172;"	c	access:public	line:172
+SCANCODE_P	sdl/scancode.go	27;"	c	access:public	line:27
+SCANCODE_PAGEDOWN	sdl/scancode.go	89;"	c	access:public	line:89
+SCANCODE_PAGEUP	sdl/scancode.go	86;"	c	access:public	line:86
+SCANCODE_PASTE	sdl/scancode.go	138;"	c	access:public	line:138
+SCANCODE_PAUSE	sdl/scancode.go	83;"	c	access:public	line:83
+SCANCODE_PERIOD	sdl/scancode.go	66;"	c	access:public	line:66
+SCANCODE_POWER	sdl/scancode.go	115;"	c	access:public	line:115
+SCANCODE_PRINTSCREEN	sdl/scancode.go	81;"	c	access:public	line:81
+SCANCODE_PRIOR	sdl/scancode.go	169;"	c	access:public	line:169
+SCANCODE_Q	sdl/scancode.go	28;"	c	access:public	line:28
+SCANCODE_R	sdl/scancode.go	29;"	c	access:public	line:29
+SCANCODE_RALT	sdl/scancode.go	231;"	c	access:public	line:231
+SCANCODE_RCTRL	sdl/scancode.go	229;"	c	access:public	line:229
+SCANCODE_RETURN	sdl/scancode.go	50;"	c	access:public	line:50
+SCANCODE_RETURN2	sdl/scancode.go	170;"	c	access:public	line:170
+SCANCODE_RGUI	sdl/scancode.go	232;"	c	access:public	line:232
+SCANCODE_RIGHT	sdl/scancode.go	90;"	c	access:public	line:90
+SCANCODE_RIGHTBRACKET	sdl/scancode.go	59;"	c	access:public	line:59
+SCANCODE_RSHIFT	sdl/scancode.go	230;"	c	access:public	line:230
+SCANCODE_S	sdl/scancode.go	30;"	c	access:public	line:30
+SCANCODE_SCROLLLOCK	sdl/scancode.go	82;"	c	access:public	line:82
+SCANCODE_SELECT	sdl/scancode.go	132;"	c	access:public	line:132
+SCANCODE_SEMICOLON	sdl/scancode.go	62;"	c	access:public	line:62
+SCANCODE_SEPARATOR	sdl/scancode.go	171;"	c	access:public	line:171
+SCANCODE_SLASH	sdl/scancode.go	67;"	c	access:public	line:67
+SCANCODE_SLEEP	sdl/scancode.go	258;"	c	access:public	line:258
+SCANCODE_SPACE	sdl/scancode.go	54;"	c	access:public	line:54
+SCANCODE_STOP	sdl/scancode.go	133;"	c	access:public	line:133
+SCANCODE_SYSREQ	sdl/scancode.go	166;"	c	access:public	line:166
+SCANCODE_T	sdl/scancode.go	31;"	c	access:public	line:31
+SCANCODE_TAB	sdl/scancode.go	53;"	c	access:public	line:53
+SCANCODE_THOUSANDSSEPARATOR	sdl/scancode.go	180;"	c	access:public	line:180
+SCANCODE_U	sdl/scancode.go	32;"	c	access:public	line:32
+SCANCODE_UNDO	sdl/scancode.go	135;"	c	access:public	line:135
+SCANCODE_UNKNOWN	sdl/scancode.go	10;"	c	access:public	line:10
+SCANCODE_UP	sdl/scancode.go	93;"	c	access:public	line:93
+SCANCODE_V	sdl/scancode.go	33;"	c	access:public	line:33
+SCANCODE_VOLUMEDOWN	sdl/scancode.go	142;"	c	access:public	line:142
+SCANCODE_VOLUMEUP	sdl/scancode.go	141;"	c	access:public	line:141
+SCANCODE_W	sdl/scancode.go	34;"	c	access:public	line:34
+SCANCODE_WWW	sdl/scancode.go	240;"	c	access:public	line:240
+SCANCODE_X	sdl/scancode.go	35;"	c	access:public	line:35
+SCANCODE_Y	sdl/scancode.go	36;"	c	access:public	line:36
+SCANCODE_Z	sdl/scancode.go	37;"	c	access:public	line:37
+SENSORUPDATE	sdl/events.go	178;"	c	access:public	line:178
+SENSOR_ACCEL	sdl/sensor.go	174;"	c	access:public	line:174
+SENSOR_GYRO	sdl/sensor.go	175;"	c	access:public	line:175
+SENSOR_INVALID	sdl/sensor.go	172;"	c	access:public	line:172	type:SensorType
+SENSOR_UNKNOWN	sdl/sensor.go	173;"	c	access:public	line:173
+STANDARD_GRAVITY	sdl/sensor.go	162;"	c	access:public	line:162
+SWSURFACE	sdl/surface.go	86;"	c	access:public	line:86
+SYSTEM_CURSOR_ARROW	sdl/mouse.go	63;"	c	access:public	line:63
+SYSTEM_CURSOR_CROSSHAIR	sdl/mouse.go	66;"	c	access:public	line:66
+SYSTEM_CURSOR_HAND	sdl/mouse.go	74;"	c	access:public	line:74
+SYSTEM_CURSOR_IBEAM	sdl/mouse.go	64;"	c	access:public	line:64
+SYSTEM_CURSOR_NO	sdl/mouse.go	73;"	c	access:public	line:73
+SYSTEM_CURSOR_SIZEALL	sdl/mouse.go	72;"	c	access:public	line:72
+SYSTEM_CURSOR_SIZENESW	sdl/mouse.go	69;"	c	access:public	line:69
+SYSTEM_CURSOR_SIZENS	sdl/mouse.go	71;"	c	access:public	line:71
+SYSTEM_CURSOR_SIZENWSE	sdl/mouse.go	68;"	c	access:public	line:68
+SYSTEM_CURSOR_SIZEWE	sdl/mouse.go	70;"	c	access:public	line:70
+SYSTEM_CURSOR_WAIT	sdl/mouse.go	65;"	c	access:public	line:65
+SYSTEM_CURSOR_WAITARROW	sdl/mouse.go	67;"	c	access:public	line:67
+SYSWMEVENT	sdl/events.go	122;"	c	access:public	line:122
+SYSWM_ANDROID	sdl/syswm.go	58;"	c	access:public	line:58
+SYSWM_COCOA	sdl/syswm.go	53;"	c	access:public	line:53
+SYSWM_DIRECTFB	sdl/syswm.go	52;"	c	access:public	line:52
+SYSWM_MIR	sdl/syswm.go	56;"	c	access:public	line:56
+SYSWM_UIKIT	sdl/syswm.go	54;"	c	access:public	line:54
+SYSWM_UNKNOWN	sdl/syswm.go	49;"	c	access:public	line:49
+SYSWM_VIVANTE	sdl/syswm.go	59;"	c	access:public	line:59
+SYSWM_WAYLAND	sdl/syswm.go	55;"	c	access:public	line:55
+SYSWM_WINDOWS	sdl/syswm.go	50;"	c	access:public	line:50
+SYSWM_WINRT	sdl/syswm.go	57;"	c	access:public	line:57
+SYSWM_X11	sdl/syswm.go	51;"	c	access:public	line:51
+Samples	sdl/audio.go	203;"	w	access:public	ctype:AudioSpec	line:203	type:uint16
+Samples	sdl/haptic.go	158;"	w	access:public	ctype:HapticCustom	line:158	type:uint16
+SaveAllDollarTemplates	sdl/gesture.go	21;"	f	access:public	line:21	signature:(src *RWops)	type:int
+SaveBMP	sdl/surface.go	276;"	m	access:public	ctype:Surface	line:276	signature:(file string)	type:error
+SaveBMPRW	sdl/surface.go	267;"	m	access:public	ctype:Surface	line:267	signature:(dst *RWops, freeDst bool)	type:error
+SaveDollarTemplate	sdl/gesture.go	27;"	f	access:public	line:27	signature:(g GestureID, src *RWops)	type:int
+Scancode	sdl/keyboard.go	11;"	w	access:public	ctype:Keysym	line:11	type:Scancode
+Scancode	sdl/scancode.go	266;"	t	access:public	line:266	type:uint32
+Seek	sdl/rwops.go	129;"	m	access:public	ctype:RWops	line:129	signature:(offset int64, whence int)	type:int64, error
+Sem	sdl/mutex.go	14;"	w	access:public	ctype:Mutex	line:14	type:*Sem
+Sem	sdl/mutex.go	18;"	t	access:public	line:18	type:struct
+Sensor	sdl/sensor.go	178;"	t	access:public	line:178	type:C.SDL_Sensor
+SensorEvent	sdl/events.go	758;"	t	access:public	line:758	type:struct
+SensorFromInstanceID	sdl/sensor.go	245;"	f	access:public	line:245	signature:(id SensorID)	type:*Sensor
+SensorGetDeviceInstanceID	sdl/sensor.go	227;"	f	access:public	line:227	signature:(deviceIndex int)	type:SensorID
+SensorGetDeviceName	sdl/sensor.go	194;"	f	access:public	line:194	signature:(deviceIndex int)	type:string
+SensorGetDeviceNonPortableType	sdl/sensor.go	216;"	f	access:public	line:216	signature:(deviceIndex int)	type:int
+SensorGetDeviceType	sdl/sensor.go	205;"	f	access:public	line:205	signature:(deviceIndex int)	type:SensorType
+SensorID	sdl/sensor.go	179;"	t	access:public	line:179	type:int32
+SensorOpen	sdl/sensor.go	238;"	f	access:public	line:238	signature:(deviceIndex int)	type:*Sensor
+SensorType	sdl/sensor.go	180;"	t	access:public	line:180	type:int
+SensorUpdate	sdl/sensor.go	318;"	f	access:public	line:318	signature:()
+Set	sdl/surface.go	566;"	m	access:public	ctype:Surface	line:566	signature:(x, y int, c color.Color)
+SetAlphaMod	sdl/render.go	294;"	m	access:public	ctype:Texture	line:294	signature:(alpha uint8)	type:error
+SetAlphaMod	sdl/surface.go	331;"	m	access:public	ctype:Surface	line:331	signature:(alpha uint8)	type:error
+SetAutocenter	sdl/haptic.go	366;"	m	access:public	ctype:Haptic	line:366	signature:(autocenter int)	type:error
+SetBlendMode	sdl/render.go	308;"	m	access:public	ctype:Texture	line:308	signature:(bm BlendMode)	type:error
+SetBlendMode	sdl/surface.go	350;"	m	access:public	ctype:Surface	line:350	signature:(bm BlendMode)	type:error
+SetBordered	sdl/video.go	685;"	m	access:public	ctype:Window	line:685	signature:(bordered bool)
+SetBrightness	sdl/video.go	770;"	m	access:public	ctype:Window	line:770	signature:(brightness float32)	type:error
+SetClipRect	sdl/render.go	465;"	m	access:public	ctype:Renderer	line:465	signature:(rect *Rect)	type:error
+SetClipRect	sdl/surface.go	368;"	m	access:public	ctype:Surface	line:368	signature:(rect *Rect)	type:bool
+SetClipboardText	sdl/clipboard.go	9;"	f	access:public	line:9	signature:(text string)	type:error
+SetColorKey	sdl/surface.go	291;"	m	access:public	ctype:Surface	line:291	signature:(flag bool, key uint32)	type:error
+SetColorMod	sdl/render.go	283;"	m	access:public	ctype:Texture	line:283	signature:(r uint8, g uint8, b uint8)	type:error
+SetColorMod	sdl/surface.go	310;"	m	access:public	ctype:Surface	line:310	signature:(r, g, b uint8)	type:error
+SetColors	sdl/pixels.go	274;"	m	access:public	ctype:Palette	line:274	signature:(colors []Color)	type:error
+SetCursor	sdl/mouse.go	177;"	f	access:public	line:177	signature:(cursor *Cursor)
+SetData	sdl/video.go	611;"	m	access:public	ctype:Window	line:611	signature:(name string, userdata unsafe.Pointer)	type:unsafe.Pointer
+SetDisplayMode	sdl/video.go	508;"	m	access:public	ctype:Window	line:508	signature:(mode *DisplayMode)	type:error
+SetDrawBlendMode	sdl/render.go	567;"	m	access:public	ctype:Renderer	line:567	signature:(bm BlendMode)	type:error
+SetDrawColor	sdl/render.go	528;"	m	access:public	ctype:Renderer	line:528	signature:(r, g, b, a uint8)	type:error
+SetDrawColorArray	sdl/render.go	539;"	m	access:public	ctype:Renderer	line:539	signature:(bs ...uint8)	type:error
+SetError	sdl/error.go	51;"	f	access:public	line:51	signature:(err error)
+SetEventFilter	sdl/events.go	1144;"	f	access:public	line:1144	signature:(filter EventFilter, userdata interface{})
+SetEventFilterFunc	sdl/events.go	1165;"	f	access:public	line:1165	signature:(filterFunc eventFilterFunc, userdata interface{})
+SetFullscreen	sdl/video.go	727;"	m	access:public	ctype:Window	line:727	signature:(flags uint32)	type:error
+SetGain	sdl/haptic.go	359;"	m	access:public	ctype:Haptic	line:359	signature:(gain int)	type:error
+SetGammaRamp	sdl/video.go	783;"	m	access:public	ctype:Window	line:783	signature:(red, green, blue *[256]uint16)	type:error
+SetGrab	sdl/video.go	758;"	m	access:public	ctype:Window	line:758	signature:(grabbed bool)
+SetHint	sdl/hints.go	163;"	f	access:public	line:163	signature:(name, value string)	type:bool
+SetHintWithPriority	sdl/hints.go	153;"	f	access:public	line:153	signature:(name, value string, hp HintPriority)	type:bool
+SetIcon	sdl/video.go	605;"	m	access:public	ctype:Window	line:605	signature:(icon *Surface)
+SetIntegerScale	sdl/render.go	505;"	m	access:public	ctype:Renderer	line:505	signature:(v bool)	type:error
+SetLogicalSize	sdl/render.go	434;"	m	access:public	ctype:Renderer	line:434	signature:(w, h int32)	type:error
+SetMaximumSize	sdl/video.go	671;"	m	access:public	ctype:Window	line:671	signature:(maxW, maxH int32)
+SetMinimumSize	sdl/video.go	657;"	m	access:public	ctype:Window	line:657	signature:(minW, minH int32)
+SetModState	sdl/keyboard.go	43;"	f	access:public	line:43	signature:(mod Keymod)
+SetPalette	sdl/pixels.go	263;"	m	access:public	ctype:PixelFormat	line:263	signature:(palette *Palette)	type:error
+SetPalette	sdl/surface.go	227;"	m	access:public	ctype:Surface	line:227	signature:(palette *Palette)	type:error
+SetPosition	sdl/video.go	623;"	m	access:public	ctype:Window	line:623	signature:(x, y int32)
+SetRLE	sdl/surface.go	282;"	m	access:public	ctype:Surface	line:282	signature:(flag bool)	type:error
+SetRelativeMouseMode	sdl/mouse.go	145;"	f	access:public	line:145	signature:(enabled bool)	type:int
+SetRenderTarget	sdl/render.go	420;"	m	access:public	ctype:Renderer	line:420	signature:(texture *Texture)	type:error
+SetResizable	sdl/video.go	637;"	m	access:public	ctype:Window	line:637	signature:(resizable bool)
+SetScale	sdl/render.go	479;"	m	access:public	ctype:Renderer	line:479	signature:(scaleX, scaleY float32)	type:error
+SetSize	sdl/video.go	643;"	m	access:public	ctype:Window	line:643	signature:(w, h int32)
+SetTextInputRect	sdl/keyboard.go	107;"	f	access:public	line:107	signature:(rect *Rect)
+SetTitle	sdl/video.go	593;"	m	access:public	ctype:Window	line:593	signature:(title string)
+SetViewport	sdl/render.go	451;"	m	access:public	ctype:Renderer	line:451	signature:(rect *Rect)	type:error
+SetWindowOpacity	sdl/video.go	805;"	m	access:public	ctype:Window	line:805	signature:(opacity float32)	type:error
+SetYUVConversionMode	sdl/surface.go	200;"	f	access:public	line:200	signature:(mode YUV_CONVERSION_MODE)
+SharedObject	sdl/loadso.go	8;"	t	access:public	line:8	type:uintptr
+Show	sdl/video.go	691;"	m	access:public	ctype:Window	line:691	signature:()
+ShowCursor	sdl/mouse.go	201;"	f	access:public	line:201	signature:(toggle int)	type:int, error
+ShowMessageBox	sdl/video.go	830;"	f	access:public	line:830	signature:(data *MessageBoxData)	type:int32, error
+ShowSimpleMessageBox	sdl/video.go	819;"	f	access:public	line:819	signature:(flags uint32, title, message string, window *Window)	type:error
+Signal	sdl/mutex.go	167;"	m	access:public	ctype:Cond	line:167	signature:()	type:error
+Signals	sdl/mutex.go	29;"	w	access:public	ctype:Cond	line:29	type:int
+Silence	sdl/audio.go	202;"	w	access:public	ctype:AudioSpec	line:202	type:uint8
+Size	sdl/audio.go	205;"	w	access:public	ctype:AudioSpec	line:205	type:uint32
+Size	sdl/rwops.go	119;"	m	access:public	ctype:RWops	line:119	signature:()	type:int64, error
+SmallMagnitude	sdl/haptic.go	140;"	w	access:public	ctype:HapticLeftRight	line:140	type:uint16
+SoftStretch	sdl/surface.go	464;"	m	access:public	ctype:Surface	line:464	signature:(srcRect *Rect, dst *Surface, dstRect *Rect)	type:error
+SrcFormat	sdl/audio.go	215;"	w	access:public	ctype:AudioCVT	line:215	type:AudioFormat
+Start	sdl/events.go	292;"	w	access:public	ctype:TextEditingEvent	line:292	type:int32
+Start	sdl/haptic.go	122;"	w	access:public	ctype:HapticRamp	line:122	type:int16
+StartTextInput	sdl/keyboard.go	89;"	f	access:public	line:89	signature:()
+State	sdl/events.go	267;"	w	access:public	ctype:KeyboardEvent	line:267	type:uint8
+State	sdl/events.go	366;"	w	access:public	ctype:MouseMotionEvent	line:366	type:uint32
+State	sdl/events.go	392;"	w	access:public	ctype:MouseButtonEvent	line:392	type:uint8
+State	sdl/events.go	513;"	w	access:public	ctype:JoyButtonEvent	line:513	type:uint8
+State	sdl/events.go	597;"	w	access:public	ctype:ControllerButtonEvent	line:597	type:uint8
+StopAll	sdl/haptic.go	387;"	m	access:public	ctype:Haptic	line:387	signature:()	type:error
+StopEffect	sdl/haptic.go	338;"	m	access:public	ctype:Haptic	line:338	signature:(effect int)	type:error
+StopTextInput	sdl/keyboard.go	101;"	f	access:public	line:101	signature:()
+Subsystem	sdl/syswm.go	102;"	w	access:public	ctype:SysWMmsg	line:102	type:uint32
+Subsystem	sdl/syswm.go	66;"	w	access:public	ctype:SysWMInfo	line:66	type:uint32
+Surface	sdl/surface.go	104;"	t	access:public	line:104	type:struct
+Surface	sdl/syswm.go	85;"	w	access:public	ctype:DFBInfo	line:85	type:unsafe.Pointer
+Sym	sdl/keyboard.go	12;"	w	access:public	ctype:Keysym	line:12	type:Keycode
+SysWMEvent	sdl/events.go	867;"	t	access:public	line:867	type:struct
+SysWMInfo	sdl/syswm.go	64;"	t	access:public	line:64	type:struct
+SysWMmsg	sdl/syswm.go	100;"	t	access:public	line:100	type:struct
+SystemCursor	sdl/mouse.go	97;"	t	access:public	line:97	type:C.SDL_SystemCursor
+TEXTEDITING	sdl/events.go	127;"	c	access:public	line:127
+TEXTINPUT	sdl/events.go	128;"	c	access:public	line:128
+TEXTUREACCESS_STATIC	sdl/render.go	83;"	c	access:public	line:83
+TEXTUREACCESS_STREAMING	sdl/render.go	84;"	c	access:public	line:84
+TEXTUREACCESS_TARGET	sdl/render.go	85;"	c	access:public	line:85
+TEXTUREMODULATE_ALPHA	sdl/render.go	93;"	c	access:public	line:93
+TEXTUREMODULATE_COLOR	sdl/render.go	92;"	c	access:public	line:92
+TEXTUREMODULATE_NONE	sdl/render.go	91;"	c	access:public	line:91
+TIMER_RESOLUTION	sdl/hints_test.go	9;"	c	access:public	line:9
+TOUCH_MOUSEID	sdl/touch.go	8;"	c	access:public	line:8
+Tell	sdl/rwops.go	166;"	m	access:public	ctype:RWops	line:166	signature:()	type:int64, error
+TestAddHintCallback	sdl/hints_test.go	78;"	f	access:public	line:78	signature:(t *testing.T)
+TestAudioDevices	sdl/audio_test.go	12;"	f	access:public	line:12	signature:(t *testing.T)
+TestAudioInitQuit	sdl/audio_test.go	30;"	f	access:public	line:30	signature:(t *testing.T)
+TestBytesAndBitsPerPixel	sdl/pixels_test.go	5;"	f	access:public	line:5	signature:(t *testing.T)
+TestCPUCount	sdl/cpuinfo_test.go	8;"	f	access:public	line:8	signature:(t *testing.T)
+TestClearHints	sdl/hints_test.go	60;"	f	access:public	line:60	signature:(t *testing.T)
+TestClipboard	sdl/clipboard_test.go	5;"	f	access:public	line:5	signature:(t *testing.T)
+TestDelHintCallback	sdl/hints_test.go	111;"	f	access:public	line:111	signature:(t *testing.T)
+TestDelay	sdl/timer_test.go	38;"	f	access:public	line:38	signature:(t *testing.T)
+TestEnclosurePoints	sdl/rect_test.go	94;"	f	access:public	line:94	signature:(t *testing.T)
+TestEventsAddDelEventWatch	sdl/events_test.go	240;"	f	access:public	line:240	signature:(t *testing.T)
+TestEventsAddEventWatch	sdl/events_test.go	187;"	f	access:public	line:187	signature:(t *testing.T)
+TestEventsEventWatchClearOnStartup	sdl/events_test.go	224;"	f	access:public	line:224	signature:(t *testing.T)
+TestEventsFilterEventsFuncQ	sdl/events_test.go	144;"	f	access:public	line:144	signature:(t *testing.T)
+TestEventsGetEventFilterNilOnStartup	sdl/events_test.go	123;"	f	access:public	line:123	signature:(t *testing.T)
+TestEventsPushEvent	sdl/events_test.go	5;"	f	access:public	line:5	signature:(t *testing.T)
+TestEventsSetEventFilter	sdl/events_test.go	81;"	f	access:public	line:81	signature:(t *testing.T)
+TestEventsSetGetEventFilter	sdl/events_test.go	38;"	f	access:public	line:38	signature:(t *testing.T)
+TestGetBasePath	sdl/filesystem_test.go	7;"	f	access:public	line:7	signature:(t *testing.T)
+TestGetCPUCacheLineSize	sdl/cpuinfo_test.go	14;"	f	access:public	line:14	signature:(t *testing.T)
+TestGetPerformance	sdl/timer_test.go	23;"	f	access:public	line:23	signature:(t *testing.T)
+TestGetPlatform	sdl/sdl_test.go	67;"	f	access:public	line:67	signature:(t *testing.T)
+TestGetPowerInfo	sdl/power_test.go	5;"	f	access:public	line:5	signature:(t *testing.T)
+TestGetSetHint	sdl/hints_test.go	39;"	f	access:public	line:39	signature:(t *testing.T)
+TestGetSystemRAM	sdl/cpuinfo_test.go	20;"	f	access:public	line:20	signature:(t *testing.T)
+TestGetTicks	sdl/timer_test.go	12;"	f	access:public	line:12	signature:(t *testing.T)
+TestInitQuit	sdl/sdl_test.go	31;"	f	access:public	line:31	signature:(t *testing.T)
+TestIntersectLines	sdl/rect_test.go	115;"	f	access:public	line:115	signature:(t *testing.T)
+TestLoadWAVRW	sdl/audio_test.go	67;"	f	access:public	line:67	signature:(t *testing.T)
+TestLog	sdl/log_test.go	7;"	f	access:public	line:7	signature:(t *testing.T)
+TestLogSetOutputFunction	sdl/log_test.go	11;"	f	access:public	line:11	signature:(t *testing.T)
+TestMain	sdl/sdl_test.go	23;"	f	access:public	line:23	signature:(m *testing.M)
+TestRectEmpty	sdl/rect_test.go	75;"	f	access:public	line:75	signature:(t *testing.T)
+TestRectHasIntersection	sdl/rect_test.go	7;"	f	access:public	line:7	signature:(t *testing.T)
+TestRectIntersect	sdl/rect_test.go	28;"	f	access:public	line:28	signature:(t *testing.T)
+TestRectUnion	sdl/rect_test.go	52;"	f	access:public	line:52	signature:(t *testing.T)
+TestRenderIntegerScale	sdl/render_test.go	8;"	f	access:public	line:8	signature:(t *testing.T)
+TestSetHintWithPriority	sdl/hints_test.go	13;"	f	access:public	line:13	signature:(t *testing.T)
+TestStructABI	sdl/struct_test.go	58;"	f	access:public	line:58	signature:(t *testing.T)
+TestSurface	sdl/surface_test.go	7;"	f	access:public	line:7	signature:(t *testing.T)
+TestTypeABI	sdl/struct_test.go	102;"	f	access:public	line:102	signature:(t *testing.T)
+TestWindow	sdl/video_test.go	7;"	f	access:public	line:7	signature:(t *testing.T)
+Text	sdl/events.go	291;"	w	access:public	ctype:TextEditingEvent	line:291	type:[]byte
+Text	sdl/events.go	329;"	w	access:public	ctype:TextInputEvent	line:329	type:[]byte
+Text	sdl/video.go	339;"	w	access:public	ctype:MessageBoxButtonData	line:339	type:string
+TextEditingEvent	sdl/events.go	287;"	t	access:public	line:287	type:struct
+TextInputEvent	sdl/events.go	325;"	t	access:public	line:325	type:struct
+Texture	sdl/sysrender.go	9;"	t	access:public	line:9	type:C.SDL_Texture
+TextureFormats	sdl/render.go	121;"	w	access:public	ctype:RendererInfoData	line:121	type:[16]int32
+ThreadID	sdl/mutex.go	8;"	t	access:public	line:8	type:uint64
+Timestamp	sdl/events.go	223;"	w	access:public	ctype:CommonEvent	line:223	type:uint32
+Timestamp	sdl/events.go	240;"	w	access:public	ctype:WindowEvent	line:240	type:uint32
+Timestamp	sdl/events.go	265;"	w	access:public	ctype:KeyboardEvent	line:265	type:uint32
+Timestamp	sdl/events.go	289;"	w	access:public	ctype:TextEditingEvent	line:289	type:uint32
+Timestamp	sdl/events.go	327;"	w	access:public	ctype:TextInputEvent	line:327	type:uint32
+Timestamp	sdl/events.go	363;"	w	access:public	ctype:MouseMotionEvent	line:363	type:uint32
+Timestamp	sdl/events.go	388;"	w	access:public	ctype:MouseButtonEvent	line:388	type:uint32
+Timestamp	sdl/events.go	414;"	w	access:public	ctype:MouseWheelEvent	line:414	type:uint32
+Timestamp	sdl/events.go	437;"	w	access:public	ctype:JoyAxisEvent	line:437	type:uint32
+Timestamp	sdl/events.go	462;"	w	access:public	ctype:JoyBallEvent	line:462	type:uint32
+Timestamp	sdl/events.go	487;"	w	access:public	ctype:JoyHatEvent	line:487	type:uint32
+Timestamp	sdl/events.go	510;"	w	access:public	ctype:JoyButtonEvent	line:510	type:uint32
+Timestamp	sdl/events.go	533;"	w	access:public	ctype:JoyDeviceAddedEvent	line:533	type:uint32
+Timestamp	sdl/events.go	551;"	w	access:public	ctype:JoyDeviceRemovedEvent	line:551	type:uint32
+Timestamp	sdl/events.go	569;"	w	access:public	ctype:ControllerAxisEvent	line:569	type:uint32
+Timestamp	sdl/events.go	594;"	w	access:public	ctype:ControllerButtonEvent	line:594	type:uint32
+Timestamp	sdl/events.go	617;"	w	access:public	ctype:ControllerDeviceEvent	line:617	type:uint32
+Timestamp	sdl/events.go	636;"	w	access:public	ctype:AudioDeviceEvent	line:636	type:uint32
+Timestamp	sdl/events.go	659;"	w	access:public	ctype:TouchFingerEvent	line:659	type:uint32
+Timestamp	sdl/events.go	684;"	w	access:public	ctype:MultiGestureEvent	line:684	type:uint32
+Timestamp	sdl/events.go	709;"	w	access:public	ctype:DollarGestureEvent	line:709	type:uint32
+Timestamp	sdl/events.go	733;"	w	access:public	ctype:DropEvent	line:733	type:uint32
+Timestamp	sdl/events.go	740;"	w	access:public	ctype:tDropEvent	line:740	type:uint32
+Timestamp	sdl/events.go	760;"	w	access:public	ctype:SensorEvent	line:760	type:uint32
+Timestamp	sdl/events.go	780;"	w	access:public	ctype:RenderEvent	line:780	type:uint32
+Timestamp	sdl/events.go	797;"	w	access:public	ctype:QuitEvent	line:797	type:uint32
+Timestamp	sdl/events.go	813;"	w	access:public	ctype:OSEvent	line:813	type:uint32
+Timestamp	sdl/events.go	830;"	w	access:public	ctype:ClipboardEvent	line:830	type:uint32
+Timestamp	sdl/events.go	847;"	w	access:public	ctype:UserEvent	line:847	type:uint32
+Timestamp	sdl/events.go	869;"	w	access:public	ctype:SysWMEvent	line:869	type:uint32
+Title	sdl/video.go	347;"	w	access:public	ctype:MessageBoxData	line:347	type:string
+TouchFingerEvent	sdl/events.go	657;"	t	access:public	line:657	type:struct
+TouchID	sdl/events.go	660;"	w	access:public	ctype:TouchFingerEvent	line:660	type:TouchID
+TouchID	sdl/events.go	685;"	w	access:public	ctype:MultiGestureEvent	line:685	type:TouchID
+TouchID	sdl/events.go	710;"	w	access:public	ctype:DollarGestureEvent	line:710	type:TouchID
+TouchID	sdl/touch.go	11;"	t	access:public	line:11	type:C.SDL_TouchID
+TryLock	sdl/mutex.go	68;"	m	access:public	ctype:Mutex	line:68	signature:()	type:error
+TryWait	sdl/mutex.go	120;"	m	access:public	ctype:Sem	line:120	signature:()	type:error
+Type	sdl/events.go	215;"	w	access:public	ctype:CEvent	line:215	type:uint32
+Type	sdl/events.go	222;"	w	access:public	ctype:CommonEvent	line:222	type:uint32
+Type	sdl/events.go	239;"	w	access:public	ctype:WindowEvent	line:239	type:uint32
+Type	sdl/events.go	264;"	w	access:public	ctype:KeyboardEvent	line:264	type:uint32
+Type	sdl/events.go	288;"	w	access:public	ctype:TextEditingEvent	line:288	type:uint32
+Type	sdl/events.go	326;"	w	access:public	ctype:TextInputEvent	line:326	type:uint32
+Type	sdl/events.go	362;"	w	access:public	ctype:MouseMotionEvent	line:362	type:uint32
+Type	sdl/events.go	387;"	w	access:public	ctype:MouseButtonEvent	line:387	type:uint32
+Type	sdl/events.go	413;"	w	access:public	ctype:MouseWheelEvent	line:413	type:uint32
+Type	sdl/events.go	436;"	w	access:public	ctype:JoyAxisEvent	line:436	type:uint32
+Type	sdl/events.go	461;"	w	access:public	ctype:JoyBallEvent	line:461	type:uint32
+Type	sdl/events.go	486;"	w	access:public	ctype:JoyHatEvent	line:486	type:uint32
+Type	sdl/events.go	509;"	w	access:public	ctype:JoyButtonEvent	line:509	type:uint32
+Type	sdl/events.go	532;"	w	access:public	ctype:JoyDeviceAddedEvent	line:532	type:uint32
+Type	sdl/events.go	550;"	w	access:public	ctype:JoyDeviceRemovedEvent	line:550	type:uint32
+Type	sdl/events.go	568;"	w	access:public	ctype:ControllerAxisEvent	line:568	type:uint32
+Type	sdl/events.go	593;"	w	access:public	ctype:ControllerButtonEvent	line:593	type:uint32
+Type	sdl/events.go	616;"	w	access:public	ctype:ControllerDeviceEvent	line:616	type:uint32
+Type	sdl/events.go	635;"	w	access:public	ctype:AudioDeviceEvent	line:635	type:uint32
+Type	sdl/events.go	658;"	w	access:public	ctype:TouchFingerEvent	line:658	type:uint32
+Type	sdl/events.go	683;"	w	access:public	ctype:MultiGestureEvent	line:683	type:uint32
+Type	sdl/events.go	708;"	w	access:public	ctype:DollarGestureEvent	line:708	type:uint32
+Type	sdl/events.go	732;"	w	access:public	ctype:DropEvent	line:732	type:uint32
+Type	sdl/events.go	739;"	w	access:public	ctype:tDropEvent	line:739	type:uint32
+Type	sdl/events.go	759;"	w	access:public	ctype:SensorEvent	line:759	type:uint32
+Type	sdl/events.go	779;"	w	access:public	ctype:RenderEvent	line:779	type:uint32
+Type	sdl/events.go	796;"	w	access:public	ctype:QuitEvent	line:796	type:uint32
+Type	sdl/events.go	812;"	w	access:public	ctype:OSEvent	line:812	type:uint32
+Type	sdl/events.go	829;"	w	access:public	ctype:ClipboardEvent	line:829	type:uint32
+Type	sdl/events.go	846;"	w	access:public	ctype:UserEvent	line:846	type:uint32
+Type	sdl/events.go	868;"	w	access:public	ctype:SysWMEvent	line:868	type:uint32
+Type	sdl/gamecontroller.go	310;"	m	access:public	ctype:GameControllerButtonBind	line:310	signature:()	type:int
+Type	sdl/haptic.go	116;"	w	access:public	ctype:HapticRamp	line:116	type:uint16
+Type	sdl/haptic.go	137;"	w	access:public	ctype:HapticLeftRight	line:137	type:uint16
+Type	sdl/haptic.go	150;"	w	access:public	ctype:HapticCustom	line:150	type:uint16
+Type	sdl/haptic.go	45;"	w	access:public	ctype:HapticDirection	line:45	type:byte
+Type	sdl/haptic.go	52;"	w	access:public	ctype:HapticConstant	line:52	type:uint16
+Type	sdl/haptic.go	72;"	w	access:public	ctype:HapticPeriodic	line:72	type:uint16
+Type	sdl/haptic.go	95;"	w	access:public	ctype:HapticCondition	line:95	type:uint16
+Type	sdl/joystick.go	382;"	m	access:public	ctype:Joystick	line:382	signature:()	type:JoystickType
+UIKit	sdl/syswm_uikit.go	14;"	m	access:public	ctype:SysWMmsg	line:14	signature:()	type:*UIKitMsg
+UIKitInfo	sdl/syswm.go	94;"	t	access:public	line:94	type:struct
+UIKitMsg	sdl/syswm_uikit.go	9;"	t	access:public	line:9	type:struct
+UNSUPPORTED	sdl/error.go	24;"	c	access:public	line:24
+USEREVENT	sdl/events.go	185;"	c	access:public	line:185
+Uint32	sdl/pixels.go	75;"	m	access:public	ctype:Color	line:75	signature:()	type:uint32
+Union	sdl/rect.go	124;"	m	access:public	ctype:Rect	line:124	signature:(b *Rect)	type:Rect
+Unload	sdl/loadso.go	28;"	m	access:public	ctype:SharedObject	line:28	signature:()
+Unlock	sdl/mutex.go	78;"	m	access:public	ctype:Mutex	line:78	signature:()	type:error
+Unlock	sdl/render.go	408;"	m	access:public	ctype:Texture	line:408	signature:()
+Unlock	sdl/surface.go	245;"	m	access:public	ctype:Surface	line:245	signature:()
+UnlockAudio	sdl/audio.go	540;"	f	access:public	line:540	signature:()
+UnlockAudioDevice	sdl/audio.go	546;"	f	access:public	line:546	signature:(dev AudioDeviceID)
+UnlockJoysticks	sdl/joystick.go	350;"	f	access:public	line:350	signature:()
+Unpause	sdl/haptic.go	380;"	m	access:public	ctype:Haptic	line:380	signature:()	type:error
+Unsupported	sdl/error.go	76;"	f	access:public	line:76	signature:()
+Update	sdl/render.go	322;"	m	access:public	ctype:Texture	line:322	signature:(rect *Rect, pixels []byte, pitch int)	type:error
+UpdateEffect	sdl/haptic.go	318;"	m	access:public	ctype:Haptic	line:318	signature:(effect int, data HapticEffect)	type:error
+UpdateRGBA	sdl/render.go	336;"	m	access:public	ctype:Texture	line:336	signature:(rect *Rect, pixels []uint32, pitch int)	type:error
+UpdateSurface	sdl/video.go	744;"	m	access:public	ctype:Window	line:744	signature:()	type:error
+UpdateSurfaceRects	sdl/video.go	751;"	m	access:public	ctype:Window	line:751	signature:(rects []Rect)	type:error
+UpdateYUV	sdl/render.go	350;"	m	access:public	ctype:Texture	line:350	signature:(rect *Rect, yPlane []byte, yPitch int, uPlane []byte, uPitch int, vPlane []byte, vPitch int)	type:error
+UpperBlit	sdl/surface.go	446;"	m	access:public	ctype:Surface	line:446	signature:(srcRect *Rect, dst *Surface, dstRect *Rect)	type:error
+UpperBlitScaled	sdl/surface.go	473;"	m	access:public	ctype:Surface	line:473	signature:(srcRect *Rect, dst *Surface, dstRect *Rect)	type:error
+UserData	sdl/audio.go	207;"	w	access:public	ctype:AudioSpec	line:207	type:unsafe.Pointer
+UserData	sdl/surface.go	111;"	w	access:public	ctype:Surface	line:111	type:unsafe.Pointer
+UserEvent	sdl/events.go	845;"	t	access:public	line:845	type:struct
+VERSION	sdl/version.go	29;"	f	access:public	line:29	signature:(v *Version)
+VERSIONNUM	sdl/version.go	37;"	f	access:public	line:37	signature:(x, y, z int)	type:int
+VERSION_ATLEAST	sdl/version.go	49;"	f	access:public	line:49	signature:(x, y, z int)	type:bool
+Value	sdl/events.go	443;"	w	access:public	ctype:JoyAxisEvent	line:443	type:int16
+Value	sdl/events.go	490;"	w	access:public	ctype:JoyHatEvent	line:490	type:uint8
+Value	sdl/events.go	575;"	w	access:public	ctype:ControllerAxisEvent	line:575	type:int16
+Value	sdl/mutex.go	150;"	m	access:public	ctype:Sem	line:150	signature:()	type:uint32
+Vendor	sdl/gamecontroller.go	205;"	m	access:public	ctype:GameController	line:205	signature:()	type:int
+Vendor	sdl/joystick.go	367;"	m	access:public	ctype:Joystick	line:367	signature:()	type:int
+Version	sdl/syswm.go	101;"	w	access:public	ctype:SysWMmsg	line:101	type:Version
+Version	sdl/syswm.go	65;"	w	access:public	ctype:SysWMInfo	line:65	type:Version
+Version	sdl/version.go	16;"	t	access:public	line:16	type:struct
+VideoInit	sdl/video.go	413;"	f	access:public	line:413	signature:(driverName string)	type:error
+VideoQuit	sdl/video.go	420;"	f	access:public	line:420	signature:()
+Vivante	sdl/syswm_vivante.go	14;"	m	access:public	ctype:SysWMmsg	line:14	signature:()	type:*VivanteMsg
+VivanteKitMsg	sdl/syswm_vivante.go	9;"	t	access:public	line:9	type:struct
+VulkanCreateSurface	sdl/vulkan.go	141;"	m	access:public	ctype:Window	line:141	signature:(instance interface{})	type:unsafe.Pointer, error
+VulkanGetDrawableSize	sdl/vulkan.go	161;"	m	access:public	ctype:Window	line:161	signature:()	type:int32, int32
+VulkanGetInstanceExtensions	sdl/vulkan.go	123;"	m	access:public	ctype:Window	line:123	signature:()	type:[]string
+VulkanGetVkGetInstanceProcAddr	sdl/vulkan.go	111;"	f	access:public	line:111	signature:()	type:unsafe.Pointer
+VulkanLoadLibrary	sdl/vulkan.go	94;"	f	access:public	line:94	signature:(path string)	type:error
+VulkanUnloadLibrary	sdl/vulkan.go	117;"	f	access:public	line:117	signature:()
+W	sdl/rect.go	19;"	w	access:public	ctype:Rect	line:19	type:int32
+W	sdl/surface.go	107;"	w	access:public	ctype:Surface	line:107	type:int32
+W	sdl/video.go	301;"	w	access:public	ctype:DisplayMode	line:301	type:int32
+WINDOWEVENT	sdl/events.go	121;"	c	access:public	line:121
+WINDOWEVENT_CLOSE	sdl/video.go	220;"	c	access:public	line:220
+WINDOWEVENT_ENTER	sdl/video.go	216;"	c	access:public	line:216
+WINDOWEVENT_EXPOSED	sdl/video.go	209;"	c	access:public	line:209
+WINDOWEVENT_FOCUS_GAINED	sdl/video.go	218;"	c	access:public	line:218
+WINDOWEVENT_FOCUS_LOST	sdl/video.go	219;"	c	access:public	line:219
+WINDOWEVENT_HIDDEN	sdl/video.go	208;"	c	access:public	line:208
+WINDOWEVENT_HIT_TEST	sdl/video.go	222;"	c	access:public	line:222
+WINDOWEVENT_LEAVE	sdl/video.go	217;"	c	access:public	line:217
+WINDOWEVENT_MAXIMIZED	sdl/video.go	214;"	c	access:public	line:214
+WINDOWEVENT_MINIMIZED	sdl/video.go	213;"	c	access:public	line:213
+WINDOWEVENT_MOVED	sdl/video.go	210;"	c	access:public	line:210
+WINDOWEVENT_NONE	sdl/video.go	206;"	c	access:public	line:206
+WINDOWEVENT_RESIZED	sdl/video.go	211;"	c	access:public	line:211
+WINDOWEVENT_RESTORED	sdl/video.go	215;"	c	access:public	line:215
+WINDOWEVENT_SHOWN	sdl/video.go	207;"	c	access:public	line:207
+WINDOWEVENT_SIZE_CHANGED	sdl/video.go	212;"	c	access:public	line:212
+WINDOWEVENT_TAKE_FOCUS	sdl/video.go	221;"	c	access:public	line:221
+WINDOWPOS_CENTERED	sdl/video.go	231;"	c	access:public	line:231
+WINDOWPOS_CENTERED_MASK	sdl/video.go	230;"	c	access:public	line:230
+WINDOWPOS_UNDEFINED	sdl/video.go	229;"	c	access:public	line:229
+WINDOWPOS_UNDEFINED_MASK	sdl/video.go	228;"	c	access:public	line:228
+WINDOW_ALLOW_HIGHDPI	sdl/video.go	193;"	c	access:public	line:193
+WINDOW_ALWAYS_ON_TOP	sdl/video.go	195;"	c	access:public	line:195
+WINDOW_BORDERLESS	sdl/video.go	184;"	c	access:public	line:184
+WINDOW_FOREIGN	sdl/video.go	192;"	c	access:public	line:192
+WINDOW_FULLSCREEN	sdl/video.go	180;"	c	access:public	line:180
+WINDOW_FULLSCREEN_DESKTOP	sdl/video.go	191;"	c	access:public	line:191
+WINDOW_HIDDEN	sdl/video.go	183;"	c	access:public	line:183
+WINDOW_INPUT_FOCUS	sdl/video.go	189;"	c	access:public	line:189
+WINDOW_INPUT_GRABBED	sdl/video.go	188;"	c	access:public	line:188
+WINDOW_MAXIMIZED	sdl/video.go	187;"	c	access:public	line:187
+WINDOW_MINIMIZED	sdl/video.go	186;"	c	access:public	line:186
+WINDOW_MOUSE_CAPTURE	sdl/video.go	194;"	c	access:public	line:194
+WINDOW_MOUSE_FOCUS	sdl/video.go	190;"	c	access:public	line:190
+WINDOW_OPENGL	sdl/video.go	181;"	c	access:public	line:181
+WINDOW_POPUP_MENU	sdl/video.go	199;"	c	access:public	line:199
+WINDOW_RESIZABLE	sdl/video.go	185;"	c	access:public	line:185
+WINDOW_SHOWN	sdl/video.go	182;"	c	access:public	line:182
+WINDOW_SKIP_TASKBAR	sdl/video.go	196;"	c	access:public	line:196
+WINDOW_TOOLTIP	sdl/video.go	198;"	c	access:public	line:198
+WINDOW_UTILITY	sdl/video.go	197;"	c	access:public	line:197
+WINDOW_VULKAN	sdl/video.go	200;"	c	access:public	line:200
+WParam	sdl/syswm_windows.go	15;"	w	access:public	ctype:WindowsMsg	line:15	type:C.WPARAM
+Wait	sdl/mutex.go	110;"	m	access:public	ctype:Sem	line:110	signature:()	type:error
+Wait	sdl/mutex.go	187;"	m	access:public	ctype:Cond	line:187	signature:(mutex *Mutex)	type:error
+WaitDone	sdl/mutex.go	31;"	w	access:public	ctype:Cond	line:31	type:*Sem
+WaitEvent	sdl/events.go	1064;"	f	access:public	line:1064	signature:()	type:Event
+WaitEventTimeout	sdl/events.go	1052;"	f	access:public	line:1052	signature:(timeout int)	type:Event
+WaitSem	sdl/mutex.go	30;"	w	access:public	ctype:Cond	line:30	type:*Sem
+WaitTimeout	sdl/mutex.go	130;"	m	access:public	ctype:Sem	line:130	signature:(ms uint32)	type:error
+WaitTimeout	sdl/mutex.go	197;"	m	access:public	ctype:Cond	line:197	signature:(mutex *Mutex, ms uint32)	type:error
+WaitersCount	sdl/mutex.go	20;"	w	access:public	ctype:Sem	line:20	type:uint32
+Waiting	sdl/mutex.go	28;"	w	access:public	ctype:Cond	line:28	type:int
+WarpMouseGlobal	sdl/mouse.go	253;"	f	access:public	line:253	signature:(x, y int32)	type:error
+WarpMouseInWindow	sdl/mouse.go	139;"	m	access:public	ctype:Window	line:139	signature:(x, y int32)
+WasInit	sdl/sdl.go	148;"	f	access:public	line:148	signature:(flags uint32)	type:uint32
+Which	sdl/events.go	365;"	w	access:public	ctype:MouseMotionEvent	line:365	type:uint32
+Which	sdl/events.go	390;"	w	access:public	ctype:MouseButtonEvent	line:390	type:uint32
+Which	sdl/events.go	416;"	w	access:public	ctype:MouseWheelEvent	line:416	type:uint32
+Which	sdl/events.go	438;"	w	access:public	ctype:JoyAxisEvent	line:438	type:JoystickID
+Which	sdl/events.go	463;"	w	access:public	ctype:JoyBallEvent	line:463	type:JoystickID
+Which	sdl/events.go	488;"	w	access:public	ctype:JoyHatEvent	line:488	type:JoystickID
+Which	sdl/events.go	511;"	w	access:public	ctype:JoyButtonEvent	line:511	type:JoystickID
+Which	sdl/events.go	534;"	w	access:public	ctype:JoyDeviceAddedEvent	line:534	type:int
+Which	sdl/events.go	552;"	w	access:public	ctype:JoyDeviceRemovedEvent	line:552	type:JoystickID
+Which	sdl/events.go	570;"	w	access:public	ctype:ControllerAxisEvent	line:570	type:JoystickID
+Which	sdl/events.go	595;"	w	access:public	ctype:ControllerButtonEvent	line:595	type:JoystickID
+Which	sdl/events.go	618;"	w	access:public	ctype:ControllerDeviceEvent	line:618	type:JoystickID
+Which	sdl/events.go	637;"	w	access:public	ctype:AudioDeviceEvent	line:637	type:uint32
+Which	sdl/events.go	761;"	w	access:public	ctype:SensorEvent	line:761	type:int32
+Window	sdl/syswm.go	72;"	w	access:public	ctype:WindowsInfo	line:72	type:unsafe.Pointer
+Window	sdl/syswm.go	78;"	w	access:public	ctype:X11Info	line:78	type:uint
+Window	sdl/syswm.go	84;"	w	access:public	ctype:DFBInfo	line:84	type:unsafe.Pointer
+Window	sdl/syswm.go	90;"	w	access:public	ctype:CocoaInfo	line:90	type:unsafe.Pointer
+Window	sdl/syswm.go	95;"	w	access:public	ctype:UIKitInfo	line:95	type:unsafe.Pointer
+Window	sdl/video.go	309;"	t	access:public	line:309	type:C.SDL_Window
+Window	sdl/video.go	346;"	w	access:public	ctype:MessageBoxData	line:346	type:*Window
+WindowEvent	sdl/events.go	238;"	t	access:public	line:238	type:struct
+WindowID	sdl/events.go	241;"	w	access:public	ctype:WindowEvent	line:241	type:uint32
+WindowID	sdl/events.go	266;"	w	access:public	ctype:KeyboardEvent	line:266	type:uint32
+WindowID	sdl/events.go	290;"	w	access:public	ctype:TextEditingEvent	line:290	type:uint32
+WindowID	sdl/events.go	328;"	w	access:public	ctype:TextInputEvent	line:328	type:uint32
+WindowID	sdl/events.go	364;"	w	access:public	ctype:MouseMotionEvent	line:364	type:uint32
+WindowID	sdl/events.go	389;"	w	access:public	ctype:MouseButtonEvent	line:389	type:uint32
+WindowID	sdl/events.go	415;"	w	access:public	ctype:MouseWheelEvent	line:415	type:uint32
+WindowID	sdl/events.go	735;"	w	access:public	ctype:DropEvent	line:735	type:uint32
+WindowID	sdl/events.go	742;"	w	access:public	ctype:tDropEvent	line:742	type:uint32
+WindowID	sdl/events.go	848;"	w	access:public	ctype:UserEvent	line:848	type:uint32
+Windows	sdl/syswm_windows.go	20;"	m	access:public	ctype:SysWMmsg	line:20	signature:()	type:*WindowsMsg
+WindowsInfo	sdl/syswm.go	71;"	t	access:public	line:71	type:struct
+WindowsMsg	sdl/syswm_windows.go	12;"	t	access:public	line:12	type:struct
+Write	sdl/rwops.go	180;"	m	access:public	ctype:RWops	line:180	signature:(buf []byte)	type:int, error
+Write2	sdl/rwops.go	186;"	m	access:public	ctype:RWops	line:186	signature:(buf []byte, size, num uint)	type:int, error
+WriteBE16	sdl/rwops.go	318;"	m	access:public	ctype:RWops	line:318	signature:(value uint16)	type:uint
+WriteBE32	sdl/rwops.go	336;"	m	access:public	ctype:RWops	line:336	signature:(value uint32)	type:uint
+WriteBE64	sdl/rwops.go	354;"	m	access:public	ctype:RWops	line:354	signature:(value uint64)	type:uint
+WriteLE16	sdl/rwops.go	309;"	m	access:public	ctype:RWops	line:309	signature:(value uint16)	type:uint
+WriteLE32	sdl/rwops.go	327;"	m	access:public	ctype:RWops	line:327	signature:(value uint32)	type:uint
+WriteLE64	sdl/rwops.go	345;"	m	access:public	ctype:RWops	line:345	signature:(value uint64)	type:uint
+WriteU8	sdl/rwops.go	300;"	m	access:public	ctype:RWops	line:300	signature:(value uint8)	type:uint
+X	sdl/events.go	367;"	w	access:public	ctype:MouseMotionEvent	line:367	type:int32
+X	sdl/events.go	395;"	w	access:public	ctype:MouseButtonEvent	line:395	type:int32
+X	sdl/events.go	417;"	w	access:public	ctype:MouseWheelEvent	line:417	type:int32
+X	sdl/events.go	662;"	w	access:public	ctype:TouchFingerEvent	line:662	type:float32
+X	sdl/events.go	688;"	w	access:public	ctype:MultiGestureEvent	line:688	type:float32
+X	sdl/events.go	714;"	w	access:public	ctype:DollarGestureEvent	line:714	type:float32
+X	sdl/rect.go	10;"	w	access:public	ctype:Point	line:10	type:int32
+X	sdl/rect.go	17;"	w	access:public	ctype:Rect	line:17	type:int32
+X	sdl/touch.go	19;"	w	access:public	ctype:Finger	line:19	type:float32
+X11	sdl/syswm_x11.go	17;"	m	access:public	ctype:SysWMmsg	line:17	signature:()	type:*X11Msg
+X11Info	sdl/syswm.go	76;"	t	access:public	line:76	type:struct
+X11Msg	sdl/syswm_x11.go	12;"	t	access:public	line:12	type:struct
+XRel	sdl/events.go	369;"	w	access:public	ctype:MouseMotionEvent	line:369	type:int32
+XRel	sdl/events.go	468;"	w	access:public	ctype:JoyBallEvent	line:468	type:int16
+Y	sdl/events.go	368;"	w	access:public	ctype:MouseMotionEvent	line:368	type:int32
+Y	sdl/events.go	396;"	w	access:public	ctype:MouseButtonEvent	line:396	type:int32
+Y	sdl/events.go	418;"	w	access:public	ctype:MouseWheelEvent	line:418	type:int32
+Y	sdl/events.go	663;"	w	access:public	ctype:TouchFingerEvent	line:663	type:float32
+Y	sdl/events.go	689;"	w	access:public	ctype:MultiGestureEvent	line:689	type:float32
+Y	sdl/events.go	715;"	w	access:public	ctype:DollarGestureEvent	line:715	type:float32
+Y	sdl/rect.go	11;"	w	access:public	ctype:Point	line:11	type:int32
+Y	sdl/rect.go	18;"	w	access:public	ctype:Rect	line:18	type:int32
+Y	sdl/touch.go	20;"	w	access:public	ctype:Finger	line:20	type:float32
+YRel	sdl/events.go	370;"	w	access:public	ctype:MouseMotionEvent	line:370	type:int32
+YRel	sdl/events.go	469;"	w	access:public	ctype:JoyBallEvent	line:469	type:int16
+YUV_CONVERSION_AUTOMATIC	sdl/surface.go	99;"	c	access:public	line:99
+YUV_CONVERSION_BT601	sdl/surface.go	97;"	c	access:public	line:97
+YUV_CONVERSION_BT709	sdl/surface.go	98;"	c	access:public	line:98
+YUV_CONVERSION_JPEG	sdl/surface.go	96;"	c	access:public	line:96	type:YUV_CONVERSION_MODE
+YUV_CONVERSION_MODE	sdl/surface.go	92;"	t	access:public	line:92	type:C.SDL_YUV_CONVERSION_MODE
+_	sdl/audio.go	204;"	w	access:private	ctype:AudioSpec	line:204	type:uint16
+_	sdl/events.go	216;"	w	access:private	ctype:CEvent	line:216	type:[52]byte
+_	sdl/events.go	243;"	w	access:private	ctype:WindowEvent	line:243	type:uint8
+_	sdl/events.go	244;"	w	access:private	ctype:WindowEvent	line:244	type:uint8
+_	sdl/events.go	245;"	w	access:private	ctype:WindowEvent	line:245	type:uint8
+_	sdl/events.go	269;"	w	access:private	ctype:KeyboardEvent	line:269	type:uint8
+_	sdl/events.go	270;"	w	access:private	ctype:KeyboardEvent	line:270	type:uint8
+_	sdl/events.go	394;"	w	access:private	ctype:MouseButtonEvent	line:394	type:uint8
+_	sdl/events.go	440;"	w	access:private	ctype:JoyAxisEvent	line:440	type:uint8
+_	sdl/events.go	441;"	w	access:private	ctype:JoyAxisEvent	line:441	type:uint8
+_	sdl/events.go	442;"	w	access:private	ctype:JoyAxisEvent	line:442	type:uint8
+_	sdl/events.go	444;"	w	access:private	ctype:JoyAxisEvent	line:444	type:uint16
+_	sdl/events.go	465;"	w	access:private	ctype:JoyBallEvent	line:465	type:uint8
+_	sdl/events.go	466;"	w	access:private	ctype:JoyBallEvent	line:466	type:uint8
+_	sdl/events.go	467;"	w	access:private	ctype:JoyBallEvent	line:467	type:uint8
+_	sdl/events.go	491;"	w	access:private	ctype:JoyHatEvent	line:491	type:uint8
+_	sdl/events.go	492;"	w	access:private	ctype:JoyHatEvent	line:492	type:uint8
+_	sdl/events.go	514;"	w	access:private	ctype:JoyButtonEvent	line:514	type:uint8
+_	sdl/events.go	515;"	w	access:private	ctype:JoyButtonEvent	line:515	type:uint8
+_	sdl/events.go	572;"	w	access:private	ctype:ControllerAxisEvent	line:572	type:uint8
+_	sdl/events.go	573;"	w	access:private	ctype:ControllerAxisEvent	line:573	type:uint8
+_	sdl/events.go	574;"	w	access:private	ctype:ControllerAxisEvent	line:574	type:uint8
+_	sdl/events.go	576;"	w	access:private	ctype:ControllerAxisEvent	line:576	type:uint16
+_	sdl/events.go	598;"	w	access:private	ctype:ControllerButtonEvent	line:598	type:uint8
+_	sdl/events.go	599;"	w	access:private	ctype:ControllerButtonEvent	line:599	type:uint8
+_	sdl/events.go	639;"	w	access:private	ctype:AudioDeviceEvent	line:639	type:uint8
+_	sdl/events.go	640;"	w	access:private	ctype:AudioDeviceEvent	line:640	type:uint8
+_	sdl/events.go	641;"	w	access:private	ctype:AudioDeviceEvent	line:641	type:uint8
+_	sdl/events.go	691;"	w	access:private	ctype:MultiGestureEvent	line:691	type:uint16
+_	sdl/pixels.go	42;"	w	access:private	ctype:PixelFormat	line:42	type:[2]uint8
+_	sdl/surface.go	115;"	w	access:private	ctype:Surface	line:115	type:unsafe.Pointer
+aLoss	sdl/pixels.go	50;"	w	access:private	ctype:PixelFormat	line:50	type:uint8
+aShift	sdl/pixels.go	54;"	w	access:private	ctype:PixelFormat	line:54	type:uint8
+bLoss	sdl/pixels.go	49;"	w	access:private	ctype:PixelFormat	line:49	type:uint8
+bShift	sdl/pixels.go	53;"	w	access:private	ctype:PixelFormat	line:53	type:uint8
+bytes	sdl/audio_test.go	4;"	i	line:4
+c	sdl/audio.go	232;"	m	access:private	ctype:AudioFormat	line:232	signature:()	type:C.SDL_AudioFormat
+c	sdl/audio.go	236;"	m	access:private	ctype:AudioDeviceID	line:236	signature:()	type:C.SDL_AudioDeviceID
+c	sdl/blendmode.go	75;"	m	access:private	ctype:BlendMode	line:75	signature:()	type:C.SDL_BlendMode
+c	sdl/error.go	32;"	m	access:private	ctype:ErrorCode	line:32	signature:()	type:C.SDL_errorcode
+c	sdl/events.go	905;"	m	access:private	ctype:EventAction	line:905	signature:()	type:C.SDL_eventaction
+c	sdl/gamecontroller.go	138;"	m	access:private	ctype:GameControllerAxis	line:138	signature:()	type:C.SDL_GameControllerAxis
+c	sdl/gamecontroller.go	142;"	m	access:private	ctype:GameControllerButton	line:142	signature:()	type:C.SDL_GameControllerButton
+c	sdl/gesture.go	9;"	m	access:private	ctype:GestureID	line:9	signature:()	type:C.SDL_GestureID
+c	sdl/hints.go	147;"	m	access:private	ctype:HintPriority	line:147	signature:()	type:C.SDL_HintPriority
+c	sdl/joystick.go	249;"	m	access:private	ctype:JoystickGUID	line:249	signature:()	type:C.SDL_JoystickGUID
+c	sdl/joystick.go	253;"	m	access:private	ctype:JoystickID	line:253	signature:()	type:C.SDL_JoystickID
+c	sdl/keycode.go	295;"	m	access:private	ctype:Keycode	line:295	signature:()	type:C.SDL_Keycode
+c	sdl/keycode.go	299;"	m	access:private	ctype:Keymod	line:299	signature:()	type:C.SDL_Keymod
+c	sdl/log.go	92;"	m	access:private	ctype:LogPriority	line:92	signature:()	type:C.SDL_LogPriority
+c	sdl/mouse.go	103;"	m	access:private	ctype:SystemCursor	line:103	signature:()	type:C.SDL_SystemCursor
+c	sdl/render.go	139;"	m	access:private	ctype:RendererFlip	line:139	signature:()	type:C.SDL_RendererFlip
+c	sdl/scancode.go	268;"	m	access:private	ctype:Scancode	line:268	signature:()	type:C.SDL_Scancode
+c	sdl/touch.go	24;"	m	access:private	ctype:TouchID	line:24	signature:()	type:C.SDL_TouchID
+c	sdl/video.go	377;"	m	access:private	ctype:GLattr	line:377	signature:()	type:C.SDL_GLattr
+cAudioCVT	sdl/audio.go	226;"	t	access:private	line:226	type:C.SDL_AudioCVT
+cAudioDeviceEvent	sdl/events.go	643;"	t	access:private	line:643	type:C.SDL_AudioDeviceEvent
+cAudioSpec	sdl/audio.go	209;"	t	access:private	line:209	type:C.SDL_AudioSpec
+cAudioStatus	sdl/audio.go	194;"	t	access:private	line:194	type:C.SDL_AudioStatus
+cControllerAxisEvent	sdl/events.go	578;"	t	access:private	line:578	type:C.SDL_ControllerAxisEvent
+cControllerButtonEvent	sdl/events.go	601;"	t	access:private	line:601	type:C.SDL_ControllerButtonEvent
+cControllerDeviceEvent	sdl/events.go	620;"	t	access:private	line:620	type:C.SDL_ControllerDeviceEvent
+cDisplayMode	sdl/video.go	306;"	t	access:private	line:306	type:C.SDL_DisplayMode
+cDollarGestureEvent	sdl/events.go	717;"	t	access:private	line:717	type:C.SDL_DollarGestureEvent
+cDropEvent	sdl/events.go	744;"	t	access:private	line:744	type:C.SDL_DropEvent
+cErrorCode	sdl/error.go	30;"	t	access:private	line:30	type:C.SDL_errorcode
+cEvent	sdl/events.go	1044;"	f	access:private	ctype:CEvent	line:1044	signature:(event Event)	type:*CEvent
+cHapticEffect	sdl/haptic.go	109;"	m	access:private	ctype:HapticCondition	line:109	signature:()	type:*C.SDL_HapticEffect
+cHapticEffect	sdl/haptic.go	130;"	m	access:private	ctype:HapticRamp	line:130	signature:()	type:*C.SDL_HapticEffect
+cHapticEffect	sdl/haptic.go	143;"	m	access:private	ctype:HapticLeftRight	line:143	signature:()	type:*C.SDL_HapticEffect
+cHapticEffect	sdl/haptic.go	166;"	m	access:private	ctype:HapticCustom	line:166	signature:()	type:*C.SDL_HapticEffect
+cHapticEffect	sdl/haptic.go	173;"	m	access:private	line:173	ntype:HapticEffect	signature:()	type:*C.SDL_HapticEffect
+cHapticEffect	sdl/haptic.go	65;"	m	access:private	ctype:HapticConstant	line:65	signature:()	type:*C.SDL_HapticEffect
+cHapticEffect	sdl/haptic.go	88;"	m	access:private	ctype:HapticPeriodic	line:88	signature:()	type:*C.SDL_HapticEffect
+cJoyAxisEvent	sdl/events.go	446;"	t	access:private	line:446	type:C.SDL_JoyAxisEvent
+cJoyBallEvent	sdl/events.go	471;"	t	access:private	line:471	type:C.SDL_JoyBallEvent
+cJoyButtonEvent	sdl/events.go	517;"	t	access:private	line:517	type:C.SDL_JoyButtonEvent
+cJoyHatEvent	sdl/events.go	494;"	t	access:private	line:494	type:C.SDL_JoyHatEvent
+cKeyboardEvent	sdl/events.go	273;"	t	access:private	line:273	type:C.SDL_KeyboardEvent
+cMessageBoxColor	sdl/video.go	325;"	t	access:private	line:325	type:C.SDL_MessageBoxColor
+cMessageBoxColorScheme	sdl/video.go	332;"	t	access:private	line:332	type:C.SDL_MessageBoxColorScheme
+cMouseButtonEvent	sdl/events.go	398;"	t	access:private	line:398	type:C.SDL_MouseButtonEvent
+cMouseMotionEvent	sdl/events.go	372;"	t	access:private	line:372	type:C.SDL_MouseMotionEvent
+cMouseWheelEvent	sdl/events.go	421;"	t	access:private	line:421	type:C.SDL_MouseWheelEvent
+cMultiGestureEvent	sdl/events.go	693;"	t	access:private	line:693	type:C.SDL_MultiGestureEvent
+cPalette	sdl/pixels.go	68;"	t	access:private	line:68	type:C.SDL_Palette
+cPixelFormat	sdl/pixels.go	58;"	t	access:private	line:58	type:C.SDL_PixelFormat
+cRendererFlip	sdl/render.go	137;"	t	access:private	line:137	type:C.SDL_RendererFlip
+cRendererInfo	sdl/render.go	111;"	t	access:private	line:111	type:struct
+cSensorEvent	sdl/events.go	764;"	t	access:private	line:764	type:C.SDL_SensorEvent
+cSurface	sdl/surface.go	118;"	t	access:private	line:118	type:C.SDL_Surface
+cSysWMEvent	sdl/events.go	872;"	t	access:private	line:872	type:C.SDL_SysWMEvent
+cTextEditingEvent	sdl/events.go	295;"	t	access:private	line:295	type:C.SDL_TextEditingEvent
+cTextInputEvent	sdl/events.go	331;"	t	access:private	line:331	type:C.SDL_TextInputEvent
+cTouchFingerEvent	sdl/events.go	668;"	t	access:private	line:668	type:C.SDL_TouchFingerEvent
+cUserEvent	sdl/events.go	853;"	t	access:private	line:853	type:C.SDL_UserEvent
+cVersion	sdl/version.go	21;"	t	access:private	line:21	type:C.SDL_version
+cWindowEvent	sdl/events.go	249;"	t	access:private	line:249	type:C.SDL_WindowEvent
+callInMain	sdl/sdl.go	44;"	v	access:private	line:44
+callback	sdl/hints.go	137;"	w	access:private	ctype:HintCallbackAndData	line:137	type:HintCallback
+cevent	sdl/events.go	101;"	v	access:private	line:101	type:C.SDL_Event
+codeBottom	sdl/rect.go	252;"	c	access:private	line:252
+codeLeft	sdl/rect.go	254;"	c	access:private	line:254
+codeRight	sdl/rect.go	255;"	c	access:private	line:255
+codeTop	sdl/rect.go	253;"	c	access:private	line:253
+computeOutCode	sdl/rect.go	258;"	f	access:private	line:258	signature:(rect *Rect, x, y int32)	type:int
+countEventsInQ	sdl/events_test.go	66;"	f	access:private	line:66	signature:(wait bool)	type:int
+cptr	sdl/audio.go	240;"	m	access:private	ctype:AudioSpec	line:240	signature:()	type:*C.SDL_AudioSpec
+cptr	sdl/audio.go	244;"	m	access:private	ctype:AudioCVT	line:244	signature:()	type:*C.SDL_AudioCVT
+cptr	sdl/audio.go	248;"	m	access:private	ctype:AudioStream	line:248	signature:()	type:*C.SDL_AudioStream
+cptr	sdl/blendmode.go	79;"	m	access:private	ctype:BlendMode	line:79	signature:()	type:*C.SDL_BlendMode
+cptr	sdl/events.go	1107;"	m	access:private	ctype:eventFilterCallbackContext	line:1107	signature:()	type:unsafe.Pointer
+cptr	sdl/gamecontroller.go	134;"	m	access:private	ctype:GameController	line:134	signature:()	type:*C.SDL_GameController
+cptr	sdl/haptic.go	176;"	m	access:private	ctype:Haptic	line:176	signature:()	type:*C.SDL_Haptic
+cptr	sdl/joystick.go	245;"	m	access:private	ctype:Joystick	line:245	signature:()	type:*C.SDL_Joystick
+cptr	sdl/mouse.go	99;"	m	access:private	ctype:Cursor	line:99	signature:()	type:*C.SDL_Cursor
+cptr	sdl/mutex.go	34;"	m	access:private	ctype:Mutex	line:34	signature:()	type:*C.SDL_mutex
+cptr	sdl/mutex.go	38;"	m	access:private	ctype:Sem	line:38	signature:()	type:*C.SDL_sem
+cptr	sdl/mutex.go	42;"	m	access:private	ctype:Cond	line:42	signature:()	type:*C.SDL_cond
+cptr	sdl/pixels.go	198;"	m	access:private	ctype:PixelFormat	line:198	signature:()	type:*C.SDL_PixelFormat
+cptr	sdl/pixels.go	202;"	m	access:private	ctype:Palette	line:202	signature:()	type:*C.SDL_Palette
+cptr	sdl/rect.go	23;"	m	access:private	ctype:Point	line:23	signature:()	type:*C.SDL_Point
+cptr	sdl/rect.go	27;"	m	access:private	ctype:Rect	line:27	signature:()	type:*C.SDL_Rect
+cptr	sdl/render.go	126;"	m	access:private	ctype:RendererInfo	line:126	signature:()	type:*C.SDL_RendererInfo
+cptr	sdl/render.go	130;"	m	access:private	ctype:cRendererInfo	line:130	signature:()	type:*C.SDL_RendererInfo
+cptr	sdl/rwops.go	69;"	m	access:private	ctype:RWops	line:69	signature:()	type:*C.SDL_RWops
+cptr	sdl/surface.go	120;"	m	access:private	ctype:Surface	line:120	signature:()	type:*C.SDL_Surface
+cptr	sdl/sysrender.go	15;"	m	access:private	ctype:Texture	line:15	signature:()	type:*C.SDL_Texture
+cptr	sdl/sysrender.go	19;"	m	access:private	ctype:Renderer	line:19	signature:()	type:*C.SDL_Renderer
+cptr	sdl/syswm.go	106;"	m	access:private	ctype:SysWMInfo	line:106	signature:()	type:*C.SDL_SysWMinfo
+cptr	sdl/version.go	23;"	m	access:private	ctype:Version	line:23	signature:()	type:*C.SDL_version
+cptr	sdl/video.go	353;"	m	access:private	ctype:Window	line:353	signature:()	type:*C.SDL_Window
+cptr	sdl/video.go	357;"	m	access:private	ctype:DisplayMode	line:357	signature:()	type:*C.SDL_DisplayMode
+cptr	sdl/video.go	361;"	m	access:private	ctype:MessageBoxColor	line:361	signature:()	type:*C.SDL_MessageBoxColor
+cptr	sdl/video.go	365;"	m	access:private	ctype:MessageBoxColorScheme	line:365	signature:()	type:*C.SDL_MessageBoxColorScheme
+cptr	sdl/video.go	369;"	m	access:private	ctype:MessageBoxButtonData	line:369	signature:()	type:*C.SDL_MessageBoxButtonData
+cptr	sdl/video.go	373;"	m	access:private	ctype:MessageBoxData	line:373	signature:()	type:*C.SDL_MessageBoxData
+d	sdl/log.go	213;"	w	access:private	ctype:logOutputFunctionCtx	line:213	type:interface{}
+data	sdl/hints.go	138;"	w	access:private	ctype:HintCallbackAndData	line:138	type:interface{}
+data	sdl/syswm.go	103;"	w	access:private	ctype:SysWMmsg	line:103	type:[24]byte
+dropEventEdgeCase	sdl/struct_test.go	45;"	f	access:private	line:45	signature:(t *testing.T, a, b interface{})
+dummy	sdl/syswm.go	67;"	w	access:private	ctype:SysWMInfo	line:67	type:[24]byte
+dummy	sdl/syswm_cocoa.go	10;"	w	access:private	ctype:CocoaMsg	line:10	type:C.int
+dummy	sdl/syswm_uikit.go	10;"	w	access:private	ctype:UIKitMsg	line:10	type:C.int
+dummy	sdl/syswm_vivante.go	10;"	w	access:private	ctype:VivanteKitMsg	line:10	type:C.int
+dumpStructFormat	sdl/struct_test.go	142;"	f	access:private	line:142	signature:(t *testing.T, s reflect.Type)
+emptyCString	sdl/error.go	15;"	v	access:private	line:15	type:*C.char
+encoding/binary	sdl/gamecontroller.go	72;"	i	line:72
+errorFromInt	sdl/error.go	81;"	f	access:private	line:81	signature:(code int)	type:error
+errors	sdl/error.go	13;"	i	line:13
+errors	sdl/render_test.go	4;"	i	line:4
+errors	sdl/vulkan.go	87;"	i	line:87
+eventFilterCache	sdl/events.go	97;"	v	access:private	line:97	type:EventFilter
+eventFilterCallbackContext	sdl/events.go	896;"	t	access:private	line:896	type:struct
+eventFilterFunc	sdl/events.go	894;"	t	access:private	line:894	type:func(Event, interface{}) bool
+eventWatches	sdl/events.go	98;"	v	access:private	line:98
+f	sdl/log.go	212;"	w	access:private	ctype:logOutputFunctionCtx	line:212	type:LogOutputFunction
+filter	sdl/events.go	897;"	w	access:private	ctype:eventFilterCallbackContext	line:897	type:EventFilter
+filterIndex	sdl/audio.go	224;"	w	access:private	ctype:AudioCVT	line:224	type:int32
+filters	sdl/audio.go	223;"	w	access:private	ctype:AudioCVT	line:223	type:[10]AudioFilter
+flags	sdl/surface.go	105;"	w	access:private	ctype:Surface	line:105	type:uint32
+fmt	sdl/log.go	48;"	i	line:48
+fmt	sdl/sdl_test.go	4;"	i	line:4
+fmt	sdl/struct_test.go	4;"	i	line:4
+gLoss	sdl/pixels.go	48;"	w	access:private	ctype:PixelFormat	line:48	type:uint8
+gShift	sdl/pixels.go	52;"	w	access:private	ctype:PixelFormat	line:52	type:uint8
+goEvent	sdl/events.go	980;"	f	access:private	line:980	signature:(cevent *CEvent)	type:Event
+goEventFilterCallback	sdl/events.go	1122;"	f	access:private	line:1122	signature:(userdata unsafe.Pointer, e *C.SDL_Event)	type:C.int
+goHintCallback	sdl/hints.go	205;"	f	access:private	line:205	signature:(_name, _oldValue, _newValue *C.char)
+goSetEventFilterCallback	sdl/events.go	1112;"	f	access:private	line:1112	signature:(data unsafe.Pointer, e *C.SDL_Event)	type:C.int
+handle	sdl/events.go	898;"	w	access:private	ctype:eventFilterCallbackContext	line:898	type:EventWatchHandle
+hintCallbacks	sdl/hints.go	141;"	v	access:private	line:141
+image	sdl/surface.go	81;"	i	line:81
+image/color	sdl/pixels.go	33;"	i	line:33
+image/color	sdl/surface.go	82;"	i	line:82
+init	sdl/sdl.go	48;"	f	access:private	line:48	signature:()
+init	sdl/sdl_test.go	10;"	f	access:private	line:10	signature:()
+isCEventFilterSet	sdl/events.go	1175;"	f	access:private	line:1175	signature:()	type:bool
+lastEventWatchHandle	sdl/events.go	100;"	v	access:private	line:100	type:EventWatchHandle
+lastEventWatchHandleMutex	sdl/events.go	99;"	v	access:private	line:99	type:sync.Mutex
+lockData	sdl/surface.go	113;"	w	access:private	ctype:Surface	line:113	type:unsafe.Pointer
+locked	sdl/surface.go	112;"	w	access:private	ctype:Surface	line:112	type:int32
+logOutputDataCache	sdl/log.go	227;"	v	access:private	line:227	type:interface{}
+logOutputFunction	sdl/log.go	219;"	f	access:private	line:219	signature:(data unsafe.Pointer, category C.int, pri C.SDL_LogPriority, message *C.char)
+logOutputFunctionCache	sdl/log.go	226;"	v	access:private	line:226	type:LogOutputFunction
+logOutputFunctionCtx	sdl/log.go	211;"	t	access:private	line:211	type:struct
+mouseWheelEventEdgeCase	sdl/struct_test.go	34;"	f	access:private	line:34	signature:(t *testing.T, a, b interface{})
+newEventFilterCallbackContext	sdl/events.go	1090;"	f	access:private	ctype:eventFilterCallbackContext	line:1090	signature:(filter EventFilter, userdata interface{})	type:*eventFilterCallbackContext
+next	sdl/pixels.go	56;"	w	access:private	ctype:PixelFormat	line:56	type:*PixelFormat
+os	sdl/sdl_test.go	5;"	i	line:5
+pixels	sdl/surface.go	110;"	w	access:private	ctype:Surface	line:110	type:unsafe.Pointer
+rLoss	sdl/pixels.go	47;"	w	access:private	ctype:PixelFormat	line:47	type:uint8
+rShift	sdl/pixels.go	51;"	w	access:private	ctype:PixelFormat	line:51	type:uint8
+refCount	sdl/pixels.go	55;"	w	access:private	ctype:PixelFormat	line:55	type:int32
+refCount	sdl/pixels.go	66;"	w	access:private	ctype:Palette	line:66	type:int32
+reflect	sdl/audio.go	115;"	i	line:115
+reflect	sdl/events.go	93;"	i	line:93
+reflect	sdl/keyboard.go	6;"	i	line:6
+reflect	sdl/render.go	67;"	i	line:67
+reflect	sdl/rwops.go	44;"	i	line:44
+reflect	sdl/struct_test.go	5;"	i	line:5
+reflect	sdl/surface.go	80;"	i	line:80
+reflect	sdl/vulkan.go	88;"	i	line:88
+runtime	sdl/cpuinfo_test.go	4;"	i	line:4
+runtime	sdl/sdl.go	19;"	i	line:19
+runtime	sdl/sdl_test.go	6;"	i	line:6
+sdl	sdl/audio.go	1;"	p	line:1
+sdl	sdl/audio_test.go	1;"	p	line:1
+sdl	sdl/blendmode.go	1;"	p	line:1
+sdl	sdl/clipboard.go	1;"	p	line:1
+sdl	sdl/clipboard_test.go	1;"	p	line:1
+sdl	sdl/cpuinfo.go	1;"	p	line:1
+sdl	sdl/cpuinfo_test.go	1;"	p	line:1
+sdl	sdl/endian.go	1;"	p	line:1
+sdl	sdl/error.go	1;"	p	line:1
+sdl	sdl/events.go	1;"	p	line:1
+sdl	sdl/events_test.go	1;"	p	line:1
+sdl	sdl/filesystem.go	1;"	p	line:1
+sdl	sdl/filesystem_test.go	1;"	p	line:1
+sdl	sdl/gamecontroller.go	1;"	p	line:1
+sdl	sdl/gesture.go	1;"	p	line:1
+sdl	sdl/haptic.go	1;"	p	line:1
+sdl	sdl/helpers.go	1;"	p	line:1
+sdl	sdl/hints.go	1;"	p	line:1
+sdl	sdl/hints_test.go	1;"	p	line:1
+sdl	sdl/joystick.go	1;"	p	line:1
+sdl	sdl/keyboard.go	1;"	p	line:1
+sdl	sdl/keycode.go	1;"	p	line:1
+sdl	sdl/loadso.go	1;"	p	line:1
+sdl	sdl/log.go	1;"	p	line:1
+sdl	sdl/log_test.go	1;"	p	line:1
+sdl	sdl/mouse.go	1;"	p	line:1
+sdl	sdl/mutex.go	1;"	p	line:1
+sdl	sdl/pixels.go	1;"	p	line:1
+sdl	sdl/pixels_test.go	1;"	p	line:1
+sdl	sdl/power.go	1;"	p	line:1
+sdl	sdl/power_test.go	1;"	p	line:1
+sdl	sdl/rect.go	1;"	p	line:1
+sdl	sdl/rect_test.go	1;"	p	line:1
+sdl	sdl/render.go	1;"	p	line:1
+sdl	sdl/render_test.go	1;"	p	line:1
+sdl	sdl/rwops.go	1;"	p	line:1
+sdl	sdl/scancode.go	1;"	p	line:1
+sdl	sdl/sdl.go	2;"	p	line:2
+sdl	sdl/sdl_cgo.go	3;"	p	line:3
+sdl	sdl/sdl_cgo_static.go	3;"	p	line:3
+sdl	sdl/sdl_test.go	1;"	p	line:1
+sdl	sdl/sensor.go	1;"	p	line:1
+sdl	sdl/struct_test.go	1;"	p	line:1
+sdl	sdl/surface.go	1;"	p	line:1
+sdl	sdl/surface_test.go	1;"	p	line:1
+sdl	sdl/sysrender.go	1;"	p	line:1
+sdl	sdl/system_android.go	3;"	p	line:3
+sdl	sdl/syswm.go	1;"	p	line:1
+sdl	sdl/syswm_cocoa.go	3;"	p	line:3
+sdl	sdl/syswm_dfb.go	3;"	p	line:3
+sdl	sdl/syswm_uikit.go	3;"	p	line:3
+sdl	sdl/syswm_vivante.go	3;"	p	line:3
+sdl	sdl/syswm_windows.go	3;"	p	line:3
+sdl	sdl/syswm_x11.go	3;"	p	line:3
+sdl	sdl/thread.go	1;"	p	line:1
+sdl	sdl/timer.go	1;"	p	line:1
+sdl	sdl/timer_test.go	1;"	p	line:1
+sdl	sdl/touch.go	1;"	p	line:1
+sdl	sdl/version.go	1;"	p	line:1
+sdl	sdl/video.go	1;"	p	line:1
+sdl	sdl/video_test.go	1;"	p	line:1
+sdl	sdl/vulkan.go	1;"	p	line:1
+searchField	sdl/struct_test.go	168;"	f	access:private	line:168	signature:(t reflect.Type, gName string)	type:*reflect.StructField
+simpleTestFilter	sdl/events_test.go	32;"	t	access:private	line:32	type:struct
+squareWave	sdl/audio_test.go	8;"	v	access:private	line:8
+strings	sdl/struct_test.go	6;"	i	line:6
+structMatch	sdl/struct_test.go	12;"	f	access:private	line:12	signature:(t *testing.T, ta, tb reflect.Type)
+structMatchFixed	sdl/struct_test.go	16;"	f	access:private	line:16	signature:(t *testing.T, ta, tb reflect.Type, szb uintptr)
+structMatchGeneric	sdl/struct_test.go	20;"	f	access:private	line:20	signature:(t *testing.T, ta, tb reflect.Type, sza, szb uintptr)
+sync	sdl/events.go	94;"	i	line:94
+sync	sdl/hints_test.go	4;"	i	line:4
+tDropEvent	sdl/events.go	738;"	t	access:private	line:738	type:struct
+testABI	sdl/struct_test.go	117;"	f	access:private	line:117	signature:(t *testing.T, a, b interface{}, f EdgeCaseFunc)
+testing	sdl/audio_test.go	5;"	i	line:5
+testing	sdl/clipboard_test.go	3;"	i	line:3
+testing	sdl/cpuinfo_test.go	5;"	i	line:5
+testing	sdl/events_test.go	3;"	i	line:3
+testing	sdl/filesystem_test.go	4;"	i	line:4
+testing	sdl/hints_test.go	5;"	i	line:5
+testing	sdl/log_test.go	4;"	i	line:4
+testing	sdl/pixels_test.go	3;"	i	line:3
+testing	sdl/power_test.go	3;"	i	line:3
+testing	sdl/rect_test.go	4;"	i	line:4
+testing	sdl/render_test.go	5;"	i	line:5
+testing	sdl/sdl_test.go	7;"	i	line:7
+testing	sdl/struct_test.go	7;"	i	line:7
+testing	sdl/surface_test.go	4;"	i	line:4
+testing	sdl/timer_test.go	4;"	i	line:4
+testing	sdl/video_test.go	4;"	i	line:4
+time	sdl/timer_test.go	5;"	i	line:5
+unsafe	sdl/audio.go	116;"	i	line:116
+unsafe	sdl/blendmode.go	61;"	i	line:61
+unsafe	sdl/clipboard.go	5;"	i	line:5
+unsafe	sdl/events.go	92;"	i	line:92
+unsafe	sdl/filesystem.go	30;"	i	line:30
+unsafe	sdl/gamecontroller.go	71;"	i	line:71
+unsafe	sdl/haptic.go	5;"	i	line:5
+unsafe	sdl/hints.go	63;"	i	line:63
+unsafe	sdl/joystick.go	188;"	i	line:188
+unsafe	sdl/keyboard.go	5;"	i	line:5
+unsafe	sdl/loadso.go	5;"	i	line:5
+unsafe	sdl/log.go	49;"	i	line:49
+unsafe	sdl/mouse.go	59;"	i	line:59
+unsafe	sdl/mutex.go	5;"	i	line:5
+unsafe	sdl/pixels.go	32;"	i	line:32
+unsafe	sdl/rect.go	5;"	i	line:5
+unsafe	sdl/render.go	68;"	i	line:68
+unsafe	sdl/rwops.go	45;"	i	line:45
+unsafe	sdl/sensor.go	159;"	i	line:159
+unsafe	sdl/surface.go	79;"	i	line:79
+unsafe	sdl/sysrender.go	5;"	i	line:5
+unsafe	sdl/system_android.go	21;"	i	line:21
+unsafe	sdl/syswm.go	45;"	i	line:45
+unsafe	sdl/syswm_cocoa.go	6;"	i	line:6
+unsafe	sdl/syswm_dfb.go	6;"	i	line:6
+unsafe	sdl/syswm_uikit.go	6;"	i	line:6
+unsafe	sdl/syswm_vivante.go	6;"	i	line:6
+unsafe	sdl/syswm_windows.go	9;"	i	line:9
+unsafe	sdl/syswm_x11.go	9;"	i	line:9
+unsafe	sdl/touch.go	5;"	i	line:5
+unsafe	sdl/version.go	5;"	i	line:5
+unsafe	sdl/video.go	175;"	i	line:175
+unsafe	sdl/vulkan.go	89;"	i	line:89
+unused	sdl/keyboard.go	14;"	w	access:private	ctype:Keysym	line:14	type:uint32
+userdata	sdl/events.go	899;"	w	access:private	ctype:eventFilterCallbackContext	line:899	type:interface{}
+verifyField	sdl/struct_test.go	153;"	f	access:private	line:153	signature:(t *testing.T, gField reflect.StructField, cType reflect.Type)	type:error
+version	sdl/pixels.go	65;"	w	access:private	ctype:Palette	line:65	type:uint32
+wrapEventFilterCallback	sdl/events.go	1132;"	f	access:private	line:1132	signature:(filter EventFilter, e *C.SDL_Event, userdata interface{})	type:C.int

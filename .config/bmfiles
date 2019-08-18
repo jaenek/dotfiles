@@ -1,0 +1,9 @@
+bf  ~/.config/bmfiles
+bd  ~/.config/bmdirs
+cfa ~/.config/aliases
+cfb ~/.bashrc
+cfd ~/.config/dunst/dunstrc
+cff ~/.config/fontconfig/fonts.conf
+cfp ~/.profile
+cfv ~/.config/nvim/init.vim
+cfV ~/.config/vifm/vifmrc

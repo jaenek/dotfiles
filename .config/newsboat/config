@@ -1,0 +1,43 @@
+browser "bkr mpv %u"
+
+prepopulate-query-feeds yes
+openbrowser-and-mark-jumps-to-next-unread yes
+
+bind-key j down
+bind-key k up
+bind-key j next articlelist
+bind-key k prev articlelist
+bind-key J next-feed articlelist
+bind-key K prev-feed articlelist
+bind-key l open
+bind-key RIGHT open
+bind-key o open
+bind-key h quit
+bind-key LEFT quit
+bind-key ESC quit
+bind-key l open-in-browser-and-mark-read articlelist
+bind-key RIGHT open-in-browser-and-mark-read articlelist
+bind-key ENTER open-in-browser-and-mark-read articlelist
+bind-key G end
+bind-key g home
+bind-key a toggle-article-read
+bind-key n next-unread
+bind-key N prev-unread
+
+color listnormal white default
+color listfocus green default standout
+color listnormal_unread green default bold
+color listfocus_unread green default standout bold
+color info white black bold
+color article green default
+
+feedlist-title-format "%N %V - Feeds"
+articlelist-title-format "%N %V - %T (%u unread)"
+itemview-title-format "%N %V - Article '%T'"
+feedlist-format "%t%> (%U)"
+articlelist-format "%t%> %a"
+
+macro c set browser "echo %u | xclip -i" ; open-in-browser ; set browser "bkr mpv %u"
+macro l set browser "bkr firefox %u" ; open-in-browser ; set browser "bkr mpv %u"
+macro ENTER set browser "bkr firefox %u" ; open-in-browser ; set browser "bkr mpv %u"
+macro u set browser "bkr url %u" ; open-in-browser ; set browser "bkr mpv %u"

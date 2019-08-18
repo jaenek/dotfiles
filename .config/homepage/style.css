@@ -1,0 +1,42 @@
+@import url('file:///home/jaenek/.cache/wal/colors.css');
+
+body {
+  background-color: var(--color0);
+  margin: auto;
+  font-family: monospace;
+  font-weight: 800;
+  font-size: 2em;
+  min-width: 150px;
+  width: 20vw;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+a {
+  background-color: var(--color0);
+  color: var(--color2);
+  text-decoration: none;
+  text-align: center;
+  line-height: 5vh;
+}
+
+a:hover {
+  background-color: var(--color2);
+  color: var(--color0);
+}
+
+input[type=text] {
+  background-color: var(--color0);
+  color: var(--color2);
+  text-decoration: none;
+  padding: 5px 0px;
+  border: none;
+  border-bottom: 2px solid var(--color2);
+  width: 20vw;
+  min-width: 150px;
+}

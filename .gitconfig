@@ -1,0 +1,23 @@
+[user]
+	email = jaenek@protonmail.com
+	name = jaenek
+[alias]
+	#basic
+	a = add
+	s = status
+	cl = clone
+	rc = rm --cached
+	ps = push
+	pl = pull
+	#commit
+	c = commit -v
+	cm = commit -vm
+	ca = commit -vam
+	#branches
+	b = branch
+	co = checkout
+	me = merge
+	re = reset
+	rb = rebase
+[credential]
+	helper = store
