@@ -1,0 +1,14 @@
+#!/bin/sh
+
+subs="$HOME"/downloads/subscription_manager
+
+echo \"https://www.archlinux.org/feeds/news\" \"tech\"
+
+sed -i 's/\ \/>/&\n/g;s/.*\">//g' "$subs"
+while read -r line
+do
+	echo "$line" | awk -F'"' '/title/ {print "\"" $8 "\"","\"! yt " $2 "\""}'
+done <"$subs"
+rm "$subs"
+
+echo \"query:Youtube:link =~ \\\"youtube\\\"\"
