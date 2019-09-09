@@ -78,7 +78,7 @@ noremap Q @q
 map <leader>o :setlocal spell! spelllang=en_us<CR>
 
 " Check file in shellcheck:
-map <leader>s :!clear && shellcheck %<CR>
+map <leader>s :!w \| !clear && shellcheck %<CR>
 
 " Shortcutting split navigation, saving a keypress:
 map <C-h> <C-w>h
