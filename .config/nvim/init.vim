@@ -143,6 +143,9 @@ autocmd BufRead,BufNewFile *.wiki :Goyo 50%x60%
 autocmd QuitPre *.wiki :VimwikiAll2HTML
 autocmd QuitPre *.wiki :qa
 
+" Apply template for .frag files
+autocm BufNewFile *.frag 0r ~/.config/nvim/templates/skeleton.frag
+
 "
 " PLUGINS:
 "
