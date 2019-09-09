@@ -9,6 +9,9 @@ wal -R
 # set background:
 bkr bag
 
+# mount net shares:
+bkr netmnt
+
 # notifications:
 run dunst
 
