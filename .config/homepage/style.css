@@ -29,14 +29,3 @@ a:hover {
   background-color: var(--color2);
   color: var(--color0);
 }
-
-input[type=text] {
-  background-color: var(--color0);
-  color: var(--color2);
-  text-decoration: none;
-  padding: 5px 0px;
-  border: none;
-  border-bottom: 2px solid var(--color2);
-  width: 20vw;
-  min-width: 150px;
-}
