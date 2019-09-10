@@ -13,5 +13,12 @@ export MIROBO_TOKEN=784a7a65757a4937334652336f574c55
 # fzf
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 
-export FZF_DEFAULT_OPTS='--extended --select-1 --exit-0 --prompt=🔎'
-
+export FZF_DEFAULT_COMMAND='fd -H -t f -L'
+export FZF_DEFAULT_OPTS=' --extended --select-1 --exit-0 --prompt=🔎'
+export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
+export FZF_ALT_C_COMMAND='fd -H -t d -L'
+export FZF_CTRL_T_OPTS="--preview '[[ \$(file --mime {}) =~ binary ]] &&
+                                    echo {} is a binary file ||
+                                    (highlight -O ansi -l {} 2> /dev/null ||
+									cat {} ||
+									tree -C {}) 2> /dev/null | head -200'"
