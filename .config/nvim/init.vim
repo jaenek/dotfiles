@@ -39,6 +39,7 @@ set backspace=indent,eol,start
 set laststatus=2
 set noshowmode
 set splitbelow splitright
+set clipboard^=unnamed,unnamedplus
 
 " Completion:
 set tags+=~/.config/nvim/tags/go-gl
