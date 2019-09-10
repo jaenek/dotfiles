@@ -13,7 +13,7 @@ vf() {
 }
 
 sd() {
-	IFS=$'\n' dir=($(find -type d | fzf --query="$*" --multi))
+	IFS=$'\n' dir=($(fd -t d | fzf --query="$*" --multi))
 	[[ -n "$dir" ]] && cd "$dir"
 }
 

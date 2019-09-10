@@ -20,7 +20,7 @@ export LESS_TERMCAP_us="$(printf '%b' '[1;32m')"; a="${a%_}"
 export LESS_TERMCAP_ue="$(printf '%b' '[0m')"; a="${a%_}"
 
 # fzf
-export FZF_DEFAULT_COMMAND='find -type f'
+export FZF_DEFAULT_COMMAND='fd -t f'
 export FZF_DEFAULT_OPTS='--select-1 --exit-0 --prompt=🔎'
 
 [ ! -f ~/.config/shortcuts ] && shortcuts >/dev/null 2>&1
