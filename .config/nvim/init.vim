@@ -141,7 +141,7 @@ autocm BufNewFile *.frag 0r ~/.config/nvim/templates/skeleton.frag
 map <leader>f :silent Goyo \| set linebreak<CR>
 
 " Netrw:
-let g:netrw_browsex_viewer="url"
+let g:netrw_browsex_viewer="cabl"
 
 " Lightline:
 let g:lightline = {
