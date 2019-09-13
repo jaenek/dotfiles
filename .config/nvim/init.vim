@@ -8,15 +8,16 @@
 let mapleader =","
 
 call plug#begin('~/.config/nvim/plugged')
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug 'https://gitlab.com/jaenek/wal.vim'
 Plug 'itchyny/lightline.vim'
-Plug 'scrooloose/nerdtree'
 Plug 'tikhomirov/vim-glsl'
 Plug 'tpope/vim-fugitive'
 Plug 'junegunn/goyo.vim'
 Plug 'ervandew/supertab'
 Plug 'vimwiki/vimwiki'
+Plug 'junegunn/fzf.vim'
 call plug#end()
 
 " Basics:
@@ -75,11 +76,11 @@ endfunction
 " Easier macro playback @q
 noremap Q @q
 
-" Spell-check set to <leader>o, 'o' for 'orthography':
-map <leader>o :setlocal spell! spelllang=en_us<CR>
-
 " Check file in shellcheck:
 map <leader>s :!w \| !clear && shellcheck %<CR>
+
+" Spell-check set to <leader>o, 'o' for 'orthography':
+map <leader>S :setlocal spell! spelllang=en_us<CR>
 
 " Shortcutting split navigation, saving a keypress:
 map <C-h> <C-w>h
@@ -126,16 +127,7 @@ autocmd BufWritePost ~/.config/.bmdirs,~/.config/.bmfiles !shortcuts
 
 " Disables automatic commenting on newline:
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
-
-" Open NERDTree automatically when nvim starts up on opening a directory
 autocmd StdinReadPre * let s:std_in=1
-autocmd VimEnter * if argc() == 1 && isdirectory(argv()[0]) &&
-\ !exists("s:std_in") | exe 'NERDTree' argv()[0] | wincmd p | ene |
-\ exe 'cd '.argv()[0] | endif
-
-" Close vim if the only window left open is a NERDTree
-autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") &&
-\ b:NERDTree.isTabTree()) | q | endif
 
 " Goyo for Vimwiki
 autocmd BufRead,BufNewFile *.wiki :Goyo 50%x60%
@@ -153,11 +145,6 @@ autocm BufNewFile *.frag 0r ~/.config/nvim/templates/skeleton.frag
 " Goyo:
 map <leader>f :silent Goyo \| set linebreak<CR>
 
-" NERDTree:
-let g:NERDTreeDirArrowExpandable = '→'
-let g:NERDTreeDirArrowCollapsible = '↓'
-map <leader>v :NERDTreeToggle<CR>
-
 " Netrw:
 let g:netrw_browsex_viewer="url"
 
@@ -171,39 +158,13 @@ let g:lightline = {
 \            [ 'fileformat', 'filetype' ] ],
 \ },
 \ 'component_function': {
-\   'mode': 'LightlineMode',
 \   'readonly': 'LightlineReadonly',
 \   'gitbranch': 'fugitive#head',
-\   'filename': 'LightlineFilename',
-\   'fileformat': 'LightlineFileformat',
-\   'filetype': 'LightlineFiletype',
-\   'lineinfo': 'LightlineLineinfo',
 \ },
 \ }
 
-function! LightlineMode()
-  return expand('%:t') =~ 'NERD_tree' ? '' : lightline#mode()
-endfunction
-
 function! LightlineReadonly()
-  return expand('%:t') =~ 'NERD_tree' ? '' : &readonly ? 'RO' : ''
-endfunction
-
-function! LightlineFilename()
-  let fname = expand('%:t')
-  return fname =~ 'NERD_tree' ? 'NERD' : fname
-endfunction
-
-function! LightlineFileformat()
-  return expand('%:t') =~ 'NERD_tree' ? '' : &fileformat
-endfunction
-
-function! LightlineFiletype()
-  return expand('%:t') =~ 'NERD_tree' ? '' : &filetype
-endfunction
-
-function! LightlineLineinfo()
-  return expand('%:t') =~ 'NERD_tree' ? '' : line('.').':'. col('.')
+  return expand('%:t') =~ &readonly ? 'RO' : ''
 endfunction
 
 " Vim-go:
@@ -217,3 +178,19 @@ autocmd FileType go nmap <leader>r  <Plug>(go-run)
 " Vimwiki:
 let g:vimwiki_list = [{'path': '~/sync/wiki/'}]
 let g:vimwiki_autowriteall=1
+
+" Fzf:
+let g:fzf_action = {
+\ 'ctrl-t': 'tab split',
+\ 'ctrl-x': 'split',
+\ 'ctrl-v': 'vsplit' }
+
+command! -nargs=? -bang -complete=dir Files
+\ call fzf#vim#files(<q-args>, <bang>0 ? fzf#vim#with_preview('up:60%') : {}, <bang>0)
+
+nnoremap <leader>o :Files<CR>
+nnoremap <leader>O :Files!<CR>
+
+autocmd! FileType fzf
+autocmd  FileType fzf set laststatus=0 noshowmode noruler
+  \| autocmd BufLeave <buffer> set laststatus=2 showmode ruler
