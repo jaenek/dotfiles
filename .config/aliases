@@ -21,6 +21,4 @@ alias mkd="mkdir -pv" \
 	yta="yt -x -f bestaudio/best" \
 	ref="shortcuts >/dev/null; source ~/.config/shortcuts; source ~/.bashrc" \
 	pkg="pacman -Qett --color=always | less" \
-	ffmpeg="ffmpeg -hide_banner" \
-
-command -v nvim >/dev/null && alias vim="nvim" vimdiff="nvim -d" # Use neovim for vim if present.
+	ffmpeg="ffmpeg -hide_banner"
