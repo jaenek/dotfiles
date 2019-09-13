@@ -25,7 +25,7 @@ set go=a
 set mouse=a
 set nohlsearch
 set incsearch
-set clipboard=unnamedplus
+set clipboard^=unnamed,unnamedplus
 set nocompatible
 filetype plugin on
 syntax on
@@ -40,7 +40,6 @@ set backspace=indent,eol,start
 set laststatus=2
 set noshowmode
 set splitbelow splitright
-set clipboard^=unnamed,unnamedplus
 
 " Completion:
 set tags+=~/.config/nvim/tags/go-gl
@@ -93,10 +92,6 @@ nnoremap S :%s//g<Left><Left>
 
 " Compile source file.
 map <leader>c :w! \| !fin <c-r>%<CR>
-
-" Copy selected text to system clipboard (requires gvim/nvim/vim-x11 installed):
-vnoremap <C-c> "+y
-map <C-p> "+P
 
 " Autoclose quotation
 inoremap "" ""<left>
