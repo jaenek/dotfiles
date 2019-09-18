@@ -73,13 +73,13 @@ endfunction
 " REMAPS:
 "
 " Easier macro playback @q
-noremap Q @q
+nnoremap <leader>q @q
 
 " Check file in shellcheck:
-map <leader>s :!w \| !clear && shellcheck %<CR>
+nnoremap <leader>s :!w \| !clear && shellcheck %<CR>
 
 " Spell-check set to <leader>o, 'o' for 'orthography':
-map <leader>S :setlocal spell! spelllang=en_us<CR>
+nnoremap <leader>S :setlocal spell! spelllang=en_us<CR>
 
 " Shortcutting split navigation, saving a keypress:
 map <C-h> <C-w>h
@@ -91,7 +91,7 @@ map <C-l> <C-w>l
 nnoremap S :%s//g<Left><Left>
 
 " Compile source file.
-map <leader>c :w! \| !fin <c-r>%<CR>
+noremap <leader>c :w! \| !fin <c-r>%<CR>
 
 " Autoclose quotation
 inoremap "" ""<left>
@@ -138,7 +138,7 @@ autocm BufNewFile *.frag 0r ~/.config/nvim/templates/skeleton.frag
 " PLUGINS:
 "
 " Goyo:
-map <leader>f :silent Goyo \| set linebreak<CR>
+nnoremap <leader>g :silent Goyo \| set linebreak<CR>
 
 " Netrw:
 let g:netrw_browsex_viewer="cabl"
