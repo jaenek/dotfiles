@@ -21,4 +21,5 @@ alias mkd="mkdir -pv" \
 	yta="yt -x -f bestaudio/best" \
 	ref="shortcuts >/dev/null; source ~/.config/shortcuts; source ~/.bashrc" \
 	pkg="pacman -Qett --color=always | less" \
+	sgdb="gdb --batch --ex r --ex bt --ex q --args" \
 	ffmpeg="ffmpeg -hide_banner"
