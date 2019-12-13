@@ -40,6 +40,7 @@ set backspace=indent,eol,start
 set laststatus=2
 set noshowmode
 set splitbelow splitright
+set nofixendofline
 
 " Completion:
 set tags+=~/.config/nvim/tags/go-gl
@@ -47,39 +48,49 @@ set tags+=~/.config/nvim/tags/go-sdl
 set completeopt=menuone,menu,longest,preview
 
 " Terminal Function:
-let g:term_buf = 0
+let g:term1_buf = 0
+let g:term2_buf = 0
 let g:term_win = 0
-function! TermToggle(height)
-  if win_gotoid(g:term_win)
-    hide
-  else
-    botright new
-    exec "resize " . a:height
-    try
-      exec "buffer " . g:term_buf
-    catch
-      call termopen($SHELL, {"detach": 0})
-      let g:term_buf = bufnr("")
-      set nonumber
-      set norelativenumber
-      set signcolumn=no
-    endtry
-    startinsert!
-      let g:term_win = win_getid()
-  endif
+function! TermToggle(height,file)
+	if win_gotoid(g:term_win)
+		hide
+	else
+		botright new
+		exec "resize " . a:height
+		try
+			if a:file !=# ""
+				exec "buffer " . g:term1_buf
+			else
+				exec "buffer " . g:term2_buf
+			endif
+		catch
+			if a:file !=# ""
+				call termopen($SHELL . " fin " . a:file, {"detach": 0})
+				let g:term1_buf = bufnr("")
+			else
+				call termopen($SHELL, {"detach": 0})
+				let g:term2_buf = bufnr("")
+			endif
+			set nonumber
+			set norelativenumber
+			set signcolumn=no
+		endtry
+		startinsert!
+		let g:term_win = win_getid()
+	endif
 endfunction
 
 "
 " REMAPS:
 "
 " Easier macro playback @q
-nnoremap <leader>q @q
+map <leader>q @q
 
 " Check file in shellcheck:
-nnoremap <leader>s :!w \| !clear && shellcheck %<CR>
+map <leader>s :w! \| :!clear && shellcheck %<CR>
 
-" Spell-check set to <leader>o, 'o' for 'orthography':
-nnoremap <leader>S :setlocal spell! spelllang=en_us<CR>
+" Spell-check:
+map <leader>S :setlocal spell! spelllang=en_us<CR>
 
 " Shortcutting split navigation, saving a keypress:
 map <C-h> <C-w>h
@@ -90,9 +101,6 @@ map <C-l> <C-w>l
 " Replace all is aliased to S.
 nnoremap S :%s//g<Left><Left>
 
-" Compile source file.
-noremap <leader>c :w! \| !fin <c-r>%<CR>
-
 " Autoclose quotation
 inoremap "" ""<left>
 inoremap '' ''<left>
@@ -101,14 +109,28 @@ inoremap [] []<left>
 inoremap {<CR> {<CR>}<ESC>O
 
 " Toggle terminal on/off (neovim)
-nnoremap <leader>t :call TermToggle(12)<CR>
-tnoremap <leader>t <C-\><C-n>:call TermToggle(12)<CR>
+nmap <leader>t :call TermToggle(12, '')<CR>
+tmap <leader>t <C-\><C-n>:call TermToggle(12, '')<CR>
+
+" Compile source file.
+nmap <leader>c :w! \| :call TermToggle(12,fnameescape(expand('%:p')))<CR>
+tmap <leader>c <C-\><C-n>:q<CR>
 
 " Terminal go back to normal mode
-tnoremap <Esc> <C-\><C-n>
-tnoremap :q! <C-\><C-n>:q!<CR>
+tmap <Esc> <C-\><C-n>
+tmap :q <C-\><C-n>:q!<CR>
 
-"
+" Navigating with guides
+inoremap <leader><leader> <Esc>/<++><Enter>"_c4l
+vnoremap <leader><leader> <Esc>/<++><Enter>"_c4l
+map <leader><leader> <Esc>/<++><Enter>"_c4l
+
+" Save file as sudo on files that require root permission
+cnoremap w!! execute 'silent! write !sudo tee % >/dev/null' <bar> edit!
+
+" LaTex/RMarkdown:
+map <leader>sr <Esc>o"$\\stackrel{\\hbox{\\(<++>\\)}}{\\hbox{\\([<++>]\\)}}$",<Esc>0
+
 " AUTOCMDS:
 "
 " Close pmenu if cursormoved or left insert mode:
@@ -125,16 +147,16 @@ autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 autocmd StdinReadPre * let s:std_in=1
 
 " Goyo for Vimwiki
-autocmd BufRead,BufNewFile *.wiki :Goyo 50%x60%
+autocmd BufRead,BufNewFile *.wiki :Goyo 70%x80%
 
 " Automatically generates htmls for Vimwiki
 autocmd QuitPre *.wiki :VimwikiAll2HTML
 autocmd QuitPre *.wiki :qa
 
-" Apply template for .frag files
-autocm BufNewFile *.frag 0r ~/.config/nvim/templates/skeleton.frag
+" Apply templates for files
+autocmd BufNewFile *.frag 0r ~/.config/nvim/templates/skeleton.frag
+autocmd BufNewFile *.rmd 0r ~/.config/nvim/templates/skeleton.rmd
 
-"
 " PLUGINS:
 "
 " Goyo:
