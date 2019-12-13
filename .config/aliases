@@ -13,6 +13,9 @@ alias mkd="mkdir -pv" \
 	ls="ls -hlN --color=auto --group-directories-first" \
 	la="ls -ahl" \
 	ac="arduino-cli" \
+	grep="grep --color=auto" \
+	diff="diff --color=auto" \
+	ytdl="youtube-dl" \
 	yt="ytdl --add-metadata -i -o '%(upload_date)s-%(title)s.%(ext)s'" \
 	yta="yt -x -f bestaudio/best" \
 	ref="shortcuts >/dev/null; source ~/.config/shortcuts; source ~/.bashrc" \
