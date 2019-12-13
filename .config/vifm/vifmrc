@@ -34,7 +34,7 @@ map <C-v> <C-w>v
 map R :restart<CR>
 map x :!sxiv -ft * 2>/dev/null &<CR>
 nnoremap o :file &<cr>
-map E :!$EDITOR %f<CR>
+map e :!bkr $EDITOR %f<CR>
 map <C-n> :!$EDITOR
 map mkd :mkdir<space>
 map bg :!bag %f &<CR>
