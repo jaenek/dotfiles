@@ -1,16 +1,13 @@
 #!/bin/sh
 alias mkd="mkdir -pv" \
 	mpv="mpv --input-ipc-server=/tmp/mpvsoc$(date +%s)" \
-	p="sudo pacman" \
-	SS="sudo systemctl" \
 	f="$FILE" \
 	g="git" \
 	cfg="git --git-dir=$HOME/.cfg/ --work-tree=$HOME" \
 	v="$EDITOR" \
-	sv="sudo $EDITOR" \
+	V="sudo $EDITOR" \
 	x="sxiv -ft *" \
 	sdn="sudo shutdown -h now" \
-	gua="git remote | xargs -L1 git push --all" \
 	ls="ls -hlN --color=auto --group-directories-first" \
 	la="ls -ahl" \
 	ac="arduino-cli" \
@@ -20,6 +17,5 @@ alias mkd="mkdir -pv" \
 	yt="ytdl --add-metadata -i -o '%(upload_date)s-%(title)s.%(ext)s'" \
 	yta="yt -x -f bestaudio/best" \
 	ref="shortcuts >/dev/null; source ~/.config/shortcuts; source ~/.bashrc" \
-	pkg="pacman -Qett --color=always | less" \
 	sgdb="gdb --batch --ex r --ex bt --ex q --args" \
 	ffmpeg="ffmpeg -hide_banner"
