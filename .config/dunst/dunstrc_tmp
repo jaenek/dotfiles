@@ -7,6 +7,7 @@
 [global]
     monitor = 0
     follow = keyboard
+	geometry = "300x5-810+16"
     indicate_hidden = yes
     shrink = no
     transparency = 0
