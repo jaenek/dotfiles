@@ -16,7 +16,7 @@ bkr netmnt
 run dunst
 
 # compositor:
-run compton -bf -o 0.0 -D 5
+run picom -bf -o 0.0 -D 5
 
 # remapping script:
 bkr remaps
