@@ -1,3 +1,9 @@
+# Save history between sessions
+HISTSIZE=10000
+SAVEHIST=$HISTSIZE
+HISTFILE=~/.zsh_history
+
+# Set prompt
 autoload -U colors && colors
 PS1="%{$fg[blue]%}%~%{$fg[green]%} $%{$reset_color%} "
 
