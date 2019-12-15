@@ -21,3 +21,5 @@
 	rb = rebase
 [credential]
 	helper = store
+[pager]
+	branch = false
