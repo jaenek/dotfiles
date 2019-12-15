@@ -18,4 +18,7 @@ alias mkd="mkdir -pv" \
 	yta="yt -x -f bestaudio/best" \
 	ref="shortcuts >/dev/null; source ~/.config/shortcuts; source ~/.bashrc" \
 	sgdb="gdb --batch --ex r --ex bt --ex q --args" \
+	cp="cp -iv" \
+	mv="mv -iv" \
+	rm="rm -v" \
 	ffmpeg="ffmpeg -hide_banner"
