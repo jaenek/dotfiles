@@ -21,3 +21,7 @@ alias mkd="mkdir -pv" \
 	ref="shortcuts >/dev/null; source ~/.config/shortcuts; source ~/.bashrc" \
 	pkg="pacman -Qett --color=always | less" \
 	sgdb="gdb --batch --ex r --ex bt --ex q --args" \
+	cp="cp -iv" \
+	mv="mv -iv" \
+	rm="rm -v" \
+	ffmpeg="ffmpeg -hide_banner"
