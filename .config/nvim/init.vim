@@ -45,6 +45,7 @@ set nofixendofline
 " Completion:
 set tags+=~/.config/nvim/tags/go-gl
 set tags+=~/.config/nvim/tags/go-sdl
+set tags+=~/.config/nvim/tags/c-sdl
 set completeopt=menuone,menu,longest,preview
 
 " Terminal Function:
@@ -65,7 +66,7 @@ function! TermToggle(height,file)
 			endif
 		catch
 			if a:file !=# ""
-				call termopen($SHELL . " fin " . a:file, {"detach": 0})
+				call termopen($SHELL . " -c 'fin " . a:file . "'", {"detach": 0})
 				let g:term1_buf = bufnr("")
 			else
 				call termopen($SHELL, {"detach": 0})
