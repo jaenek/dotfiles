@@ -8,4 +8,6 @@ cf  ~/.config
 sc  ~/.local/bin
 mu  /media/usb
 mn  /media/net
+ms  /media/ssd
+mh  /media/hdd
 e   /etc
