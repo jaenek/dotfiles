@@ -18,7 +18,7 @@ alias mkd="mkdir -pv" \
 	ytdl="youtube-dl" \
 	yt="ytdl --add-metadata -i -o '%(upload_date)s-%(title)s.%(ext)s'" \
 	yta="yt -x -f bestaudio/best" \
-	ref="shortcuts >/dev/null; source ~/.config/shortcuts; source ~/.bashrc" \
+	ref="shortcuts >/dev/null; source ~/.config/shortcuts; source ~/.zshrc" \
 	pkg="pacman -Qett --color=always | less" \
 	sgdb="gdb --batch --ex r --ex bt --ex q --args" \
 	cp="cp -iv" \
