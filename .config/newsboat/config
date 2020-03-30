@@ -1,3 +1,6 @@
+cache-file "~/.cache/newsboat/cache.db"
+cookie-cache "~/.cache/newsboat/cookies"
+
 browser "bkr mpv %u"
 
 prepopulate-query-feeds yes
