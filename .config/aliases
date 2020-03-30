@@ -1,27 +1,35 @@
 #!/bin/sh
-alias mkd="mkdir -pv" \
-	mpv="mpv --input-ipc-server=/tmp/mpvsoc$(date +%s)" \
-	p="sudo pacman" \
-	SS="sudo systemctl" \
-	f="$FILE" \
-	g="git" \
-	cfg="git --git-dir=$HOME/.cfg/ --work-tree=$HOME" \
-	v="$EDITOR" \
-	V="sudo $EDITOR" \
-	x="sxiv -ft *" \
-	sdn="sudo shutdown -h now" \
-	ls="ls -hlN --color=auto --group-directories-first" \
-	la="ls -ahl" \
-	ac="arduino-cli" \
-	grep="grep --color=auto" \
-	diff="diff --color=auto" \
-	ytdl="youtube-dl" \
-	yt="ytdl --add-metadata -i -o '%(upload_date)s-%(title)s.%(ext)s'" \
-	yta="yt -x -f bestaudio/best" \
-	ref="shortcuts >/dev/null; source ~/.config/shortcuts; source ~/.zshrc" \
-	pkg="pacman -Qett --color=always | less" \
-	sgdb="gdb --batch --ex r --ex bt --ex q --args" \
+
+# Verbosity and sane defaults
+alias \
+	mkd="mkdir -pv" \
 	cp="cp -iv" \
 	mv="mv -iv" \
 	rm="rm -v" \
+	ls="ls -hN --color=auto --group-directories-first" \
+	la="ls -ah" \
+	grep="grep --color=auto" \
+	diff="diff --color=auto" \
 	ffmpeg="ffmpeg -hide_banner"
+
+# Shortening
+alias \
+	p="sudo pacman" \
+	SS="sudo systemctl" \
+	f="$FILE" \
+	v="$EDITOR" \
+	g="git" \
+	x="sxiv -ft *" \
+	sdn="sudo shutdown -h now" \
+	cfg="git --git-dir=$HOME/.cfg/ --work-tree=$HOME" \
+	sgdb="gdb --batch --ex r --ex bt --ex q --args" \
+	ac="arduino-cli" \
+	ytdl="youtube-dl"
+
+# Useful but hard to remember commands
+alias \
+	yt="ytdl --add-metadata -i -o '%(upload_date)s-%(title)s.%(ext)s'" \
+	yta="yt -x -f bestaudio/best" \
+	ref="shortcuts >/dev/null; source ~/.config/zsh/.zshrc" \
+	pkg="pacman -Qett --color=always | less" \
+	mpv="mpv --input-ipc-server=/tmp/mpvsoc$(date +%s)"
