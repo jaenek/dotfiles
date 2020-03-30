@@ -1,3 +1,4 @@
-twitch-disable-ads
 title=float
-player=mpv --autofit=30% --geometry=+1920-1080 --profile=low-latency --cache 8192
+twitch-disable-ads
+player=mpv --autofit=30% --geometry=+1920-1080 --cache=no
+hls-live-edge=1
