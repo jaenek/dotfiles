@@ -23,6 +23,9 @@ set incsearch
 set suggestoptions=normal,visual,view,otherpane,keys,marks,registers
 colorscheme wal
 
+command! FZFlocate :set noquickview | :execute 'goto "'.system('fd -H . $HOME | fzf --height 10 2>/dev/tty ').'"%IU' | redraw
+command! FZFfind :set noquickview | :execute 'goto "'.system('fd -H | fzf --height 10 2>/dev/tty ').'"%IU' | redraw
+
 map <C-h> <C-w>h
 map <C-j> <C-w>j
 map <C-k> <C-w>k
@@ -47,9 +50,9 @@ nnoremap yf :!echo %c:p | xclip %i<cr>
 nnoremap I cw<c-a>
 nnoremap cc cw<c-u>
 nnoremap A cw
+nnoremap <c-g> :FZFlocate<cr>
+nnoremap <c-f> :FZFfind<cr>
 nnoremap ,w :set wrap!<cr>
-nnoremap ca :!git --git-dir=$HOME/.cfg/ --work-tree=$HOME add %f<cr>
-nnoremap cd :!git --git-dir=$HOME/.cfg/ --work-tree=$HOME rm --cached -f %f<cr>
 nmap <space> tj
 nmap q ZQ
 
