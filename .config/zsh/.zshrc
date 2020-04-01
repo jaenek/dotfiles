@@ -61,7 +61,9 @@ preexec() { echo -ne '\e[5 q' ;}
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 2>/dev/null
 
 # Load fzf
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+source /usr/share/fzf/key-bindings.zsh
+bindkey -r '\ec' fzf-cd-widget
+bindkey '\ed' fzf-cd-widget
 export FZF_DEFAULT_COMMAND='fd -H -t f -L'
 export FZF_DEFAULT_OPTS=' --extended --select-1 --exit-0 --prompt=🔎'
 export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"

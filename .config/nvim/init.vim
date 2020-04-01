@@ -8,7 +8,7 @@
 let mapleader =","
 
 call plug#begin('~/.config/nvim/plugged')
-Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug 'https://gitlab.com/jaenek/wal.vim'
 Plug 'itchyny/lightline.vim'
@@ -200,7 +200,7 @@ let g:vimwiki_autowriteall=1
 " Fzf:
 let g:fzf_action = {
 \ 'ctrl-t': 'tab split',
-\ 'ctrl-x': 'split',
+\ 'ctrl-s': 'split',
 \ 'ctrl-v': 'vsplit' }
 
 command! -nargs=? -bang -complete=dir Files
