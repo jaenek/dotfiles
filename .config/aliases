@@ -21,7 +21,7 @@ alias \
 	g="git" \
 	x="sxiv -ft *" \
 	sdn="sudo shutdown -h now" \
-	cfg="git --git-dir=$HOME/.cfg/ --work-tree=$HOME" \
+	cfg="git --git-dir=$HOME/.cfg.git/ --work-tree=$HOME" \
 	sgdb="gdb --batch --ex r --ex bt --ex q --args" \
 	ac="arduino-cli" \
 	ytdl="youtube-dl"
