@@ -4,8 +4,8 @@ export GOPATH="$HOME/workspace/go"
 export PATH="$PATH:$GOPATH/bin:$HOME/.local/bin:$HOME/.local/bin/cron:$HOME/.local/bin/dmenu:$HOME/.local/bin/dwm:$HOME/.local/bin/tools:$HOME/.local/bin/vifm"
 
 export EDITOR="nvim"
-export TERMINAL="st"
-export BROWSER="brave"
+export TERMINAL="tabbed -c -r 2 st -w ''"
+export BROWSER="firefox"
 export READER="zathura"
 export FILE="vifmrun"
 
