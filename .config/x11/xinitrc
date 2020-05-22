@@ -4,7 +4,7 @@
 wal -R
 
 # apply Xresources:
-[ -f ~/.Xresources ] && xrdb -merge ~/.Xresources
+[ -f $XDG_CONFIG_HOME/Xresources ] && xrdb -merge $XDG_CONFIG_HOME/Xresources
 
 # set background:
 bkr bag

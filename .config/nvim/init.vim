@@ -8,9 +8,9 @@
 let mapleader =","
 
 call plug#begin('~/.config/nvim/plugged')
-Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
-Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'https://gitlab.com/jaenek/wal.vim'
+Plug 'ludovicchabant/vim-gutentags'
 Plug 'itchyny/lightline.vim'
 Plug 'tikhomirov/vim-glsl'
 Plug 'tpope/vim-fugitive'
@@ -43,43 +43,7 @@ set splitbelow splitright
 set nofixendofline
 
 " Completion:
-set tags+=~/.config/nvim/tags/go-gl
-set tags+=~/.config/nvim/tags/go-sdl
-set tags+=~/.config/nvim/tags/c-sdl
 set completeopt=menuone,menu,longest,preview
-
-" Terminal Function:
-let g:term1_buf = 0
-let g:term2_buf = 0
-let g:term_win = 0
-function! TermToggle(height,file)
-	if win_gotoid(g:term_win)
-		hide
-	else
-		botright new
-		exec "resize " . a:height
-		try
-			if a:file !=# ""
-				exec "buffer " . g:term1_buf
-			else
-				exec "buffer " . g:term2_buf
-			endif
-		catch
-			if a:file !=# ""
-				call termopen($SHELL . " -c 'fin " . a:file . "'", {"detach": 0})
-				let g:term1_buf = bufnr("")
-			else
-				call termopen($SHELL, {"detach": 0})
-				let g:term2_buf = bufnr("")
-			endif
-			set nonumber
-			set norelativenumber
-			set signcolumn=no
-		endtry
-		startinsert!
-		let g:term_win = win_getid()
-	endif
-endfunction
 
 "
 " REMAPS:
@@ -109,17 +73,12 @@ inoremap () ()<left>
 inoremap [] []<left>
 inoremap {<CR> {<CR>}<ESC>O
 
-" Toggle terminal on/off (neovim)
-nmap <leader>t :call TermToggle(12, '')<CR>
-tmap <leader>t <C-\><C-n>:call TermToggle(12, '')<CR>
-
 " Compile source file.
-nmap <leader>c :w! \| :call TermToggle(12,fnameescape(expand('%:p')))<CR>
-tmap <leader>c <C-\><C-n>:q<CR>
+nmap <leader>m :w! \| :copen \| :make<CR>
 
-" Terminal go back to normal mode
-tmap <Esc> <C-\><C-n>
-tmap :q <C-\><C-n>:q!<CR>
+" QuickFix navigation
+nmap <leader>j :cn<CR>
+nmap <leader>k :cp<CR>
 
 " Navigating with guides
 inoremap <leader><leader> <Esc>/<++><Enter>"_c4l
@@ -128,9 +87,6 @@ map <leader><leader> <Esc>/<++><Enter>"_c4l
 
 " Save file as sudo on files that require root permission
 cnoremap w!! execute 'silent! write !sudo tee % >/dev/null' <bar> edit!
-
-" LaTex/RMarkdown:
-map <leader>sr <Esc>o"$\\stackrel{\\hbox{\\(<++>\\)}}{\\hbox{\\([<++>]\\)}}$",<Esc>0
 
 " AUTOCMDS:
 "
@@ -141,7 +97,7 @@ autocmd CursorMovedI,InsertLeave * if pumvisible() == 0|silent! pclose|endif
 autocmd BufWritePre * %s/\s\+$//e
 
 " Update shorcuts for bash and file manager:
-autocmd BufWritePost ~/.config/.bmdirs,~/.config/.bmfiles !shortcuts
+autocmd BufWritePost ~/.config/directories,~/.config/files !shortcuts
 
 " Disables automatic commenting on newline:
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
@@ -156,7 +112,6 @@ autocmd QuitPre *.wiki :qa
 
 " Apply templates for files
 autocmd BufNewFile *.frag 0r ~/.config/nvim/templates/skeleton.frag
-autocmd BufNewFile *.rmd 0r ~/.config/nvim/templates/skeleton.rmd
 
 " PLUGINS:
 "
@@ -185,14 +140,6 @@ function! LightlineReadonly()
   return expand('%:t') =~ &readonly ? 'RO' : ''
 endfunction
 
-" Vim-go:
-let g:go_list_type = "quickfix"
-map <C-n> :cnext<CR>
-map <C-m> :cprevious<CR>
-nnoremap <leader>a :cclose<CR>
-autocmd FileType go nmap <leader>b  <Plug>(go-build)
-autocmd FileType go nmap <leader>r  <Plug>(go-run)
-
 " Vimwiki:
 let g:vimwiki_list = [{'path': '~/sync/wiki/'}]
 let g:vimwiki_autowriteall=1
@@ -200,7 +147,7 @@ let g:vimwiki_autowriteall=1
 " Fzf:
 let g:fzf_action = {
 \ 'ctrl-t': 'tab split',
-\ 'ctrl-x': 'split',
+\ 'ctrl-s': 'split',
 \ 'ctrl-v': 'vsplit' }
 
 command! -nargs=? -bang -complete=dir Files

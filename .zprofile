@@ -1,27 +1,12 @@
-#!/bin/sh
-# Profile file. Runs on login.
+#!/bin/zsh
+# Runs on login.
 
-export GOPATH="$HOME/workspace/go:$HOME/sync/aoc2019/go"
-export PATH="$PATH:$GOPATH/bin:$HOME/.local/bin:$HOME/.local/bin/cron:$HOME/.local/bin/dmenu:$HOME/.local/bin/dwm:$HOME/.local/bin/tools:$HOME/.local/bin/vifm"
-export EDITOR="nvim"
-export TERMINAL="st"
-export BROWSER="firefox"
-export READER="zathura"
-export FILE="vifmrun"
+# Load environmental variables.
+[ -f "$HOME/.config/env" ] && source "$HOME/.config/env"
 
-# less/man colors
-export LESS=-R
-export LESS_TERMCAP_mb="$(printf '%b' '\x1b[1;31m')"; a="${a%_}"
-export LESS_TERMCAP_md="$(printf '%b' '\x1b[1;36m')"; a="${a%_}"
-export LESS_TERMCAP_me="$(printf '%b' '\x1b[0m')"; a="${a%_}"
-export LESS_TERMCAP_so="$(printf '%b' '\x1b[01;44;33m')"; a="${a%_}"
-export LESS_TERMCAP_se="$(printf '%b' '\x1b[0m')"; a="${a%_}"
-export LESS_TERMCAP_us="$(printf '%b' '\x1b[1;32m')"; a="${a%_}"
-export LESS_TERMCAP_ue="$(printf '%b' '\x1b[0m')"; a="${a%_}"
-
+# Create shortcuts if needed.
 [ ! -f ~/.config/shortcuts ] && shortcuts >/dev/null 2>&1
 
-echo "$0" | grep "bash$" >/dev/null && [ -f ~/.bashrc ] && source "$HOME/.bashrc"
-
 # Start graphical server if dwm not already running.
-[ "$(tty)" = "/dev/tty1" ] && ! pgrep -x dwm >/dev/null && exec startx
+[ "$(tty)" = "/dev/tty1" ] && ! pgrep -x dwm >/dev/null && \
+	exec startx $XDG_CONFIG_HOME/x11/xinitrc
