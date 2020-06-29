@@ -8,6 +8,7 @@ alias \
 	rm="rm -v" \
 	ls="ls -hN --color=auto --group-directories-first" \
 	la="ls -ah" \
+	info="info --vi-keys" \
 	grep="grep --color=auto" \
 	diff="diff --color=auto" \
 	ffmpeg="ffmpeg -hide_banner"
