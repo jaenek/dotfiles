@@ -73,3 +73,13 @@ export FZF_CTRL_T_OPTS="--preview '[[ \$(file --mime {}) =~ binary ]] &&
                                     (highlight -O ansi -l {} 2> /dev/null ||
 									cat {} ||
 									tree -C {}) 2> /dev/null | head -200'"
+
+# Run tmux, attach to detached session
+if [[ -z "$TMUX" ]] ;then
+    ID="$( tmux ls | grep -vm1 attached | cut -d: -f1 )"
+    if [[ -z "$ID" ]] ;then
+        tmux new-session
+    else
+        tmux attach-session -t "$ID"
+    fi
+fi
