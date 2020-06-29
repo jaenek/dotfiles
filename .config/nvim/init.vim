@@ -27,13 +27,9 @@ set nohlsearch
 set incsearch
 set clipboard^=unnamed,unnamedplus
 set nocompatible
-filetype plugin on
-syntax on
-colorscheme wal
 set encoding=utf-8
 set number relativenumber
 set ruler
-set colorcolumn=80
 set tabstop=4
 set shiftwidth=4
 set backspace=indent,eol,start
@@ -41,6 +37,11 @@ set laststatus=2
 set noshowmode
 set splitbelow splitright
 set nofixendofline
+set nowrap
+filetype plugin on
+syntax on
+colorscheme wal
+call matchadd('ColorColumn', '\%81v')
 
 " Completion:
 set completeopt=menuone,menu,longest,preview
@@ -74,7 +75,7 @@ inoremap [] []<left>
 inoremap {<CR> {<CR>}<ESC>O
 
 " Compile source file.
-nmap <leader>m :w! \| :copen \| :make<CR>
+nmap <leader>c :w! \| :make \| cw<CR><C-k>
 
 " QuickFix navigation
 nmap <leader>j :cn<CR>
