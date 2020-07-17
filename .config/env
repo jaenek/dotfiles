@@ -7,7 +7,7 @@ export EDITOR="nvim"
 export TERMINAL="st"
 export BROWSER="firefox"
 export READER="zathura"
-export FILE="vifmrun"
+export FILE="vifm"
 
 # ~/ Clean-up:
 export XDG_CACHE_HOME="$HOME/.cache"
@@ -25,6 +25,8 @@ export EM_CACHE="$XDG_CACHE_HOME/emscripten/cache"
 export EM_PORTS="$XDG_DATA_HOME/emscripten/cache"
 export CUDA_CACHE_PATH="$XDG_CACHE_HOME/nv"
 export NPM_CONFIG_USERCONFIG="$XDG_CONFIG_HOME/npm/npmrc"
+export PYTHONSTARTUP="$XDG_CONFIG_HOME/python/pythonrc"
+export HISTFILE="$XDG_CACHE_HOME/bash/history"
 export LESSHISTFILE="-"
 
 # less/man colors
@@ -36,3 +38,6 @@ export LESS_TERMCAP_so="$(printf '%b' '\x1b[01;44;33m')"; a="${a%_}"
 export LESS_TERMCAP_se="$(printf '%b' '\x1b[0m')"; a="${a%_}"
 export LESS_TERMCAP_us="$(printf '%b' '\x1b[1;32m')"; a="${a%_}"
 export LESS_TERMCAP_ue="$(printf '%b' '\x1b[0m')"; a="${a%_}"
+
+# fix QT
+export QT_AUTO_SCREEN_SCALE_FACTOR=0
