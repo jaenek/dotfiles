@@ -22,6 +22,9 @@ compinit
 # Include hidden files in autocomplete:
 _comp_options+=(globdots)
 
+# Add user completion (for arduino-cli)
+fpath=($ZDOTDIR/completion_zsh $fpath)
+
 # Use vim keys in tab complete menu:
 bindkey -M menuselect 'h' vi-backward-char
 bindkey -M menuselect 'k' vi-up-line-or-history
