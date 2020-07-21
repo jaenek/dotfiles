@@ -1,7 +1,8 @@
 #!/bin/sh
 
-subs="$HOME"/downloads/subscription_manager
+subs="$HOME/downloads/subscription_manager"
 
+echo \"http://suckless.org/atom.xml\" \"tech\"
 echo \"https://www.archlinux.org/feeds/news\" \"tech\"
 
 sed -i 's/\ \/>/&\n/g;s/.*\">//g' "$subs"

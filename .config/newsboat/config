@@ -1,7 +1,7 @@
 cache-file "~/.cache/newsboat/cache.db"
 cookie-cache "~/.cache/newsboat/cookies"
 
-browser "bkr mpv %u"
+browser "bkr mpv --profile=float %u"
 
 prepopulate-query-feeds yes
 openbrowser-and-mark-jumps-to-next-unread yes
