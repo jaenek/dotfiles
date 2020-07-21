@@ -1,4 +1,0 @@
-title=float
-twitch-disable-ads
-player=mpv --autofit=30% --geometry=+1920-1080 --cache=no
-hls-live-edge=1
