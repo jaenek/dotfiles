@@ -14,6 +14,10 @@ zstyle ':vcs_info:git:*' formats "%{$fg[yellow]%}(%b)%{$reset_color%}"
 [ -f "$HOME/.config/shortcuts" ] && source "$HOME/.config/shortcuts"
 [ -f "$HOME/.config/aliases" ] && source "$HOME/.config/aliases"
 
+
+# Add user completion (for arduino-cli)
+fpath=($ZDOTDIR/completion_zsh $fpath)
+
 autoload -U compinit
 zstyle ':completion:*' menu select
 zmodload zsh/complist
@@ -21,9 +25,6 @@ compinit
 
 # Include hidden files in autocomplete:
 _comp_options+=(globdots)
-
-# Add user completion (for arduino-cli)
-fpath=($ZDOTDIR/completion_zsh $fpath)
 
 # Use vim keys in tab complete menu:
 bindkey -M menuselect 'h' vi-backward-char
