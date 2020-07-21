@@ -1,13 +1,13 @@
 # You can add comments to these files with #
-h   ~/
-D   ~/documents
-d   ~/downloads
-pp  ~/pictures
-vv  ~/videos
-cf  ~/.config
-sc  ~/.local/bin
-mu  /media/usb
-mn  /media/net
-ms  /media/ssd
-mh  /media/hdd
-e   /etc
+h	~/
+D 	~/documents
+d 	~/downloads
+pp	~/pictures
+vv	~/videos
+cf	~/.config
+sc	~/.local/bin
+mu	/media/usb
+mn	/media/net
+ms	/media/ssd
+mh	/media/hdd
+e	/etc
