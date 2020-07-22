@@ -1,7 +1,7 @@
 #!/bin/sh
 
 export GOPATH="$HOME/workspace/go"
-export PATH="$PATH:$GOPATH/bin:$HOME/.local/bin:$HOME/.local/bin/cron:$HOME/.local/bin/dmenu:$HOME/.local/bin/dwm:$HOME/.local/bin/tools:$HOME/.local/bin/vifm"
+export PATH="$PATH:$GOPATH/bin:$HOME/.local/bin:$HOME/.local/bin/cron:$HOME/.local/bin/dmenu:$HOME/.local/bin/dwm:$HOME/.local/bin/tools:$HOME/.local/bin/lf"
 
 export EDITOR="nvim"
 export TERMINAL="st"
