@@ -7,3 +7,4 @@ application/pdf=pdf.desktop;
 image/png=img.desktop;
 image/jpeg=img.desktop;
 image/gif=img.desktop;
+x-scheme-handler/msteams=teams.desktop
