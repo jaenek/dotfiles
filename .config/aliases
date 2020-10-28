@@ -24,7 +24,7 @@ alias \
 	sdn="sudo shutdown -h now" \
 	cfg="git --git-dir=$HOME/.cfg.git/ --work-tree=$HOME" \
 	sgdb="gdb --batch --ex r --ex bt --ex q --args" \
-	ac="arduino-cli" \
+	ac="arduino-cli --config-file $XDG_DATA_HOME/arduino/" \
 	ytdl="youtube-dl"
 
 # Useful but hard to remember commands
@@ -33,4 +33,5 @@ alias \
 	yta="yt -x -f bestaudio/best" \
 	ref="shortcuts >/dev/null; source ~/.config/zsh/.zshrc" \
 	pkg="pacman -Qett --color=always | less" \
-	mpv="mpv --input-ipc-server=/tmp/mpvsoc$(date +%s)"
+	mpv="mpv --input-ipc-server=/tmp/mpvsoc$(date +%s)" \
+	tlmgr="/usr/share/texmf-dist/scripts/texlive/tlmgr.pl --usermode"
