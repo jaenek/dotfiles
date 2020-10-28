@@ -1,7 +1,8 @@
 #!/bin/sh
 
+EXEC_PATH="$HOME/.local/bin"
 export GOPATH="$HOME/workspace/go"
-export PATH="$PATH:$GOPATH/bin:$HOME/.local/bin:$HOME/.local/bin/cron:$HOME/.local/bin/dmenu:$HOME/.local/bin/dwm:$HOME/.local/bin/tools:$HOME/.local/bin/lf"
+export PATH="$PATH:$GOPATH/bin:$EXEC_PATH:$EXEC_PATH/cron:$EXEC_PATH/dmenu:$EXEC_PATH/dwm:$EXEC_PATH/tools:$EXEC_PATH/lf"
 
 export EDITOR="nvim"
 export TERMINAL="st"
@@ -41,3 +42,6 @@ export LESS_TERMCAP_ue="$(printf '%b' '\x1b[0m')"; a="${a%_}"
 
 # fix QT
 export QT_AUTO_SCREEN_SCALE_FACTOR=0
+
+# tlmgr
+export TEXMFHOME="$XDG_DATA_HOME/texmf"
