@@ -9,11 +9,14 @@ let mapleader =","
 
 call plug#begin('~/.config/nvim/plugged')
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'https://gitlab.com/jaenek/wal.vim'
 Plug 'ludovicchabant/vim-gutentags'
+Plug 'rhysd/vim-clang-format'
 Plug 'itchyny/lightline.vim'
 Plug 'tikhomirov/vim-glsl'
 Plug 'tpope/vim-fugitive'
+Plug 'dense-analysis/ale'
 Plug 'junegunn/goyo.vim'
 Plug 'ervandew/supertab'
 Plug 'vimwiki/vimwiki'
@@ -41,7 +44,7 @@ set nowrap
 filetype plugin on
 syntax on
 colorscheme wal
-call matchadd('ColorColumn', '\%81v')
+call matchadd('ColorColumn', '\%121v')
 
 " Completion:
 set completeopt=menuone,menu,longest,preview
@@ -159,9 +162,12 @@ nnoremap <leader>O :Files!<CR>
 
 autocmd! FileType fzf
 autocmd  FileType fzf set laststatus=0 noshowmode noruler
-  \| autocmd BufLeave <buffer> set laststatus=2 showmode ruler
+\| autocmd BufLeave <buffer> set laststatus=2 showmode ruler
 
 " Fugitive:
 nnoremap <leader>gs :Gstatus<CR>
 nnoremap <leader>gd :Gdiff<CR>
 nnoremap <leader>gc :Gcommit<CR>
+
+" ClangFormat:
+nnoremap <leader>f :<C-u>ClangFormat<CR>
