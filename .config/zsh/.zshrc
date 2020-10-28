@@ -2,6 +2,11 @@
 autoload -U colors && colors
 PS1="%B%{$fg[blue]%}%~%{$fg[green]%} $%{$reset_color%}%b "
 
+# History in cache directory:
+HISTSIZE=10000
+SAVEHIST=10000
+HISTFILE=~/.cache/zsh/history
+
 # Display current branch on the right-hand side of the terminal window
 autoload -Uz vcs_info
 precmd_vcs_info() { vcs_info }
@@ -13,7 +18,6 @@ zstyle ':vcs_info:git:*' formats "%{$fg[yellow]%}(%b)%{$reset_color%}"
 # Load aliases and shortcuts if existent.
 [ -f "$HOME/.config/shortcuts" ] && source "$HOME/.config/shortcuts"
 [ -f "$HOME/.config/aliases" ] && source "$HOME/.config/aliases"
-
 
 # Add user completion (for arduino-cli)
 fpath=($ZDOTDIR/completion_zsh $fpath)
